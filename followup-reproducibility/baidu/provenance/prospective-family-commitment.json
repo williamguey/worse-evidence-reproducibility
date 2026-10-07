@@ -1,0 +1,12 @@
+{
+  "protocol_version": 7,
+  "family_size": 10,
+  "freeze_created_utc": "2026-10-06T18:20:45.116742+00:00",
+  "full_freeze_sha256": "4bdd9ec8804f86f64d5530b6d23ecd55fde29e52897a0d6abbb47b57fc35c39d",
+  "holm10_addendum_sha256": "24f35b83cd4e5718c3134c5d8065d8f53c59cf8a31156621a297347c78b5b196",
+  "before_any_baidu_query": true,
+  "observation_status_at_freeze": "Operational metadata only; no choices or effects inspected",
+  "original_h01_family_size_unchanged": 2,
+  "same_followup_case_clusters": 96,
+  "luna_primary_endpoint_count": 1
+}

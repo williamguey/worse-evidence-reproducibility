@@ -1,0 +1,29 @@
+{
+  "call_id": "h01reason-v5-heldout-ds_low-bf97fc1402a476e3c811",
+  "time": "2026-10-06T14:22:10.257139+00:00",
+  "expected_model": "deepseek/deepseek-v4-pro-0813",
+  "actual_model": "deepseek/deepseek-v4-pro-0813",
+  "actual_provider": "DeepInfra",
+  "ledger_state": "received",
+  "body_sha256": "bf97fc1402a476e3c8112686d91fbcac1b7e50ce851880d30cbddf87595ad0c5",
+  "prompt_sha256": "5b2941a9e7dd9eb748d6b7a340b2f6d0fa4f0bbed90ddc64d2fd94ddbf9395ef",
+  "settings_sha256": "c79a545d7a9a2f501a0740bbaa68031c8795c73378f6b000256cdc0996c52a03",
+  "charge_known": true,
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 125,
+    "total_tokens": 470,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 117,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "publication_projection": true
+}

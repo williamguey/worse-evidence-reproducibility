@@ -1,0 +1,467 @@
+{
+  "analysis_version": "h01-baidu-ten-endpoint-holm-v1",
+  "role": "paper-level confirmatory family",
+  "family_size": 10,
+  "alpha": 0.05,
+  "primary_family": [
+    "deepinfra.raw_pressure.off",
+    "deepinfra.raw_pressure.low",
+    "openai.raw_pressure.luna_low",
+    "deepinfra.raw_reasoning_interaction.low_minus_off",
+    "coreweave.raw_pressure.off",
+    "coreweave.raw_pressure.low",
+    "coreweave.raw_reasoning_interaction.low_minus_off",
+    "baidu.raw_pressure.off",
+    "baidu.raw_pressure.low",
+    "baidu.raw_reasoning_interaction.low_minus_off"
+  ],
+  "primaries": {
+    "deepinfra.raw_pressure.off": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -0.6098430055803541,
+        0.9717061388616524
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -0.6355153225424974,
+        0.9771476260961187
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -0.6355153225424974,
+          0.9771476260961187
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -0.8367209055404485,
+            1
+          ],
+          "betting": [
+            -0.6355153225424974,
+            0.9771476260961187
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "deepinfra.raw_pressure.low": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -0.7765868658325068,
+        0.748336124199263
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -0.7940487291436559,
+        0.7679126183025073
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -0.7940487291436559,
+          0.7679126183025073
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -1,
+            1
+          ],
+          "betting": [
+            -0.7940487291436559,
+            0.7679126183025073
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "openai.raw_pressure.luna_low": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -0.0640582278783614,
+        0.10571383576249821
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -0.08976612277193902,
+        0.1330210905889599
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -0.08976612277193902,
+          0.1330210905889599
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -0.35755423887378185,
+            0.38880423887378185
+          ],
+          "betting": [
+            -0.08976612277193902,
+            0.1330210905889599
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "deepinfra.raw_reasoning_interaction.low_minus_off": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -2,
+        2
+      ],
+      "confidence_interval_95": [
+        -1.7083652977511377,
+        1.2884435521094806
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -1.7288062328947256,
+        1.3251869723904715
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -1.7288062328947256,
+          1.3251869723904715
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -2,
+            1.8401084777475636
+          ],
+          "betting": [
+            -1.7288062328947256,
+            1.3251869723904715
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "coreweave.raw_pressure.off": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -1,
+        1
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -1,
+        1
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -1,
+          1
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -1,
+            1
+          ],
+          "betting": [
+            -1,
+            1
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "wholly_unavailable_planned_endpoint",
+      "point_estimate": null,
+      "observed_main_requests": 0,
+      "unavailable_reason": "CoreWeave retired after failed operational smoke; no heldout calls"
+    },
+    "coreweave.raw_pressure.low": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -1,
+        1
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -1,
+        1
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -1,
+          1
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -1,
+            1
+          ],
+          "betting": [
+            -1,
+            1
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "wholly_unavailable_planned_endpoint",
+      "point_estimate": null,
+      "observed_main_requests": 0,
+      "unavailable_reason": "CoreWeave retired after failed operational smoke; no heldout calls"
+    },
+    "coreweave.raw_reasoning_interaction.low_minus_off": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -2,
+        2
+      ],
+      "confidence_interval_95": [
+        -2,
+        2
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -2,
+        2
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -2,
+          2
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -2,
+            2
+          ],
+          "betting": [
+            -2,
+            2
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "wholly_unavailable_planned_endpoint",
+      "point_estimate": null,
+      "observed_main_requests": 0,
+      "unavailable_reason": "CoreWeave retired after failed operational smoke; no heldout calls"
+    },
+    "baidu.raw_pressure.off": {
+      "raw_combined_p_value": 3.8621470843463334e-13,
+      "holm_adjusted_p_value": 3.8621470843463335e-12,
+      "reject_at_0_05": true,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        0.32837394941571685,
+        0.6097436069382128
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        0.29037892857300174,
+        0.6351036081189595
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          0.29037892857300174,
+          0.6351036081189595
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            0.09557076112621815,
+            0.8419292388737818
+          ],
+          "betting": [
+            0.29037892857300174,
+            0.6351036081189595
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "baidu.raw_pressure.low": {
+      "raw_combined_p_value": 1.0,
+      "holm_adjusted_p_value": 1.0,
+      "reject_at_0_05": false,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -1,
+        1
+      ],
+      "confidence_interval_95": [
+        -0.05664614676999708,
+        0.0671785105525235
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -0.08178260110725939,
+        0.0920871967209927
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -0.08178260110725939,
+          0.0920871967209927
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -0.36797090554044853,
+            0.37838757220711516
+          ],
+          "betting": [
+            -0.08178260110725939,
+            0.0920871967209927
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    },
+    "baidu.raw_reasoning_interaction.low_minus_off": {
+      "raw_combined_p_value": 3.725275068511078e-07,
+      "holm_adjusted_p_value": 3.35274756165997e-06,
+      "reject_at_0_05": true,
+      "family_size": 10,
+      "case_count": 96,
+      "logical_outcome_range": [
+        -2,
+        2
+      ],
+      "confidence_interval_95": [
+        -0.6042402043279899,
+        -0.28398615801774757
+      ],
+      "simultaneous_family_confidence_interval_95": [
+        -0.6436160795674571,
+        -0.2220112530655862
+      ],
+      "simultaneous_inversion": {
+        "interval": [
+          -0.6436160795674571,
+          -0.2220112530655862
+        ],
+        "alpha": 0.005,
+        "method": "intersection of Hoeffding and fixed-grid betting intervals, each at alpha/2",
+        "component_intervals": {
+          "hoeffding": [
+            -1.2099001444142303,
+            0.282816811080897
+          ],
+          "betting": [
+            -0.6436160795674571,
+            -0.2220112530655862
+          ]
+        },
+        "coverage": "at least 1-alpha under independent bounded whole-case clusters; uniform over missing codings",
+        "endpoint_convention": "closed outward bisection bracket; equality endpoints included conservatively"
+      },
+      "endpoint_alpha": 0.005,
+      "component_alpha": 0.0025,
+      "observation_status": "stage_specific_full_plan_inference"
+    }
+  },
+  "case_clusters_per_endpoint": 96,
+  "case_bank_repeated_between_stages": true,
+  "luna_endpoint_count": 1,
+  "luna_exact_equality_verified": true,
+  "original_panel_holm4_role": "original-protocol artifact; not an alternative paper claim rule",
+  "new_panel_holm4_role": "native module intermediate; not a paper claim rule",
+  "coreweave_role": "three prespecified unavailable endpoints retained as p=1; no native panel or results fabricated",
+  "provider_interpretation": "dated provider/mode package; provider and collection stage/time confounded; no causal provider contrast or pooled estimand",
+  "independence": "independent whole-case clusters across 96 cases; arbitrary within-case and test dependence; missingness bounds do not repair shared-provider dependence",
+  "interval_basis": "unchanged frozen combined inversion: endpoint alpha/10 and component alpha/20; Bonferroni envelope, Holm10 decisions",
+  "provenance": {
+    "frozen_inference_sha256": "123c58fe44e44599d221880c14360f03936cf0c8ee8194a0c206bb7ec98bd116",
+    "coreweave_terminal_metadata_canonical_sha256": "b68f9ac0d0781ecf88a3a36a232cf1d668dfefefc5e7f4d8c447e2098f59757a",
+    "calibration_reference": "holm10-reference-calibration.json",
+    "calibration_sha256": "e07396f60d4481d027a0039a3cd88c89b1c0564c8917d9401df6d93a69289bd0",
+    "calibration_role": "outcome-free complete-data inactive-DI/CW p=1 reference, not actual-data forecast",
+    "public_coreweave_terminal_metadata_sha256": "ff82b51876b26feebb115164f3c97bf812e03ca3586a90081b2f79e84a37ea6c"
+  }
+}

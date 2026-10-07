@@ -1,0 +1,29 @@
+{
+  "call_id": "h01reason-v5-smoke-gpt6_luna_low-c4d4365fc8bf811d847e",
+  "time": "2026-10-06T09:45:58.495535+00:00",
+  "expected_model": "openai/gpt-6-luna",
+  "actual_model": "openai/gpt-6-luna",
+  "actual_provider": "OpenAI",
+  "ledger_state": "received",
+  "body_sha256": "c4d4365fc8bf811d847ecd1e59141231637c63a2f948f0f3ff0ead1ef8ffa94d",
+  "prompt_sha256": "761c2c24400a495899ae1f6fc19f31348ac2cb3cc1ee838981c2900ec2fc8342",
+  "settings_sha256": "3474c44bfbc20903cdc1acc4730ab21fd5cf1ac9e530e8cae291eb05ba4a25f0",
+  "charge_known": true,
+  "usage": {
+    "prompt_tokens": 379,
+    "completion_tokens": 205,
+    "total_tokens": 584,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 190,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "publication_projection": true
+}

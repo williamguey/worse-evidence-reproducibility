@@ -1,0 +1,29 @@
+{
+  "call_id": "h01reason-bd-v7-heldout-ds_off_bd-5ed2629c8b43874e29ac",
+  "time": "2026-10-06T19:51:40.116909+00:00",
+  "expected_model": "deepseek/deepseek-v4-pro-0813",
+  "actual_model": "deepseek/deepseek-v4-pro-0813",
+  "actual_provider": "Baidu",
+  "ledger_state": "received",
+  "body_sha256": "5ed2629c8b43874e29ac0a5e8a9ff6b7e5c83b1be5f8b8cc671ab373224eaf6a",
+  "prompt_sha256": "7269fcd02e38469f3b31953d3614aeac1747264b20c276c00c2d68d2a3926c2d",
+  "settings_sha256": "7e46ba26e0a85f0a9fce252bd5bcd3f091ba80f76699c626a60813371446811f",
+  "charge_known": true,
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 10,
+    "total_tokens": 510,
+    "prompt_tokens_details": {
+      "cached_tokens": 256,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "publication_projection": true
+}

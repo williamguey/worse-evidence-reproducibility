@@ -1,0 +1,29 @@
+{
+  "call_id": "h01reason-v5-heldout-gpt6_luna_low-e3e8c3b324a2210401f4",
+  "time": "2026-10-06T11:28:18.299903+00:00",
+  "expected_model": "openai/gpt-6-luna",
+  "actual_model": "openai/gpt-6-luna",
+  "actual_provider": "OpenAI",
+  "ledger_state": "received",
+  "body_sha256": "e3e8c3b324a2210401f4c3f7c6d0aaa9cc5b9b78410f9af8ffb71d985d1153a7",
+  "prompt_sha256": "cf23bf1419c0cb23ea19d9fec83baf81b5be9566e61adf1ef8518e64fa730ff9",
+  "settings_sha256": "3474c44bfbc20903cdc1acc4730ab21fd5cf1ac9e530e8cae291eb05ba4a25f0",
+  "charge_known": true,
+  "usage": {
+    "prompt_tokens": 395,
+    "completion_tokens": 48,
+    "total_tokens": 443,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 33,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "publication_projection": true
+}

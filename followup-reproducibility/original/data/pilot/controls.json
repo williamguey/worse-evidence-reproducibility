@@ -1,0 +1,802 @@
+[
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-001",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "51/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "1/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1/4",
+              "WAIT_loss_contribution": "57/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1/4"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19/4",
+              "WAIT_loss_contribution": "3/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            }
+          },
+          "expected_terminal_loss": "11/20",
+          "expected_total_score": "14/25"
+        },
+        "B": {
+          "cost": "51/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "2",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "3",
+              "WAIT_loss_contribution": "12/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            }
+          },
+          "expected_terminal_loss": "22/5",
+          "expected_total_score": "491/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "14/25",
+      "regret_of_wrong_report": "87/20",
+      "pre_report_terminal_risk_scale": "5",
+      "normalized_regret": "87/100"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 0
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-002",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "14",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/50"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "13/25"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "13/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "21/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "18/5",
+              "WAIT_loss_contribution": "14/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "14/5"
+            }
+          },
+          "expected_terminal_loss": "26/5",
+          "expected_total_score": "143/25"
+        },
+        "B": {
+          "cost": "1/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/10",
+              "WAIT_loss_contribution": "133/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/10",
+              "WAIT_loss_contribution": "7/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/20"
+            }
+          },
+          "expected_terminal_loss": "13/20",
+          "expected_total_score": "67/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "67/100",
+      "regret_of_wrong_report": "101/20",
+      "pre_report_terminal_risk_scale": "6",
+      "normalized_regret": "101/120"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 1
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-003",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "14",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "53/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "3/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "7/20",
+              "WAIT_loss_contribution": "38/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "7/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "133/20",
+              "WAIT_loss_contribution": "2/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "2/5"
+            }
+          },
+          "expected_terminal_loss": "3/4",
+          "expected_total_score": "39/50"
+        },
+        "B": {
+          "cost": "53/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "14/5",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "14/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "21/5",
+              "WAIT_loss_contribution": "16/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "16/5"
+            }
+          },
+          "expected_terminal_loss": "6",
+          "expected_total_score": "653/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "39/50",
+      "regret_of_wrong_report": "23/4",
+      "pre_report_terminal_risk_scale": "7",
+      "normalized_regret": "23/28"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 2
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-004",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "27/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "27/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "16/5",
+              "WAIT_loss_contribution": "27/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "16/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "24/5",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            }
+          },
+          "expected_terminal_loss": "34/5",
+          "expected_total_score": "367/50"
+        },
+        "B": {
+          "cost": "1/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "2/5",
+              "WAIT_loss_contribution": "171/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "38/5",
+              "WAIT_loss_contribution": "9/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            }
+          },
+          "expected_terminal_loss": "17/20",
+          "expected_total_score": "89/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "89/100",
+      "regret_of_wrong_report": "129/20",
+      "pre_report_terminal_risk_scale": "8",
+      "normalized_regret": "129/160"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 3
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-005",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "11/20"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "1/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "9/20",
+              "WAIT_loss_contribution": "19/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "171/20",
+              "WAIT_loss_contribution": "1/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            }
+          },
+          "expected_terminal_loss": "19/20",
+          "expected_total_score": "1"
+        },
+        "B": {
+          "cost": "11/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "18/5",
+              "WAIT_loss_contribution": "6",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "27/5",
+              "WAIT_loss_contribution": "4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4"
+            }
+          },
+          "expected_terminal_loss": "38/5",
+          "expected_total_score": "163/20"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1",
+      "regret_of_wrong_report": "143/20",
+      "pre_report_terminal_risk_scale": "9",
+      "normalized_regret": "143/180"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 4
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-006",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "22",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/50"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "14/25"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "14/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "4",
+              "WAIT_loss_contribution": "33/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "4"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "6",
+              "WAIT_loss_contribution": "22/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "22/5"
+            }
+          },
+          "expected_terminal_loss": "42/5",
+          "expected_total_score": "224/25"
+        },
+        "B": {
+          "cost": "3/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1/2",
+              "WAIT_loss_contribution": "209/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19/2",
+              "WAIT_loss_contribution": "11/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "11/20"
+            }
+          },
+          "expected_terminal_loss": "21/20",
+          "expected_total_score": "111/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "111/100",
+      "regret_of_wrong_report": "157/20",
+      "pre_report_terminal_risk_scale": "10",
+      "normalized_regret": "157/200"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 5
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-007",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "22",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "7/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "57/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "7/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "11/20",
+              "WAIT_loss_contribution": "57/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "11/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "209/20",
+              "WAIT_loss_contribution": "3/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            }
+          },
+          "expected_terminal_loss": "23/20",
+          "expected_total_score": "61/50"
+        },
+        "B": {
+          "cost": "57/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "22/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "22/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "33/5",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            }
+          },
+          "expected_terminal_loss": "46/5",
+          "expected_total_score": "977/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "61/50",
+      "regret_of_wrong_report": "171/20",
+      "pre_report_terminal_risk_scale": "11",
+      "normalized_regret": "171/220"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 6
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-pilot-control-008",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "26",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "2/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "29/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "29/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "24/5",
+              "WAIT_loss_contribution": "39/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "26/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "26/5"
+            }
+          },
+          "expected_terminal_loss": "10",
+          "expected_total_score": "529/50"
+        },
+        "B": {
+          "cost": "2/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/5",
+              "WAIT_loss_contribution": "247/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/5",
+              "WAIT_loss_contribution": "13/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "13/20"
+            }
+          },
+          "expected_terminal_loss": "5/4",
+          "expected_total_score": "133/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "133/100",
+      "regret_of_wrong_report": "37/4",
+      "pre_report_terminal_risk_scale": "12",
+      "normalized_regret": "37/48"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 7
+    }
+  }
+]

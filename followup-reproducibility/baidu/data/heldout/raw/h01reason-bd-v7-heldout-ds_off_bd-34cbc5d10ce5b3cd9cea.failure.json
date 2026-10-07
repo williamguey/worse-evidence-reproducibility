@@ -1,0 +1,12 @@
+{
+  "call_id": "h01reason-bd-v7-heldout-ds_off_bd-34cbc5d10ce5b3cd9cea",
+  "time": "2026-10-06T19:01:12.319145+00:00",
+  "error_type": "URLError",
+  "transport_timeout": false,
+  "fatal": false,
+  "body_sha256": "34cbc5d10ce5b3cd9cea08cddf3e850333b15cebf6cc26a553e0879be5627a96",
+  "prompt_sha256": "8fca833e74c8241447308de2b3f31989949453591167d1370593c51331aa85fd",
+  "settings_sha256": "7e46ba26e0a85f0a9fce252bd5bcd3f091ba80f76699c626a60813371446811f",
+  "publication_projection": true,
+  "retry": false
+}

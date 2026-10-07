@@ -1,0 +1,61 @@
+{
+  "call_id": "h01reason-v5-smoke-ds_low-0aa012be526400a6dd1c",
+  "created": "2026-10-06T09:37:34.328984+00:00",
+  "body": {
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Recommend a report for the supplied fictional simulator under its stated decision objective. Return only the requested JSON answer."
+      },
+      {
+        "role": "user",
+        "content": "Complete the acquisition decision for this fictional case.\n\nFictional case: fictional verification simulator. A hidden state Z is either 0 or 1. Exactly one report must be purchased before observing its binary signal; then take the optimal ACT or WAIT action for that signal. Minimize expected terminal loss plus acquisition cost, in the same artificial score units. ACT has zero loss in state 1; WAIT has zero loss in state 0. Acquisition cost is paid for either signal. No other action or purchase is available.\n\nSensitivity is P(signal + | Z=1); specificity is P(signal - | Z=0). Report characteristics below are independently verified. Both reports arrive in the same fully readable canonical-English interface, with equal delivery time and effort and no additional fees.\n\nPrior P(Z=1): 1/2\nLoss ACT in state 0: 20\nLoss WAIT in state 1: 12\nReport A: sensitivity=9/10; specificity=17/20; acquisition_cost=217/1000\nReport B: sensitivity=17/20; specificity=9/10; acquisition_cost=267/1000\n\nAudited expected total costs, including acquisition and optimal subsequent action:\nReport A: 2317/1000\nReport B: 2167/1000\n\nAcquisition menu:\nA: Purchase Report A, then take its optimal signal-contingent ACT/WAIT action.\nB: Purchase Report B, then take its optimal signal-contingent ACT/WAIT action.\n\nReturn exactly {\"choice\":\"A\"} or {\"choice\":\"B\"}."
+      }
+    ],
+    "max_tokens": 8192,
+    "reasoning": {
+      "effort": "low"
+    },
+    "stream": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "report_choice",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "deepinfra/fp8"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "plugins": [
+      {
+        "id": "context-compression",
+        "enabled": false
+      }
+    ]
+  },
+  "body_sha256": "0aa012be526400a6dd1cb56280fe4c0a78b089f4c15a16f49bfba939477eb38a",
+  "prompt_sha256": "80800bbc89813440384313c7d1369bbe616641b079c77eedb849c75de6e7484e",
+  "settings_sha256": "c79a545d7a9a2f501a0740bbaa68031c8795c73378f6b000256cdc0996c52a03"
+}

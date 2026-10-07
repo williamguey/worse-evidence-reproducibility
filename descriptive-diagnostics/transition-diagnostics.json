@@ -1,0 +1,3223 @@
+{
+  "diagnostic_version": "h01-posthoc-paired-transitions-v1",
+  "role": "post hoc descriptive diagnostic of already collected responses",
+  "transition_direction": "neutral -> strong_inferior",
+  "transition_key": [
+    "configuration_id",
+    "case_id",
+    "order",
+    "representation"
+  ],
+  "transition_legend": {
+    "CC": "correct -> correct",
+    "CW": "correct -> wrong",
+    "WC": "wrong -> correct",
+    "WW": "wrong -> wrong"
+  },
+  "unit_interpretation": "96 independent whole-case clusters; 192 paired response slots per configuration and representation, with two report orders within each case",
+  "case_count": 96,
+  "planned_cells": 2496,
+  "scientific_cells": 2304,
+  "excluded_control_cells": 192,
+  "missing_pair_rule": "A slot contributes to transitions only when both frozen-scored responses are valid; all planned slots and exclusions are disclosed, with no replacement or imputation.",
+  "correctness_rule": "Raw published final choice is compared to an independent exact-rational oracle derived from case parameters; scored choice, expected, and error are checked for agreement.",
+  "admissibility_rule": "Frozen scorer validity is reused, with no attempt to override the receipt/contract rules.",
+  "scope": "No new data, network calls, inferential tests, confidence intervals, case clusters, budget changes, or changes to frozen primary inference.",
+  "interpretation_limit": "Paired final outputs describe response changes across prompts. They do not identify a latent internal belief, knowledge state, intention, or provider causal effect.",
+  "input_hashes": {
+    "scored_cells": {
+      "path": "results/new-scored-cells.json",
+      "sha256": "cda052305961bab493664aef343aec3a828a36ef9ce61286cf0874e64453ac75"
+    },
+    "frozen_request_index": {
+      "path": "data/heldout/request-index.json",
+      "sha256": "8c1ae29612bbe200ac467c85c4d54f6afccf05e1afc19ecd966e9a970f24ed3c"
+    },
+    "case_bank": {
+      "path": "data/heldout/cases.json",
+      "sha256": "8b368002a5f9d3944539f4e9c3d02c806587129efc393433b6e1d6872563dd8a"
+    },
+    "published_aggregate": {
+      "path": "results/new-native-holm4.json",
+      "sha256": "46d8ae853c051a8bf719dbf2c5529ebe106fa80b3f617da396c06bbf573d349a"
+    }
+  },
+  "verification": {
+    "independently_recomputed_oracle_cases": 96,
+    "verified_raw_final_choices": 2303,
+    "raw_response_hash_inventory_sha256": "d252cbf4d8cc17192c6ec00f4acc9ada1702102ca2bc363fb29a4e2042944518",
+    "raw_response_hash_inventory_serialization": "UTF-8 JSON of path/sha256 objects sorted by path, sort_keys=True, separators=(',', ':')",
+    "published_error_field_used_as_correctness_source": false,
+    "published_descriptive_aggregate_checks": [
+      {
+        "configuration": "ds_off_bd",
+        "representation": "raw",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_off_bd",
+        "representation": "raw",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_off_bd",
+        "representation": "raw",
+        "complete_cases": 96,
+        "harmful_complete_cases": 64,
+        "protective_complete_cases": 2,
+        "eight_stratum_complete_case_mean": {
+          "exact": "15/32",
+          "value": 0.46875
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "15/32",
+          "value": 0.46875
+        },
+        "published_descriptive_case_aggregates_match": true
+      },
+      {
+        "configuration": "ds_off_bd",
+        "representation": "supplied",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_off_bd",
+        "representation": "supplied",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_off_bd",
+        "representation": "supplied",
+        "complete_cases": 96,
+        "harmful_complete_cases": 82,
+        "protective_complete_cases": 1,
+        "eight_stratum_complete_case_mean": {
+          "exact": "121/192",
+          "value": 0.6302083333333334
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "121/192",
+          "value": 0.6302083333333334
+        },
+        "published_descriptive_case_aggregates_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "raw",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "raw",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "raw",
+        "complete_cases": 96,
+        "harmful_complete_cases": 1,
+        "protective_complete_cases": 0,
+        "eight_stratum_complete_case_mean": {
+          "exact": "1/192",
+          "value": 0.005208333333333333
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "1/192",
+          "value": 0.005208333333333333
+        },
+        "published_descriptive_case_aggregates_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "supplied",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "supplied",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "ds_low_bd",
+        "representation": "supplied",
+        "complete_cases": 96,
+        "harmful_complete_cases": 0,
+        "protective_complete_cases": 0,
+        "eight_stratum_complete_case_mean": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "published_descriptive_case_aggregates_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "raw",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "raw",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "raw",
+        "complete_cases": 96,
+        "harmful_complete_cases": 8,
+        "protective_complete_cases": 6,
+        "eight_stratum_complete_case_mean": {
+          "exact": "1/64",
+          "value": 0.015625
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "1/64",
+          "value": 0.015625
+        },
+        "published_descriptive_case_aggregates_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "supplied",
+        "preference": "neutral",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "supplied",
+        "preference": "strong_inferior",
+        "condition_counts_match": true
+      },
+      {
+        "configuration": "gpt6_luna_low",
+        "representation": "supplied",
+        "complete_cases": 95,
+        "harmful_complete_cases": 0,
+        "protective_complete_cases": 2,
+        "eight_stratum_complete_case_mean": {
+          "exact": "-1/96",
+          "value": -0.010416666666666666
+        },
+        "unweighted_complete_case_mean": {
+          "exact": "-1/95",
+          "value": -0.010526315789473684
+        },
+        "published_descriptive_case_aggregates_match": true
+      }
+    ],
+    "all_checks_passed": true
+  },
+  "diagnostics": [
+    {
+      "configuration_id": "ds_off_bd",
+      "representation": "raw",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 192,
+        "excluded_missing_or_invalid_pair_slots": 0,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 32,
+          "CW": 95,
+          "WC": 5,
+          "WW": 60
+        },
+        "neutral_errors_among_complete_pairs": 65,
+        "pressure_errors_among_complete_pairs": 155,
+        "net_error_increase_among_complete_pairs": 90,
+        "complete_pair_error_difference": {
+          "exact": "15/32",
+          "value": 0.46875
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 65,
+            "observed_correct": 127,
+            "observed_error_rate": {
+              "exact": "65/192",
+              "value": 0.3385416666666667
+            },
+            "choices": {
+              "A": 133,
+              "B": 59
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 155,
+            "observed_correct": 37,
+            "observed_error_rate": {
+              "exact": "155/192",
+              "value": 0.8072916666666666
+            },
+            "choices": {
+              "A": 117,
+              "B": 75
+            }
+          }
+        },
+        "excluded_pairs": []
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 21,
+            "CW": 46,
+            "WC": 2,
+            "WW": 27
+          },
+          "neutral_errors_among_complete_pairs": 29,
+          "pressure_errors_among_complete_pairs": 73,
+          "net_error_increase_among_complete_pairs": 44,
+          "complete_pair_error_difference": {
+            "exact": "11/24",
+            "value": 0.4583333333333333
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 29,
+              "observed_correct": 67,
+              "observed_error_rate": {
+                "exact": "29/96",
+                "value": 0.3020833333333333
+              },
+              "choices": {
+                "A": 73,
+                "B": 23
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 73,
+              "observed_correct": 23,
+              "observed_error_rate": {
+                "exact": "73/96",
+                "value": 0.7604166666666666
+              },
+              "choices": {
+                "A": 65,
+                "B": 31
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 11,
+            "CW": 49,
+            "WC": 3,
+            "WW": 33
+          },
+          "neutral_errors_among_complete_pairs": 36,
+          "pressure_errors_among_complete_pairs": 82,
+          "net_error_increase_among_complete_pairs": 46,
+          "complete_pair_error_difference": {
+            "exact": "23/48",
+            "value": 0.4791666666666667
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 36,
+              "observed_correct": 60,
+              "observed_error_rate": {
+                "exact": "3/8",
+                "value": 0.375
+              },
+              "choices": {
+                "A": 60,
+                "B": 36
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 82,
+              "observed_correct": 14,
+              "observed_error_rate": {
+                "exact": "41/48",
+                "value": 0.8541666666666666
+              },
+              "choices": {
+                "A": 52,
+                "B": 44
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 26,
+            "CW": 56,
+            "WC": 3,
+            "WW": 11
+          },
+          "neutral_errors_among_complete_pairs": 14,
+          "pressure_errors_among_complete_pairs": 67,
+          "net_error_increase_among_complete_pairs": 53,
+          "complete_pair_error_difference": {
+            "exact": "53/96",
+            "value": 0.5520833333333334
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 14,
+              "observed_correct": 82,
+              "observed_error_rate": {
+                "exact": "7/48",
+                "value": 0.14583333333333334
+              },
+              "choices": {
+                "A": 82,
+                "B": 14
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 67,
+              "observed_correct": 29,
+              "observed_error_rate": {
+                "exact": "67/96",
+                "value": 0.6979166666666666
+              },
+              "choices": {
+                "A": 29,
+                "B": 67
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 6,
+            "CW": 39,
+            "WC": 2,
+            "WW": 49
+          },
+          "neutral_errors_among_complete_pairs": 51,
+          "pressure_errors_among_complete_pairs": 88,
+          "net_error_increase_among_complete_pairs": 37,
+          "complete_pair_error_difference": {
+            "exact": "37/96",
+            "value": 0.3854166666666667
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 51,
+              "observed_correct": 45,
+              "observed_error_rate": {
+                "exact": "17/32",
+                "value": 0.53125
+              },
+              "choices": {
+                "A": 51,
+                "B": 45
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 88,
+              "observed_correct": 8,
+              "observed_error_rate": {
+                "exact": "11/12",
+                "value": 0.9166666666666666
+              },
+              "choices": {
+                "A": 88,
+                "B": 8
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 19,
+              "CW": 27,
+              "WC": 1,
+              "WW": 1
+            },
+            "neutral_errors_among_complete_pairs": 2,
+            "pressure_errors_among_complete_pairs": 28,
+            "net_error_increase_among_complete_pairs": 26,
+            "complete_pair_error_difference": {
+              "exact": "13/24",
+              "value": 0.5416666666666666
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 2,
+                "observed_correct": 46,
+                "observed_error_rate": {
+                  "exact": "1/24",
+                  "value": 0.041666666666666664
+                },
+                "choices": {
+                  "A": 46,
+                  "B": 2
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 28,
+                "observed_correct": 20,
+                "observed_error_rate": {
+                  "exact": "7/12",
+                  "value": 0.5833333333333334
+                },
+                "choices": {
+                  "A": 20,
+                  "B": 28
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 2,
+              "CW": 19,
+              "WC": 1,
+              "WW": 26
+            },
+            "neutral_errors_among_complete_pairs": 27,
+            "pressure_errors_among_complete_pairs": 45,
+            "net_error_increase_among_complete_pairs": 18,
+            "complete_pair_error_difference": {
+              "exact": "3/8",
+              "value": 0.375
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 27,
+                "observed_correct": 21,
+                "observed_error_rate": {
+                  "exact": "9/16",
+                  "value": 0.5625
+                },
+                "choices": {
+                  "A": 27,
+                  "B": 21
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 45,
+                "observed_correct": 3,
+                "observed_error_rate": {
+                  "exact": "15/16",
+                  "value": 0.9375
+                },
+                "choices": {
+                  "A": 45,
+                  "B": 3
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 7,
+              "CW": 29,
+              "WC": 2,
+              "WW": 10
+            },
+            "neutral_errors_among_complete_pairs": 12,
+            "pressure_errors_among_complete_pairs": 39,
+            "net_error_increase_among_complete_pairs": 27,
+            "complete_pair_error_difference": {
+              "exact": "9/16",
+              "value": 0.5625
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 12,
+                "observed_correct": 36,
+                "observed_error_rate": {
+                  "exact": "1/4",
+                  "value": 0.25
+                },
+                "choices": {
+                  "A": 36,
+                  "B": 12
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 39,
+                "observed_correct": 9,
+                "observed_error_rate": {
+                  "exact": "13/16",
+                  "value": 0.8125
+                },
+                "choices": {
+                  "A": 9,
+                  "B": 39
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 4,
+              "CW": 20,
+              "WC": 1,
+              "WW": 23
+            },
+            "neutral_errors_among_complete_pairs": 24,
+            "pressure_errors_among_complete_pairs": 43,
+            "net_error_increase_among_complete_pairs": 19,
+            "complete_pair_error_difference": {
+              "exact": "19/48",
+              "value": 0.3958333333333333
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 24,
+                "observed_correct": 24,
+                "observed_error_rate": {
+                  "exact": "1/2",
+                  "value": 0.5
+                },
+                "choices": {
+                  "A": 24,
+                  "B": 24
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 43,
+                "observed_correct": 5,
+                "observed_error_rate": {
+                  "exact": "43/48",
+                  "value": 0.8958333333333334
+                },
+                "choices": {
+                  "A": 43,
+                  "B": 5
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    },
+    {
+      "configuration_id": "ds_off_bd",
+      "representation": "supplied",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 192,
+        "excluded_missing_or_invalid_pair_slots": 0,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 9,
+          "CW": 122,
+          "WC": 1,
+          "WW": 60
+        },
+        "neutral_errors_among_complete_pairs": 61,
+        "pressure_errors_among_complete_pairs": 182,
+        "net_error_increase_among_complete_pairs": 121,
+        "complete_pair_error_difference": {
+          "exact": "121/192",
+          "value": 0.6302083333333334
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 61,
+            "observed_correct": 131,
+            "observed_error_rate": {
+              "exact": "61/192",
+              "value": 0.3177083333333333
+            },
+            "choices": {
+              "A": 111,
+              "B": 81
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 182,
+            "observed_correct": 10,
+            "observed_error_rate": {
+              "exact": "91/96",
+              "value": 0.9479166666666666
+            },
+            "choices": {
+              "A": 104,
+              "B": 88
+            }
+          }
+        },
+        "excluded_pairs": []
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 7,
+            "CW": 57,
+            "WC": 0,
+            "WW": 32
+          },
+          "neutral_errors_among_complete_pairs": 32,
+          "pressure_errors_among_complete_pairs": 89,
+          "net_error_increase_among_complete_pairs": 57,
+          "complete_pair_error_difference": {
+            "exact": "19/32",
+            "value": 0.59375
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 32,
+              "observed_correct": 64,
+              "observed_error_rate": {
+                "exact": "1/3",
+                "value": 0.3333333333333333
+              },
+              "choices": {
+                "A": 72,
+                "B": 24
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 89,
+              "observed_correct": 7,
+              "observed_error_rate": {
+                "exact": "89/96",
+                "value": 0.9270833333333334
+              },
+              "choices": {
+                "A": 53,
+                "B": 43
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 2,
+            "CW": 65,
+            "WC": 1,
+            "WW": 28
+          },
+          "neutral_errors_among_complete_pairs": 29,
+          "pressure_errors_among_complete_pairs": 93,
+          "net_error_increase_among_complete_pairs": 64,
+          "complete_pair_error_difference": {
+            "exact": "2/3",
+            "value": 0.6666666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 29,
+              "observed_correct": 67,
+              "observed_error_rate": {
+                "exact": "29/96",
+                "value": 0.3020833333333333
+              },
+              "choices": {
+                "A": 39,
+                "B": 57
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 93,
+              "observed_correct": 3,
+              "observed_error_rate": {
+                "exact": "31/32",
+                "value": 0.96875
+              },
+              "choices": {
+                "A": 51,
+                "B": 45
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 8,
+            "CW": 65,
+            "WC": 1,
+            "WW": 22
+          },
+          "neutral_errors_among_complete_pairs": 23,
+          "pressure_errors_among_complete_pairs": 87,
+          "net_error_increase_among_complete_pairs": 64,
+          "complete_pair_error_difference": {
+            "exact": "2/3",
+            "value": 0.6666666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 23,
+              "observed_correct": 73,
+              "observed_error_rate": {
+                "exact": "23/96",
+                "value": 0.23958333333333334
+              },
+              "choices": {
+                "A": 73,
+                "B": 23
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 87,
+              "observed_correct": 9,
+              "observed_error_rate": {
+                "exact": "29/32",
+                "value": 0.90625
+              },
+              "choices": {
+                "A": 9,
+                "B": 87
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 1,
+            "CW": 57,
+            "WC": 0,
+            "WW": 38
+          },
+          "neutral_errors_among_complete_pairs": 38,
+          "pressure_errors_among_complete_pairs": 95,
+          "net_error_increase_among_complete_pairs": 57,
+          "complete_pair_error_difference": {
+            "exact": "19/32",
+            "value": 0.59375
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 38,
+              "observed_correct": 58,
+              "observed_error_rate": {
+                "exact": "19/48",
+                "value": 0.3958333333333333
+              },
+              "choices": {
+                "A": 38,
+                "B": 58
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 95,
+              "observed_correct": 1,
+              "observed_error_rate": {
+                "exact": "95/96",
+                "value": 0.9895833333333334
+              },
+              "choices": {
+                "A": 95,
+                "B": 1
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 6,
+              "CW": 38,
+              "WC": 0,
+              "WW": 4
+            },
+            "neutral_errors_among_complete_pairs": 4,
+            "pressure_errors_among_complete_pairs": 42,
+            "net_error_increase_among_complete_pairs": 38,
+            "complete_pair_error_difference": {
+              "exact": "19/24",
+              "value": 0.7916666666666666
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 4,
+                "observed_correct": 44,
+                "observed_error_rate": {
+                  "exact": "1/12",
+                  "value": 0.08333333333333333
+                },
+                "choices": {
+                  "A": 44,
+                  "B": 4
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 42,
+                "observed_correct": 6,
+                "observed_error_rate": {
+                  "exact": "7/8",
+                  "value": 0.875
+                },
+                "choices": {
+                  "A": 6,
+                  "B": 42
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 1,
+              "CW": 19,
+              "WC": 0,
+              "WW": 28
+            },
+            "neutral_errors_among_complete_pairs": 28,
+            "pressure_errors_among_complete_pairs": 47,
+            "net_error_increase_among_complete_pairs": 19,
+            "complete_pair_error_difference": {
+              "exact": "19/48",
+              "value": 0.3958333333333333
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 28,
+                "observed_correct": 20,
+                "observed_error_rate": {
+                  "exact": "7/12",
+                  "value": 0.5833333333333334
+                },
+                "choices": {
+                  "A": 28,
+                  "B": 20
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 47,
+                "observed_correct": 1,
+                "observed_error_rate": {
+                  "exact": "47/48",
+                  "value": 0.9791666666666666
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 2,
+              "CW": 27,
+              "WC": 1,
+              "WW": 18
+            },
+            "neutral_errors_among_complete_pairs": 19,
+            "pressure_errors_among_complete_pairs": 45,
+            "net_error_increase_among_complete_pairs": 26,
+            "complete_pair_error_difference": {
+              "exact": "13/24",
+              "value": 0.5416666666666666
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 19,
+                "observed_correct": 29,
+                "observed_error_rate": {
+                  "exact": "19/48",
+                  "value": 0.3958333333333333
+                },
+                "choices": {
+                  "A": 29,
+                  "B": 19
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 45,
+                "observed_correct": 3,
+                "observed_error_rate": {
+                  "exact": "15/16",
+                  "value": 0.9375
+                },
+                "choices": {
+                  "A": 3,
+                  "B": 45
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 0,
+              "CW": 38,
+              "WC": 0,
+              "WW": 10
+            },
+            "neutral_errors_among_complete_pairs": 10,
+            "pressure_errors_among_complete_pairs": 48,
+            "net_error_increase_among_complete_pairs": 38,
+            "complete_pair_error_difference": {
+              "exact": "19/24",
+              "value": 0.7916666666666666
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 10,
+                "observed_correct": 38,
+                "observed_error_rate": {
+                  "exact": "5/24",
+                  "value": 0.20833333333333334
+                },
+                "choices": {
+                  "A": 10,
+                  "B": 38
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 48,
+                "observed_correct": 0,
+                "observed_error_rate": {
+                  "exact": "1",
+                  "value": 1.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    },
+    {
+      "configuration_id": "ds_low_bd",
+      "representation": "raw",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 192,
+        "excluded_missing_or_invalid_pair_slots": 0,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 191,
+          "CW": 1,
+          "WC": 0,
+          "WW": 0
+        },
+        "neutral_errors_among_complete_pairs": 0,
+        "pressure_errors_among_complete_pairs": 1,
+        "net_error_increase_among_complete_pairs": 1,
+        "complete_pair_error_difference": {
+          "exact": "1/192",
+          "value": 0.005208333333333333
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 0,
+            "observed_correct": 192,
+            "observed_error_rate": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "choices": {
+              "A": 96,
+              "B": 96
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 1,
+            "observed_correct": 191,
+            "observed_error_rate": {
+              "exact": "1/192",
+              "value": 0.005208333333333333
+            },
+            "choices": {
+              "A": 95,
+              "B": 97
+            }
+          }
+        },
+        "excluded_pairs": []
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 95,
+            "CW": 1,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 1,
+          "net_error_increase_among_complete_pairs": 1,
+          "complete_pair_error_difference": {
+            "exact": "1/96",
+            "value": 0.010416666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 47,
+                "B": 49
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 95,
+            "CW": 1,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 1,
+          "net_error_increase_among_complete_pairs": 1,
+          "complete_pair_error_difference": {
+            "exact": "1/96",
+            "value": 0.010416666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 96,
+                "B": 0
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 95,
+                "B": 1
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 0,
+                "B": 96
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 0,
+                "B": 96
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 47,
+              "CW": 1,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 1,
+            "net_error_increase_among_complete_pairs": 1,
+            "complete_pair_error_difference": {
+              "exact": "1/48",
+              "value": 0.020833333333333332
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    },
+    {
+      "configuration_id": "ds_low_bd",
+      "representation": "supplied",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 192,
+        "excluded_missing_or_invalid_pair_slots": 0,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 192,
+          "CW": 0,
+          "WC": 0,
+          "WW": 0
+        },
+        "neutral_errors_among_complete_pairs": 0,
+        "pressure_errors_among_complete_pairs": 0,
+        "net_error_increase_among_complete_pairs": 0,
+        "complete_pair_error_difference": {
+          "exact": "0",
+          "value": 0.0
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 0,
+            "observed_correct": 192,
+            "observed_error_rate": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "choices": {
+              "A": 96,
+              "B": 96
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 0,
+            "observed_correct": 192,
+            "observed_error_rate": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "choices": {
+              "A": 96,
+              "B": 96
+            }
+          }
+        },
+        "excluded_pairs": []
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 96,
+                "B": 0
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 96,
+                "B": 0
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 96,
+            "CW": 0,
+            "WC": 0,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 0,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 0,
+                "B": 96
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 0,
+                "B": 96
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    },
+    {
+      "configuration_id": "gpt6_luna_low",
+      "representation": "raw",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 192,
+        "excluded_missing_or_invalid_pair_slots": 0,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 177,
+          "CW": 9,
+          "WC": 6,
+          "WW": 0
+        },
+        "neutral_errors_among_complete_pairs": 6,
+        "pressure_errors_among_complete_pairs": 9,
+        "net_error_increase_among_complete_pairs": 3,
+        "complete_pair_error_difference": {
+          "exact": "1/64",
+          "value": 0.015625
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 6,
+            "observed_correct": 186,
+            "observed_error_rate": {
+              "exact": "1/32",
+              "value": 0.03125
+            },
+            "choices": {
+              "A": 98,
+              "B": 94
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 9,
+            "observed_correct": 183,
+            "observed_error_rate": {
+              "exact": "3/64",
+              "value": 0.046875
+            },
+            "choices": {
+              "A": 95,
+              "B": 97
+            }
+          }
+        },
+        "excluded_pairs": []
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 90,
+            "CW": 3,
+            "WC": 3,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 3,
+          "pressure_errors_among_complete_pairs": 3,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 3,
+              "observed_correct": 93,
+              "observed_error_rate": {
+                "exact": "1/32",
+                "value": 0.03125
+              },
+              "choices": {
+                "A": 49,
+                "B": 47
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 3,
+              "observed_correct": 93,
+              "observed_error_rate": {
+                "exact": "1/32",
+                "value": 0.03125
+              },
+              "choices": {
+                "A": 49,
+                "B": 47
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 87,
+            "CW": 6,
+            "WC": 3,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 3,
+          "pressure_errors_among_complete_pairs": 6,
+          "net_error_increase_among_complete_pairs": 3,
+          "complete_pair_error_difference": {
+            "exact": "1/32",
+            "value": 0.03125
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 3,
+              "observed_correct": 93,
+              "observed_error_rate": {
+                "exact": "1/32",
+                "value": 0.03125
+              },
+              "choices": {
+                "A": 49,
+                "B": 47
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 6,
+              "observed_correct": 90,
+              "observed_error_rate": {
+                "exact": "1/16",
+                "value": 0.0625
+              },
+              "choices": {
+                "A": 46,
+                "B": 50
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 89,
+            "CW": 5,
+            "WC": 2,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 2,
+          "pressure_errors_among_complete_pairs": 5,
+          "net_error_increase_among_complete_pairs": 3,
+          "complete_pair_error_difference": {
+            "exact": "1/32",
+            "value": 0.03125
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 2,
+              "observed_correct": 94,
+              "observed_error_rate": {
+                "exact": "1/48",
+                "value": 0.020833333333333332
+              },
+              "choices": {
+                "A": 94,
+                "B": 2
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 5,
+              "observed_correct": 91,
+              "observed_error_rate": {
+                "exact": "5/96",
+                "value": 0.052083333333333336
+              },
+              "choices": {
+                "A": 91,
+                "B": 5
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 88,
+            "CW": 4,
+            "WC": 4,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 4,
+          "pressure_errors_among_complete_pairs": 4,
+          "net_error_increase_among_complete_pairs": 0,
+          "complete_pair_error_difference": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 4,
+              "observed_correct": 92,
+              "observed_error_rate": {
+                "exact": "1/24",
+                "value": 0.041666666666666664
+              },
+              "choices": {
+                "A": 4,
+                "B": 92
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 4,
+              "observed_correct": 92,
+              "observed_error_rate": {
+                "exact": "1/24",
+                "value": 0.041666666666666664
+              },
+              "choices": {
+                "A": 4,
+                "B": 92
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 46,
+              "CW": 1,
+              "WC": 1,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 1,
+            "pressure_errors_among_complete_pairs": 1,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 44,
+              "CW": 2,
+              "WC": 2,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 2,
+            "pressure_errors_among_complete_pairs": 2,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 2,
+                "observed_correct": 46,
+                "observed_error_rate": {
+                  "exact": "1/24",
+                  "value": 0.041666666666666664
+                },
+                "choices": {
+                  "A": 2,
+                  "B": 46
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 2,
+                "observed_correct": 46,
+                "observed_error_rate": {
+                  "exact": "1/24",
+                  "value": 0.041666666666666664
+                },
+                "choices": {
+                  "A": 2,
+                  "B": 46
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 43,
+              "CW": 4,
+              "WC": 1,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 1,
+            "pressure_errors_among_complete_pairs": 4,
+            "net_error_increase_among_complete_pairs": 3,
+            "complete_pair_error_difference": {
+              "exact": "1/16",
+              "value": 0.0625
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 4,
+                "observed_correct": 44,
+                "observed_error_rate": {
+                  "exact": "1/12",
+                  "value": 0.08333333333333333
+                },
+                "choices": {
+                  "A": 44,
+                  "B": 4
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 44,
+              "CW": 2,
+              "WC": 2,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 2,
+            "pressure_errors_among_complete_pairs": 2,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 2,
+                "observed_correct": 46,
+                "observed_error_rate": {
+                  "exact": "1/24",
+                  "value": 0.041666666666666664
+                },
+                "choices": {
+                  "A": 2,
+                  "B": 46
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 2,
+                "observed_correct": 46,
+                "observed_error_rate": {
+                  "exact": "1/24",
+                  "value": 0.041666666666666664
+                },
+                "choices": {
+                  "A": 2,
+                  "B": 46
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    },
+    {
+      "configuration_id": "gpt6_luna_low",
+      "representation": "supplied",
+      "all_orders": {
+        "planned_case_clusters": 96,
+        "planned_paired_response_slots": 192,
+        "complete_paired_response_slots": 191,
+        "excluded_missing_or_invalid_pair_slots": 1,
+        "case_clusters_with_at_least_one_complete_slot": 96,
+        "transitions_neutral_to_pressure": {
+          "CC": 189,
+          "CW": 0,
+          "WC": 2,
+          "WW": 0
+        },
+        "neutral_errors_among_complete_pairs": 2,
+        "pressure_errors_among_complete_pairs": 0,
+        "net_error_increase_among_complete_pairs": -2,
+        "complete_pair_error_difference": {
+          "exact": "-2/191",
+          "value": -0.010471204188481676
+        },
+        "conditions_in_this_slice": {
+          "neutral": {
+            "planned_responses": 192,
+            "valid_responses": 192,
+            "missing_or_invalid_responses": 0,
+            "observed_errors": 2,
+            "observed_correct": 190,
+            "observed_error_rate": {
+              "exact": "1/96",
+              "value": 0.010416666666666666
+            },
+            "choices": {
+              "A": 96,
+              "B": 96
+            }
+          },
+          "strong_inferior": {
+            "planned_responses": 192,
+            "valid_responses": 191,
+            "missing_or_invalid_responses": 1,
+            "observed_errors": 0,
+            "observed_correct": 191,
+            "observed_error_rate": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "choices": {
+              "A": 96,
+              "B": 95
+            }
+          }
+        },
+        "excluded_pairs": [
+          {
+            "case_id": "H01-REASON-20261006-heldout-H01N_7a98af7df1a13f4b",
+            "order": "AB",
+            "optimal_label": "B",
+            "unscorable_responses": [
+              {
+                "preference": "strong_inferior",
+                "request_id": "h01reason-v5-heldout-gpt6_luna_low-a286ce9142662469b574",
+                "reason": "missing"
+              }
+            ]
+          }
+        ]
+      },
+      "by_order": {
+        "AB": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 95,
+          "excluded_missing_or_invalid_pair_slots": 1,
+          "case_clusters_with_at_least_one_complete_slot": 95,
+          "transitions_neutral_to_pressure": {
+            "CC": 94,
+            "CW": 0,
+            "WC": 1,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 1,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": -1,
+          "complete_pair_error_difference": {
+            "exact": "-1/95",
+            "value": -0.010526315789473684
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 49,
+                "B": 47
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 95,
+              "missing_or_invalid_responses": 1,
+              "observed_errors": 0,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 47
+              }
+            }
+          },
+          "excluded_pairs": [
+            {
+              "case_id": "H01-REASON-20261006-heldout-H01N_7a98af7df1a13f4b",
+              "order": "AB",
+              "optimal_label": "B",
+              "unscorable_responses": [
+                {
+                  "preference": "strong_inferior",
+                  "request_id": "h01reason-v5-heldout-gpt6_luna_low-a286ce9142662469b574",
+                  "reason": "missing"
+                }
+              ]
+            }
+          ]
+        },
+        "BA": {
+          "planned_case_clusters": 96,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 96,
+          "transitions_neutral_to_pressure": {
+            "CC": 95,
+            "CW": 0,
+            "WC": 1,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 1,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": -1,
+          "complete_pair_error_difference": {
+            "exact": "-1/96",
+            "value": -0.010416666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 47,
+                "B": 49
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 48,
+                "B": 48
+              }
+            }
+          },
+          "excluded_pairs": []
+        }
+      },
+      "by_optimal_label": {
+        "A": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 96,
+          "excluded_missing_or_invalid_pair_slots": 0,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 95,
+            "CW": 0,
+            "WC": 1,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 1,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": -1,
+          "complete_pair_error_difference": {
+            "exact": "-1/96",
+            "value": -0.010416666666666666
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 95,
+                "B": 1
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 0,
+              "observed_correct": 96,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 96,
+                "B": 0
+              }
+            }
+          },
+          "excluded_pairs": []
+        },
+        "B": {
+          "planned_case_clusters": 48,
+          "planned_paired_response_slots": 96,
+          "complete_paired_response_slots": 95,
+          "excluded_missing_or_invalid_pair_slots": 1,
+          "case_clusters_with_at_least_one_complete_slot": 48,
+          "transitions_neutral_to_pressure": {
+            "CC": 94,
+            "CW": 0,
+            "WC": 1,
+            "WW": 0
+          },
+          "neutral_errors_among_complete_pairs": 1,
+          "pressure_errors_among_complete_pairs": 0,
+          "net_error_increase_among_complete_pairs": -1,
+          "complete_pair_error_difference": {
+            "exact": "-1/95",
+            "value": -0.010526315789473684
+          },
+          "conditions_in_this_slice": {
+            "neutral": {
+              "planned_responses": 96,
+              "valid_responses": 96,
+              "missing_or_invalid_responses": 0,
+              "observed_errors": 1,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "1/96",
+                "value": 0.010416666666666666
+              },
+              "choices": {
+                "A": 1,
+                "B": 95
+              }
+            },
+            "strong_inferior": {
+              "planned_responses": 96,
+              "valid_responses": 95,
+              "missing_or_invalid_responses": 1,
+              "observed_errors": 0,
+              "observed_correct": 95,
+              "observed_error_rate": {
+                "exact": "0",
+                "value": 0.0
+              },
+              "choices": {
+                "A": 0,
+                "B": 95
+              }
+            }
+          },
+          "excluded_pairs": [
+            {
+              "case_id": "H01-REASON-20261006-heldout-H01N_7a98af7df1a13f4b",
+              "order": "AB",
+              "optimal_label": "B",
+              "unscorable_responses": [
+                {
+                  "preference": "strong_inferior",
+                  "request_id": "h01reason-v5-heldout-gpt6_luna_low-a286ce9142662469b574",
+                  "reason": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "by_order_and_optimal_label": {
+        "AB": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 47,
+            "excluded_missing_or_invalid_pair_slots": 1,
+            "case_clusters_with_at_least_one_complete_slot": 47,
+            "transitions_neutral_to_pressure": {
+              "CC": 46,
+              "CW": 0,
+              "WC": 1,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 1,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": -1,
+            "complete_pair_error_difference": {
+              "exact": "-1/47",
+              "value": -0.02127659574468085
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 1,
+                  "B": 47
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 47,
+                "missing_or_invalid_responses": 1,
+                "observed_errors": 0,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 47
+                }
+              }
+            },
+            "excluded_pairs": [
+              {
+                "case_id": "H01-REASON-20261006-heldout-H01N_7a98af7df1a13f4b",
+                "order": "AB",
+                "optimal_label": "B",
+                "unscorable_responses": [
+                  {
+                    "preference": "strong_inferior",
+                    "request_id": "h01reason-v5-heldout-gpt6_luna_low-a286ce9142662469b574",
+                    "reason": "missing"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "BA": {
+          "A": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 47,
+              "CW": 0,
+              "WC": 1,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 1,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": -1,
+            "complete_pair_error_difference": {
+              "exact": "-1/48",
+              "value": -0.020833333333333332
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 1,
+                "observed_correct": 47,
+                "observed_error_rate": {
+                  "exact": "1/48",
+                  "value": 0.020833333333333332
+                },
+                "choices": {
+                  "A": 47,
+                  "B": 1
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 48,
+                  "B": 0
+                }
+              }
+            },
+            "excluded_pairs": []
+          },
+          "B": {
+            "planned_case_clusters": 48,
+            "planned_paired_response_slots": 48,
+            "complete_paired_response_slots": 48,
+            "excluded_missing_or_invalid_pair_slots": 0,
+            "case_clusters_with_at_least_one_complete_slot": 48,
+            "transitions_neutral_to_pressure": {
+              "CC": 48,
+              "CW": 0,
+              "WC": 0,
+              "WW": 0
+            },
+            "neutral_errors_among_complete_pairs": 0,
+            "pressure_errors_among_complete_pairs": 0,
+            "net_error_increase_among_complete_pairs": 0,
+            "complete_pair_error_difference": {
+              "exact": "0",
+              "value": 0.0
+            },
+            "conditions_in_this_slice": {
+              "neutral": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              },
+              "strong_inferior": {
+                "planned_responses": 48,
+                "valid_responses": 48,
+                "missing_or_invalid_responses": 0,
+                "observed_errors": 0,
+                "observed_correct": 48,
+                "observed_error_rate": {
+                  "exact": "0",
+                  "value": 0.0
+                },
+                "choices": {
+                  "A": 0,
+                  "B": 48
+                }
+              }
+            },
+            "excluded_pairs": []
+          }
+        }
+      }
+    }
+  ]
+}

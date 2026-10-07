@@ -1,0 +1,213 @@
+{
+  "project_id": "H01-BD-20261007",
+  "seed": 26100691,
+  "system": "Recommend a report for the supplied fictional simulator under its stated decision objective. Return only the requested JSON answer.",
+  "models": [
+    {
+      "id": "ds_off_bd",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "reasoning": {
+        "enabled": false
+      },
+      "max_tokens": 8192,
+      "pricing": {
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000042",
+        "discount": 0
+      },
+      "provider": {
+        "only": [
+          "baidu/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 1.32,
+          "completion": 3.96
+        }
+      },
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "catalog_reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "high"
+      },
+      "endpoint_quantization": "fp8",
+      "endpoint_provider_name": "Baidu",
+      "endpoint_pricing": {
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000042",
+        "discount": 0
+      }
+    },
+    {
+      "id": "ds_low_bd",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "reasoning": {
+        "effort": "low"
+      },
+      "max_tokens": 8192,
+      "pricing": {
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000042",
+        "discount": 0
+      },
+      "provider": {
+        "only": [
+          "baidu/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 1.32,
+          "completion": 3.96
+        }
+      },
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "catalog_reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "high"
+      },
+      "endpoint_quantization": "fp8",
+      "endpoint_provider_name": "Baidu",
+      "endpoint_pricing": {
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000042",
+        "discount": 0
+      }
+    },
+    {
+      "id": "gpt6_luna_low",
+      "model": "openai/gpt-6-luna",
+      "reasoning": {
+        "effort": "low"
+      },
+      "max_tokens": 8192,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.00000075",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025"
+          }
+        ]
+      },
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "name": "OpenAI: GPT-6 Luna",
+      "catalog_reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    }
+  ],
+  "stages": {
+    "development": {
+      "cases": 24,
+      "paid": false
+    },
+    "smoke": {
+      "candidate_cases": 24,
+      "selected_cases": 2,
+      "controls": 2,
+      "planned_requests": 24,
+      "orders_per_scientific_case": 1,
+      "order_assignment": "AB if selected case index bit_count even, else BA; fixedmarginalbalance",
+      "scientific_selected_old_zero_based_indices": [
+        0,
+        7
+      ],
+      "controls_selected_full_bank_zero_based_indices": [
+        0,
+        5
+      ]
+    },
+    "heldout": {
+      "cases": 96,
+      "controls": 32,
+      "planned_requests": 2496,
+      "new_paid_requests": 1664,
+      "reused_luna_requests": 832
+    }
+  },
+  "conditions": {
+    "representations": [
+      "raw",
+      "supplied"
+    ],
+    "preference": [
+      "neutral",
+      "strong_inferior"
+    ],
+    "orders": [
+      "AB",
+      "BA"
+    ],
+    "archive_tags": "none",
+    "pressure_wording": "identical to original H01 preference strong-inferior"
+  },
+  "case_design": {
+    "analysis_strata": 8,
+    "cases_per_analysis_stratum": 12,
+    "gap_bands": "balanced4eachwithinstratum",
+    "independence": "fixed canonical-parameter-hash mod8 slots within12swap-invariant generationstrata; independent case seeds; no mutable within-heldout exclusions",
+    "excluded": "original discovery/development/pilot/heldout/controls plus newdevelopment and allsmokecandidates/controls"
+  },
+  "inference": {
+    "alpha": 0.05,
+    "multiplicity": "native_panel_Holm4_intermediate; paper_confirmatory_Holm10_union",
+    "tests": "Prospective combined two-sided Hoeffding/fixed-grid betting tests with within-endpoint Bonferroni2, then Holm4; arbitrary missingness robust; equal planned case weights. Scientific method and calibration byte-identical to reviewed V4; V5 operational addendum passed full subscription review and targeted postrepair audit before any paid probe.",
+    "secondary": "supplied pressure, raw/supplied exact regret, baseline errors and control accuracy descriptive",
+    "practical_effect_threshold": 0.1,
+    "bootstrap_intervals": "descriptive unadjusted only; no sparse-stratum variance/studentized test",
+    "scientific_source_unchanged": true,
+    "paper_family_wrapper": "notes/server-switch/holm10_analysis.py",
+    "paper_primary_endpoint_count": 10,
+    "unavailable_coreweave_primary_endpoints_retained": 3
+  },
+  "controls": {
+    "heldout_correctness_qualification": "PERCONFIGURATION at least63/64 valid and correct heldout responses across32mirroredcontrols; descriptive only",
+    "interpretation": "no competence-based selection or dropping configurations; controls do not prove knowledge or social mechanism",
+    "kind": "16performance-price dominance and16nondominance supplied-total comparisons; A/Boptima balanced",
+    "schedule": "All32heldoutcontrols interleaved in seeded request permutation."
+  },
+  "protocol_version": 7,
+  "new_independent_cases": false,
+  "prospective_new_deepseek_requests": 1664,
+  "reused_original_luna_requests": 832,
+  "stage_created_utc": "2026-10-06T18:09:26.303151+00:00"
+}

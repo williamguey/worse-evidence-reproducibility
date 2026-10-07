@@ -1,0 +1,284 @@
+{
+  "calibration": "outcome-free-holm10-inactive-other-stage-reference",
+  "no_study_outcomes_read": true,
+  "no_network_calls": true,
+  "family_size": 10,
+  "planned_case_clusters_per_endpoint": 96,
+  "seed": 2026100643,
+  "trials_per_scenario": 5000,
+  "numpy_version": "2.3.5",
+  "frozen_sources_sha256": {
+    "inference.py": "123c58fe44e44599d221880c14360f03936cf0c8ee8194a0c206bb7ec98bd116",
+    "calibrate_inference.py": "97f3a957ac74f94ed28d60d97a92fa4314c7cc8b90d1c4942df50ae8d3271649"
+  },
+  "raw_test": "unchanged frozen min(1,2*min(Hoeffding,fixed-grid-betting))",
+  "simulation_endpoint_order": [
+    "baidu.off",
+    "baidu.low",
+    "openai.luna",
+    "baidu.interaction",
+    "deepinfra.off",
+    "deepinfra.low",
+    "deepinfra.interaction",
+    "coreweave.off",
+    "coreweave.low",
+    "coreweave.interaction"
+  ],
+  "other_stage_handling": "six raw p-values fixed to one, never obtained from collected data",
+  "first_holm_step_hoeffding_component_radii": {
+    "pressure": 0.37317923887378185,
+    "interaction": 0.7463584777475637
+  },
+  "null_reference_scenarios": [
+    {
+      "scenario": "all_zero",
+      "trials": 5000,
+      "any_rejection_rate": 0.0,
+      "any_rejection_rate_wilson_95": [
+        0.0,
+        0.0007677019450571244
+      ],
+      "endpoint_rejection_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "symmetric_sparse_case_changes",
+      "trials": 5000,
+      "any_rejection_rate": 0.0,
+      "any_rejection_rate_wilson_95": [
+        0.0,
+        0.0007677019450571244
+      ],
+      "endpoint_rejection_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "symmetric_maximal_case_variance",
+      "trials": 5000,
+      "any_rejection_rate": 0.0008,
+      "any_rejection_rate_wilson_95": [
+        0.00031114697610156263,
+        0.0020553266458434704
+      ],
+      "endpoint_rejection_rates": [
+        0.0006,
+        0.0,
+        0.0,
+        0.0002,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "heterogeneous_opposing_analysis_stratum_means",
+      "trials": 5000,
+      "any_rejection_rate": 0.0,
+      "any_rejection_rate_wilson_95": [
+        0.0,
+        0.0007677019450571244
+      ],
+      "endpoint_rejection_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "heterogeneous_gap_blocks_and_rare_balancing_interaction",
+      "trials": 5000,
+      "any_rejection_rate": 0.0,
+      "any_rejection_rate_wilson_95": [
+        0.0,
+        0.0007677019450571244
+      ],
+      "endpoint_rejection_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "binary_requests_independent_within_case",
+      "trials": 5000,
+      "any_rejection_rate": 0.0006,
+      "any_rejection_rate_wilson_95": [
+        0.00020407465419434642,
+        0.001762706048528709
+      ],
+      "endpoint_rejection_rates": [
+        0.0004,
+        0.0,
+        0.0002,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "illustrative_power": [
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.1,
+      "target_endpoint_index": 2,
+      "target_power": 0.0352,
+      "target_power_wilson_95": [
+        0.03043831038606381,
+        0.040675345342061305
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.2,
+      "target_endpoint_index": 2,
+      "target_power": 0.5326,
+      "target_power_wilson_95": [
+        0.5187507105601376,
+        0.5463992352730446
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.35,
+      "target_endpoint_index": 2,
+      "target_power": 0.9982,
+      "target_power_wilson_95": [
+        0.9965823552896264,
+        0.9990527064923188
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.4,
+      "target_endpoint_index": 2,
+      "target_power": 1.0,
+      "target_power_wilson_95": [
+        0.9992322980549431,
+        1.0
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.5,
+      "target_endpoint_index": 2,
+      "target_power": 1.0,
+      "target_power_wilson_95": [
+        0.9992322980549431,
+        1.0
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Luna_pressure_reference",
+      "effect": 0.65,
+      "target_endpoint_index": 2,
+      "target_power": 1.0,
+      "target_power_wilson_95": [
+        0.9992322980549431,
+        1.0
+      ],
+      "assumptions": "independent binary request errors, neutral rate .25, strong rate .25+effect, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Baidu_within_provider_interaction_reference",
+      "effect": 0.1,
+      "target_endpoint_index": 3,
+      "target_power": 0.003,
+      "target_power_wilson_95": [
+        0.0018189297776376753,
+        0.004944165955749107
+      ],
+      "assumptions": "independent binary request errors, neutral rate .5, strong rates .5-effect/2 and .5+effect/2, Luna pressure zero, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Baidu_within_provider_interaction_reference",
+      "effect": 0.2,
+      "target_endpoint_index": 3,
+      "target_power": 0.0948,
+      "target_power_wilson_95": [
+        0.08698853981142897,
+        0.10323360584484532
+      ],
+      "assumptions": "independent binary request errors, neutral rate .5, strong rates .5-effect/2 and .5+effect/2, Luna pressure zero, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Baidu_within_provider_interaction_reference",
+      "effect": 0.4,
+      "target_endpoint_index": 3,
+      "target_power": 0.9322,
+      "target_power_wilson_95": [
+        0.924894586050852,
+        0.9388418123878408
+      ],
+      "assumptions": "independent binary request errors, neutral rate .5, strong rates .5-effect/2 and .5+effect/2, Luna pressure zero, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Baidu_within_provider_interaction_reference",
+      "effect": 0.65,
+      "target_endpoint_index": 3,
+      "target_power": 1.0,
+      "target_power_wilson_95": [
+        0.9992322980549431,
+        1.0
+      ],
+      "assumptions": "independent binary request errors, neutral rate .5, strong rates .5-effect/2 and .5+effect/2, Luna pressure zero, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    },
+    {
+      "scenario": "Baidu_within_provider_interaction_reference",
+      "effect": 1.0,
+      "target_endpoint_index": 3,
+      "target_power": 1.0,
+      "target_power_wilson_95": [
+        0.9992322980549431,
+        1.0
+      ],
+      "assumptions": "independent binary request errors, neutral rate .5, strong rates .5-effect/2 and .5+effect/2, Luna pressure zero, two orders; original DeepInfra and CoreWeave six raw p-values fixed to one"
+    }
+  ],
+  "limits": "This inactive-stage reference does not specify a response correlation model across repeated-case provider stages and is not an actual-data forecast. Power is complete-data and scenario-specific; missingness may reduce power. Holm permits arbitrary test dependence; each raw test still requires independent whole-case clusters. Simulations do not establish general validity."
+}

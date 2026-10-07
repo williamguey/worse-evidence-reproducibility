@@ -1,0 +1,60 @@
+{
+  "call_id": "h01ev-heldout-f48a2566739478e3fdd1",
+  "created": "2026-10-06T03:34:56.447104+00:00",
+  "body": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Recommend a report for the supplied fictional simulator under its stated decision objective. Return only the requested JSON answer."
+      },
+      {
+        "role": "user",
+        "content": "Complete the acquisition decision for this fictional case.\n\nFictional case: fictional navigation waypoint simulator. A hidden state Z is either 0 or 1. Exactly one report must be purchased before observing its binary signal; then take the optimal ACT or WAIT action for that signal. Minimize expected terminal loss plus acquisition cost, in the same artificial score units. ACT has zero loss in state 1; WAIT has zero loss in state 0. Acquisition cost is paid for either signal. No other action or purchase is available.\n\nSensitivity is P(signal + | Z=1); specificity is P(signal - | Z=0). Report characteristics below are independently verified. Both reports arrive in the same fully readable canonical-English interface, with equal delivery time and effort and no additional fees.\n\nPrior P(Z=1): 1/2\nLoss ACT in state 0: 30\nLoss WAIT in state 1: 16\nReport A: sensitivity=3/5; specificity=13/20; acquisition_cost=13/20\nReport B: sensitivity=49/50; specificity=49/50; acquisition_cost=4/5\n\nAudited expected total costs, including acquisition and optimal subsequent action:\nReport A: 173/20\nReport B: 63/50\n\nAcquisition menu:\nA: Purchase Report A, then take its optimal signal-contingent ACT/WAIT action.\nB: Purchase Report B, then take its optimal signal-contingent ACT/WAIT action.\n\nReturn exactly {\"choice\":\"A\"} or {\"choice\":\"B\"}."
+      }
+    ],
+    "max_tokens": 2048,
+    "reasoning": {
+      "effort": "low"
+    },
+    "stream": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "report_choice",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "require_parameters": true,
+      "max_price": {
+        "prompt": 0.75,
+        "completion": 3.75
+      }
+    },
+    "plugins": [
+      {
+        "id": "context-compression",
+        "enabled": false
+      }
+    ],
+    "temperature": 0
+  },
+  "sha256": "1688fced6b0f1d104c869dd16e3e946c198673b940beae72bad9f3eccc33b40b"
+}

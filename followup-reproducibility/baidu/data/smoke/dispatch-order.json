@@ -1,0 +1,32 @@
+{
+  "seed": 26101691,
+  "ordered_ids": [
+    "h01reason-bd-v7-smoke-ds_off_bd-0e26f05f9d2ef52e47e6",
+    "h01reason-bd-v7-smoke-ds_off_bd-958c453589ca725944df",
+    "h01reason-bd-v7-smoke-ds_low_bd-b7932753df8fc53797ed",
+    "h01reason-bd-v7-smoke-ds_low_bd-290c7cdc7e5ba310384c",
+    "h01reason-bd-v7-smoke-ds_off_bd-11c42394a3e817bb900c",
+    "h01reason-bd-v7-smoke-ds_off_bd-29733765d71b797b29d5",
+    "h01reason-bd-v7-smoke-ds_off_bd-d5e66ac459d41dad604f",
+    "h01reason-bd-v7-smoke-ds_low_bd-17adfb030b4ba8e57fb8",
+    "h01reason-bd-v7-smoke-ds_low_bd-afcc2b209360d9726b30",
+    "h01reason-bd-v7-smoke-ds_off_bd-cbe711645d102b143050",
+    "h01reason-bd-v7-smoke-ds_off_bd-2451c5ef6bc6dd31d4a3",
+    "h01reason-bd-v7-smoke-ds_low_bd-3677047c0da7a2033035",
+    "h01reason-bd-v7-smoke-ds_off_bd-ae6460e448942653b12f",
+    "h01reason-bd-v7-smoke-ds_off_bd-46a06ce39fb4048612f0",
+    "h01reason-bd-v7-smoke-ds_low_bd-a9bc13a7ee4a8469aa3e",
+    "h01reason-bd-v7-smoke-ds_off_bd-f2c09c1c3bdcb2b05e86",
+    "h01reason-bd-v7-smoke-ds_off_bd-f43087dcca89533b5a94",
+    "h01reason-bd-v7-smoke-ds_low_bd-cdc01a477bd0b8abe159",
+    "h01reason-bd-v7-smoke-ds_low_bd-f43ce5d62e1eced56cce",
+    "h01reason-bd-v7-smoke-ds_off_bd-f336a3ec07c412d65945",
+    "h01reason-bd-v7-smoke-ds_low_bd-d046f3322448796f5d03",
+    "h01reason-bd-v7-smoke-ds_low_bd-eff27e7a3081c71bd736",
+    "h01reason-bd-v7-smoke-ds_low_bd-6ae27f5ebab622c3619c",
+    "h01reason-bd-v7-smoke-ds_low_bd-55a7b73369493964ec45"
+  ],
+  "ordered_ids_sha256": "7df93cd521e7b09876f9025ae49a1b6c5adebd78afb24594e489e80dac7dc704",
+  "request_index_sha256": "ac916a38dc800bd74956eea5aeebe7d7d6a436ac271fde5a6d5174cb026b8679",
+  "authority": "original V5 seeded permutation restricted to selected assignments; provider substituted"
+}

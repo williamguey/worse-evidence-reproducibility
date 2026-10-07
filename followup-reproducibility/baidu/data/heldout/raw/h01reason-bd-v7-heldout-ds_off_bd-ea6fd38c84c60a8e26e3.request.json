@@ -1,0 +1,65 @@
+{
+  "call_id": "h01reason-bd-v7-heldout-ds_off_bd-ea6fd38c84c60a8e26e3",
+  "created": "2026-10-06T19:00:52.150869+00:00",
+  "body": {
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Recommend a report for the supplied fictional simulator under its stated decision objective. Return only the requested JSON answer."
+      },
+      {
+        "role": "user",
+        "content": "Complete the acquisition decision for this fictional case.\n\nFictional case: fictional navigation waypoint simulator. A hidden state Z is either 0 or 1. Exactly one report must be purchased before observing its binary signal; then take the optimal ACT or WAIT action for that signal. Minimize expected terminal loss plus acquisition cost, in the same artificial score units. ACT has zero loss in state 1; WAIT has zero loss in state 0. Acquisition cost is paid for either signal. No other action or purchase is available.\n\nSensitivity is P(signal + | Z=1); specificity is P(signal - | Z=0). Report characteristics below are independently verified. Both reports arrive in the same fully readable canonical-English interface, with equal delivery time and effort and no additional fees.\n\nPrior P(Z=1): 1/2\nLoss ACT in state 0: 12\nLoss WAIT in state 1: 24\nReport B: sensitivity=3/5; specificity=11/20; acquisition_cost=13/10\nReport A: sensitivity=49/50; specificity=49/50; acquisition_cost=31/20\n\nAudited expected total costs, including acquisition and optimal subsequent action:\nReport B: 73/10\nReport A: 191/100\n\nAcquisition menu:\nB: Purchase Report B, then take its optimal signal-contingent ACT/WAIT action.\nA: Purchase Report A, then take its optimal signal-contingent ACT/WAIT action.\n\nReturn exactly {\"choice\":\"A\"} or {\"choice\":\"B\"}."
+      }
+    ],
+    "max_tokens": 8192,
+    "reasoning": {
+      "enabled": false
+    },
+    "stream": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "report_choice",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "baidu/fp8"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "max_price": {
+        "prompt": 1.32,
+        "completion": 3.96
+      }
+    },
+    "plugins": [
+      {
+        "id": "context-compression",
+        "enabled": false
+      }
+    ]
+  },
+  "body_sha256": "ea6fd38c84c60a8e26e3118694552ab2574a745226e9a303dd5626e77d93e7ed",
+  "prompt_sha256": "f0f64ff182b51411615b443102fcc43e185f2ef7539a2f5c8e2f6099bafc71ee",
+  "settings_sha256": "7e46ba26e0a85f0a9fce252bd5bcd3f091ba80f76699c626a60813371446811f"
+}

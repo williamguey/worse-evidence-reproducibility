@@ -1,0 +1,1602 @@
+[
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-001",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "101",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "51/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "1/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "101/40",
+              "WAIT_loss_contribution": "57/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "101/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "1919/40",
+              "WAIT_loss_contribution": "3/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            }
+          },
+          "expected_terminal_loss": "113/40",
+          "expected_total_score": "567/200"
+        },
+        "B": {
+          "cost": "51/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "101/5",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "303/10",
+              "WAIT_loss_contribution": "12/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            }
+          },
+          "expected_terminal_loss": "6",
+          "expected_total_score": "651/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "567/200",
+      "regret_of_wrong_report": "147/40",
+      "pre_report_terminal_risk_scale": "6",
+      "normalized_regret": "49/80"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 0
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-002",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "103",
+      "loss_WAIT_state1": "14",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/50"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "13/25"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "13/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "103/5",
+              "WAIT_loss_contribution": "21/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "309/10",
+              "WAIT_loss_contribution": "14/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "14/5"
+            }
+          },
+          "expected_terminal_loss": "7",
+          "expected_total_score": "188/25"
+        },
+        "B": {
+          "cost": "1/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "103/40",
+              "WAIT_loss_contribution": "133/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "103/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "1957/40",
+              "WAIT_loss_contribution": "7/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/20"
+            }
+          },
+          "expected_terminal_loss": "117/40",
+          "expected_total_score": "589/200"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "589/200",
+      "regret_of_wrong_report": "183/40",
+      "pre_report_terminal_risk_scale": "7",
+      "normalized_regret": "183/280"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 1
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-003",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "105",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "53/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "3/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "21/8",
+              "WAIT_loss_contribution": "38/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "21/8"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "399/8",
+              "WAIT_loss_contribution": "2/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "2/5"
+            }
+          },
+          "expected_terminal_loss": "121/40",
+          "expected_total_score": "611/200"
+        },
+        "B": {
+          "cost": "53/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "21",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "63/2",
+              "WAIT_loss_contribution": "16/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "16/5"
+            }
+          },
+          "expected_terminal_loss": "8",
+          "expected_total_score": "853/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "611/200",
+      "regret_of_wrong_report": "219/40",
+      "pre_report_terminal_risk_scale": "8",
+      "normalized_regret": "219/320"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 2
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-004",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "107",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "27/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "27/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "107/5",
+              "WAIT_loss_contribution": "27/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "27/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "321/10",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            }
+          },
+          "expected_terminal_loss": "9",
+          "expected_total_score": "477/50"
+        },
+        "B": {
+          "cost": "1/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "107/40",
+              "WAIT_loss_contribution": "171/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "107/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "2033/40",
+              "WAIT_loss_contribution": "9/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            }
+          },
+          "expected_terminal_loss": "25/8",
+          "expected_total_score": "633/200"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "633/200",
+      "regret_of_wrong_report": "51/8",
+      "pre_report_terminal_risk_scale": "9",
+      "normalized_regret": "17/24"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 3
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-005",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "109",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "11/20"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "1/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "109/40",
+              "WAIT_loss_contribution": "19/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "109/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "2071/40",
+              "WAIT_loss_contribution": "1/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            }
+          },
+          "expected_terminal_loss": "129/40",
+          "expected_total_score": "131/40"
+        },
+        "B": {
+          "cost": "11/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "109/5",
+              "WAIT_loss_contribution": "6",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "327/10",
+              "WAIT_loss_contribution": "4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4"
+            }
+          },
+          "expected_terminal_loss": "10",
+          "expected_total_score": "211/20"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "131/40",
+      "regret_of_wrong_report": "291/40",
+      "pre_report_terminal_risk_scale": "10",
+      "normalized_regret": "291/400"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 4
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-006",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "111",
+      "loss_WAIT_state1": "22",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/50"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "14/25"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "14/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "111/5",
+              "WAIT_loss_contribution": "33/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "33/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "333/10",
+              "WAIT_loss_contribution": "22/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "22/5"
+            }
+          },
+          "expected_terminal_loss": "11",
+          "expected_total_score": "289/25"
+        },
+        "B": {
+          "cost": "3/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "111/40",
+              "WAIT_loss_contribution": "209/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "111/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "2109/40",
+              "WAIT_loss_contribution": "11/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "11/20"
+            }
+          },
+          "expected_terminal_loss": "133/40",
+          "expected_total_score": "677/200"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "677/200",
+      "regret_of_wrong_report": "327/40",
+      "pre_report_terminal_risk_scale": "11",
+      "normalized_regret": "327/440"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 5
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-007",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "113",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "7/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "57/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "7/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "113/40",
+              "WAIT_loss_contribution": "57/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "113/40"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "2147/40",
+              "WAIT_loss_contribution": "3/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            }
+          },
+          "expected_terminal_loss": "137/40",
+          "expected_total_score": "699/200"
+        },
+        "B": {
+          "cost": "57/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "113/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "36/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "339/10",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            }
+          },
+          "expected_terminal_loss": "12",
+          "expected_total_score": "1257/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "699/200",
+      "regret_of_wrong_report": "363/40",
+      "pre_report_terminal_risk_scale": "12",
+      "normalized_regret": "121/160"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 6
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-008",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "115",
+      "loss_WAIT_state1": "26",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "2/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "29/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "29/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "23",
+              "WAIT_loss_contribution": "39/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "39/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "69/2",
+              "WAIT_loss_contribution": "26/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "26/5"
+            }
+          },
+          "expected_terminal_loss": "13",
+          "expected_total_score": "679/50"
+        },
+        "B": {
+          "cost": "2/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "23/8",
+              "WAIT_loss_contribution": "247/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "23/8"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "437/8",
+              "WAIT_loss_contribution": "13/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "13/20"
+            }
+          },
+          "expected_terminal_loss": "141/40",
+          "expected_total_score": "721/200"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "721/200",
+      "regret_of_wrong_report": "399/40",
+      "pre_report_terminal_risk_scale": "13",
+      "normalized_regret": "399/520"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 7
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-009",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "26",
+      "loss_WAIT_state1": "28",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "9/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "59/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "9/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "13/20",
+              "WAIT_loss_contribution": "133/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "13/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "247/20",
+              "WAIT_loss_contribution": "7/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/10"
+            }
+          },
+          "expected_terminal_loss": "27/20",
+          "expected_total_score": "36/25"
+        },
+        "B": {
+          "cost": "59/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "26/5",
+              "WAIT_loss_contribution": "42/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "26/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "39/5",
+              "WAIT_loss_contribution": "28/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "28/5"
+            }
+          },
+          "expected_terminal_loss": "54/5",
+          "expected_total_score": "1139/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "36/25",
+      "regret_of_wrong_report": "199/20",
+      "pre_report_terminal_risk_scale": "13",
+      "normalized_regret": "199/260"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 8
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-010",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "28",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/10"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "3/5"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "3/5",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "28/5",
+              "WAIT_loss_contribution": "9",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "28/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "42/5",
+              "WAIT_loss_contribution": "6",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6"
+            }
+          },
+          "expected_terminal_loss": "58/5",
+          "expected_total_score": "61/5"
+        },
+        "B": {
+          "cost": "1/10",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "7/10",
+              "WAIT_loss_contribution": "57/4",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "7/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "133/10",
+              "WAIT_loss_contribution": "3/4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/4"
+            }
+          },
+          "expected_terminal_loss": "29/20",
+          "expected_total_score": "31/20"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "31/20",
+      "regret_of_wrong_report": "213/20",
+      "pre_report_terminal_risk_scale": "14",
+      "normalized_regret": "213/280"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 9
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-011",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "32",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "11/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "61/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "11/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/4",
+              "WAIT_loss_contribution": "76/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/4"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/4",
+              "WAIT_loss_contribution": "4/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4/5"
+            }
+          },
+          "expected_terminal_loss": "31/20",
+          "expected_total_score": "83/50"
+        },
+        "B": {
+          "cost": "61/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "6",
+              "WAIT_loss_contribution": "48/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "6"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "9",
+              "WAIT_loss_contribution": "32/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "32/5"
+            }
+          },
+          "expected_terminal_loss": "62/5",
+          "expected_total_score": "1301/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "83/50",
+      "regret_of_wrong_report": "227/20",
+      "pre_report_terminal_risk_scale": "15",
+      "normalized_regret": "227/300"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 10
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-012",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "32",
+      "loss_WAIT_state1": "34",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "31/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "31/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "32/5",
+              "WAIT_loss_contribution": "51/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "32/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "48/5",
+              "WAIT_loss_contribution": "34/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "34/5"
+            }
+          },
+          "expected_terminal_loss": "66/5",
+          "expected_total_score": "691/50"
+        },
+        "B": {
+          "cost": "3/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "4/5",
+              "WAIT_loss_contribution": "323/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "4/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "76/5",
+              "WAIT_loss_contribution": "17/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "17/20"
+            }
+          },
+          "expected_terminal_loss": "33/20",
+          "expected_total_score": "177/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "177/100",
+      "regret_of_wrong_report": "241/20",
+      "pre_report_terminal_risk_scale": "16",
+      "normalized_regret": "241/320"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 11
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-013",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "34",
+      "loss_WAIT_state1": "36",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "13/100"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "63/100"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "13/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "17/20",
+              "WAIT_loss_contribution": "171/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "17/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "323/20",
+              "WAIT_loss_contribution": "9/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            }
+          },
+          "expected_terminal_loss": "7/4",
+          "expected_total_score": "47/25"
+        },
+        "B": {
+          "cost": "63/100",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "34/5",
+              "WAIT_loss_contribution": "54/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "34/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "51/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "36/5"
+            }
+          },
+          "expected_terminal_loss": "14",
+          "expected_total_score": "1463/100"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "47/25",
+      "regret_of_wrong_report": "51/4",
+      "pre_report_terminal_risk_scale": "17",
+      "normalized_regret": "3/4"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 12
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-014",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "36",
+      "loss_WAIT_state1": "38",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "7/50"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "16/25"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "16/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "57/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "36/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "54/5",
+              "WAIT_loss_contribution": "38/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "38/5"
+            }
+          },
+          "expected_terminal_loss": "74/5",
+          "expected_total_score": "386/25"
+        },
+        "B": {
+          "cost": "7/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "9/10",
+              "WAIT_loss_contribution": "361/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "171/10",
+              "WAIT_loss_contribution": "19/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "19/20"
+            }
+          },
+          "expected_terminal_loss": "37/20",
+          "expected_total_score": "199/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "199/100",
+      "regret_of_wrong_report": "269/20",
+      "pre_report_terminal_risk_scale": "18",
+      "normalized_regret": "269/360"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 13
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-015",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "38",
+      "loss_WAIT_state1": "40",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "13/20"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "3/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "19/20",
+              "WAIT_loss_contribution": "19",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "19/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "361/20",
+              "WAIT_loss_contribution": "1",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1"
+            }
+          },
+          "expected_terminal_loss": "39/20",
+          "expected_total_score": "21/10"
+        },
+        "B": {
+          "cost": "13/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "38/5",
+              "WAIT_loss_contribution": "12",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "38/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "57/5",
+              "WAIT_loss_contribution": "8",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "8"
+            }
+          },
+          "expected_terminal_loss": "78/5",
+          "expected_total_score": "65/4"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "21/10",
+      "regret_of_wrong_report": "283/20",
+      "pre_report_terminal_risk_scale": "19",
+      "normalized_regret": "283/380"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 14
+    }
+  },
+  {
+    "case_id": "H01-EVACQ-20261006-heldout-control-016",
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "40",
+      "loss_WAIT_state1": "42",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "4/25"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "33/50"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "33/50",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "8",
+              "WAIT_loss_contribution": "63/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "8"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "12",
+              "WAIT_loss_contribution": "42/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "42/5"
+            }
+          },
+          "expected_terminal_loss": "82/5",
+          "expected_total_score": "853/50"
+        },
+        "B": {
+          "cost": "4/25",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1",
+              "WAIT_loss_contribution": "399/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19",
+              "WAIT_loss_contribution": "21/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/20"
+            }
+          },
+          "expected_terminal_loss": "41/20",
+          "expected_total_score": "221/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "221/100",
+      "regret_of_wrong_report": "297/20",
+      "pre_report_terminal_risk_scale": "20",
+      "normalized_regret": "297/400"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 15
+    }
+  }
+]

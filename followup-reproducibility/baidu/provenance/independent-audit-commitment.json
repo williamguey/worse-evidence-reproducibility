@@ -1,0 +1,49 @@
+{
+  "source_receipt_sha256": "58719b7ccb01c25f66b3f6ad05abc0e062a0622efe9f484955a2c8862cf265ab",
+  "genuine_data_audit_pass": true,
+  "independent_checks_completed": {
+    "retired_coreweave_zero_main_cutoff": true,
+    "original_h01_holm2_unchanged": true,
+    "speed_source_review_freeze": true,
+    "shared_lock_and_stable_terminal_metadata": true,
+    "speed_old_cutoff_immutable": true,
+    "durable_shared_budget_and_unknown_reservations": true,
+    "old_cutoff_live_integrity": true,
+    "retired_coreweave_live_integrity": true,
+    "all_old_2496_cells": true,
+    "all_new_1664_cells": true,
+    "luna_832_exact_single_reuse": true,
+    "strict_schema_receipts": true,
+    "independent_oracle_and_scoring": true,
+    "speed_logical_timing_concurrency": true,
+    "speed_contiguous_prefix_circuit": true,
+    "two_mode_lane_order_pacing_circuit_and_no_retry": true,
+    "token_only_smoke_forecast": true,
+    "old_scored_comparison": true,
+    "new_scored_comparison": true,
+    "old_holm4_artifact_comparison": true,
+    "new_native_panel_comparison": true,
+    "raw_ten_endpoint_holm10_comparison": true
+  },
+  "provenance": {
+    "terminal_metadata_sha256": "504169e587a0905e9b2664e957c5d07b14d2764cb638bdbaf766fcfdc3cecd3d",
+    "stage_freeze_sha256": "4bdd9ec8804f86f64d5530b6d23ecd55fde29e52897a0d6abbb47b57fc35c39d",
+    "full_panel_index_sha256": "8c1ae29612bbe200ac467c85c4d54f6afccf05e1afc19ecd966e9a970f24ed3c",
+    "paid_index_sha256": "60a91e0776712e3543be06daf5dcfd72011c40a81e69c41ffdaca58125b4f90c",
+    "request_mapping_sha256": "a145f0f55e5df6d145a5cc46dbcc23e0588744e253086b20c65ab629a63f3758",
+    "original_terminal_sha256": "e0182fe9f4ef6e090d5e70f8d4d0116f0646909b1d9e22b99b27c7eb973f3ea1",
+    "coreweave_terminal_metadata_sha256": "1c0d7d795a39364b4913c0bd4ebd3947a2ae369f0a7f25e781223cafd24eb651",
+    "coreweave_terminal_cutoff_sha256": "ad4615e9757f9aadefb6a680f1800d7838239045fda701f78683bdcf3bf33968",
+    "coreweave_freeze_sha256": "46b7c83058260493d271f92018259ca12d8d9c6230ca9c995bf83e1767b64c2d"
+  },
+  "speed_provenance": {
+    "speed_review_pass_sha256": "3056cb1fce7070d090cd2c3c1821dc0bbf9a5df8d0493de50e8149217356be45",
+    "speed_amendment_freeze_sha256": "ddca71e10e132f494736d4ab49418a20e9b828d4721cdadf6fbcaa93d828befd",
+    "speed_cutoff_sha256": "ed54d3b9d3eec1f843bc3c70b30338c880cce9ea6eb97cdd52f56a686478d9a8",
+    "speed_handoff_sha256": "fa5a28a705a8f6015ef672943fb9b5650d02d61f508329779755b237e1ea2eec",
+    "speed_adapter_source_sha256": "1f91584fa45c196b90b153cb5419e9bcdaefcbb1085d044e1f168d56f845fae7",
+    "speed_packager_source_sha256": "a9f9f42966b717a426b304b01602364a4255dd2748afa9493283ed5a9fb945dc"
+  },
+  "charges_verified_privately": true,
+  "monetary_values_withheld": true
+}

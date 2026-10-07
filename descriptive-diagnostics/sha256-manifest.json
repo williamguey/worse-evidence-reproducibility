@@ -1,0 +1,23 @@
+{
+  "manifest_version": "h01-descriptive-companion-sha256-v1",
+  "hash_algorithm": "SHA256",
+  "scope": "This file lists all other companion files; it does not hash itself.",
+  "baseline_bundle": {
+    "filename": "followup-reproducibility.zip",
+    "sha256": "2a472f34c325e5b0c7f472040c920be19953640117b905d56e73e7710b1157ac"
+  },
+  "files": {
+    "descriptive_diagnostics.py": {
+      "sha256": "b39e613b008e2fec0b3d3b9744c97af9bc7d1c898de054f24488240d362e32b6",
+      "bytes": 18787
+    },
+    "transition-diagnostics.json": {
+      "sha256": "b938d6fbce9608fcbc415bd7c67ff4d5471528aff2a9ff3e5b3dd9075c11871c",
+      "bytes": 105183
+    },
+    "README.txt": {
+      "sha256": "f6af0793ae9d5767ee9164879e6edeb4e9ef2198ec997a5c131250fa17bd6772",
+      "bytes": 2493
+    }
+  }
+}

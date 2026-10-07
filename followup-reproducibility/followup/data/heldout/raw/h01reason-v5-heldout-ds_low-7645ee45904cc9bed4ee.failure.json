@@ -1,0 +1,16 @@
+{
+  "call_id": "h01reason-v5-heldout-ds_low-7645ee45904cc9bed4ee",
+  "time": "2026-10-06T14:27:03.119931+00:00",
+  "error_type": "HTTPError",
+  "http_status": 429,
+  "transport_timeout": false,
+  "fatal": false,
+  "error_body_available": true,
+  "error_body_format": "json",
+  "error_code": 429,
+  "body_sha256": "7645ee45904cc9bed4ee0749e9cd142eb7230ce4d79da4e1125052865d35db9f",
+  "prompt_sha256": "94c5584a66e299b3a68607052958c9687b22c55f4c6951dd26f69663d131d820",
+  "settings_sha256": "c79a545d7a9a2f501a0740bbaa68031c8795c73378f6b000256cdc0996c52a03",
+  "publication_projection": true,
+  "retry": false
+}

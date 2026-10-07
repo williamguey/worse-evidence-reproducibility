@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-10-06T18:09:22.002808+00:00",
+  "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+  "source_sha256": "d662c77b39839255e4fc31e7f2b882b6bcdbabae937e9ea5a023fb730abbd9d6",
+  "model_id_exact": "deepseek/deepseek-v4-pro-0813",
+  "provider": {
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0.00000132",
+      "completion": "0.00000396",
+      "input_cache_read": "0.000000042",
+      "discount": 0
+    },
+    "provider_name": "Baidu",
+    "tag": "baidu/fp8",
+    "quantization": "fp8",
+    "max_completion_tokens": 393216,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "max_tokens",
+      "stop",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+    ]
+  },
+  "quantization_evidence": "Dated endpoint metadata and pinned routing; returned receipts do not independently measure quantization"
+}

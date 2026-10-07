@@ -1,0 +1,61 @@
+{
+  "call_id": "h01reason-v5-heldout-gpt6_luna_low-5d7eb3c605966bc97193",
+  "created": "2026-10-06T12:31:52.063889+00:00",
+  "body": {
+    "model": "openai/gpt-6-luna",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Recommend a report for the supplied fictional simulator under its stated decision objective. Return only the requested JSON answer."
+      },
+      {
+        "role": "user",
+        "content": "Complete the acquisition decision for this fictional case.\n\nFictional case: fictional navigation waypoint simulator. A hidden state Z is either 0 or 1. Exactly one report must be purchased before observing its binary signal; then take the optimal ACT or WAIT action for that signal. Minimize expected terminal loss plus acquisition cost, in the same artificial score units. ACT has zero loss in state 1; WAIT has zero loss in state 0. Acquisition cost is paid for either signal. No other action or purchase is available.\n\nSensitivity is P(signal + | Z=1); specificity is P(signal - | Z=0). Report characteristics below are independently verified. Both reports arrive in the same fully readable canonical-English interface, with equal delivery time and effort and no additional fees.\n\nPrior P(Z=1): 1/4\nLoss ACT in state 0: 4\nLoss WAIT in state 1: 8\nReport B: sensitivity=9/10; specificity=4/5; acquisition_cost=9/10\nReport A: sensitivity=9/10; specificity=3/5; acquisition_cost=41/20\n\nAcquisition menu:\nB: Purchase Report B, then take its optimal signal-contingent ACT/WAIT action.\nA: Purchase Report A, then take its optimal signal-contingent ACT/WAIT action.\n\nReturn exactly {\"choice\":\"A\"} or {\"choice\":\"B\"}."
+      }
+    ],
+    "max_tokens": 8192,
+    "reasoning": {
+      "effort": "low"
+    },
+    "stream": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "report_choice",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "plugins": [
+      {
+        "id": "context-compression",
+        "enabled": false
+      }
+    ]
+  },
+  "body_sha256": "5d7eb3c605966bc97193c60cb1b7daea7f3d8d169ad2f2c0993372cd068d3c0d",
+  "prompt_sha256": "77d17c16bf6af13f3c10e6820a76f32fd8357526985036602bf1ac17a23a45a7",
+  "settings_sha256": "3474c44bfbc20903cdc1acc4730ab21fd5cf1ac9e530e8cae291eb05ba4a25f0"
+}

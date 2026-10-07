@@ -1,0 +1,1186 @@
+[
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_8e28c3becfd3abf8",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "9/10",
+          "cost": "17/10"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 1,
+      "draws_for_case": 91,
+      "parameter_tuple": [
+        "1/10",
+        "10",
+        "24",
+        [
+          "4/5",
+          "4/5",
+          "11/20"
+        ],
+        [
+          "9/10",
+          "9/10",
+          "17/10"
+        ]
+      ],
+      "parameter_sha256": "8e28c3becfd3abf82d4d4d2e62e012ab38b7735a31ef51a7281b6c8bff57e962",
+      "strata": {
+        "optimal_cost": "cheaper",
+        "regret": "low",
+        "state1_prevalence": "rare",
+        "optimal_report": "A",
+        "loss_asymmetry": "WAIT_larger",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "11/20",
+          "signals": {
+            "+": {
+              "joint_state0": "9/50",
+              "joint_state1": "2/25",
+              "signal_probability": "13/50",
+              "posterior_state1": "4/13",
+              "ACT_loss_contribution": "9/5",
+              "WAIT_loss_contribution": "48/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/5"
+            },
+            "-": {
+              "joint_state0": "18/25",
+              "joint_state1": "1/50",
+              "signal_probability": "37/50",
+              "posterior_state1": "1/37",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "12/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/25"
+            }
+          },
+          "expected_terminal_loss": "57/25",
+          "expected_total_score": "283/100"
+        },
+        "B": {
+          "cost": "17/10",
+          "signals": {
+            "+": {
+              "joint_state0": "9/100",
+              "joint_state1": "9/100",
+              "signal_probability": "9/50",
+              "posterior_state1": "1/2",
+              "ACT_loss_contribution": "9/10",
+              "WAIT_loss_contribution": "54/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            },
+            "-": {
+              "joint_state0": "81/100",
+              "joint_state1": "1/100",
+              "signal_probability": "41/50",
+              "posterior_state1": "1/82",
+              "ACT_loss_contribution": "81/10",
+              "WAIT_loss_contribution": "6/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6/25"
+            }
+          },
+          "expected_terminal_loss": "57/50",
+          "expected_total_score": "71/25"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "283/100",
+      "regret_of_wrong_report": "1/100",
+      "pre_report_terminal_risk_scale": "12/5",
+      "normalized_regret": "1/240"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_689a617e78748763",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "3/4",
+          "cost": "7/4"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 21,
+      "draws_for_case": 7,
+      "parameter_tuple": [
+        "3/5",
+        "24",
+        "15",
+        [
+          "11/20",
+          "3/4",
+          "7/4"
+        ],
+        [
+          "13/20",
+          "3/4",
+          "3/5"
+        ]
+      ],
+      "parameter_sha256": "689a617e78748763c5b0abb022b30cfecc4ba79963528e20de1959c934e6ac6d",
+      "strata": {
+        "optimal_cost": "cheaper",
+        "regret": "moderate",
+        "state1_prevalence": "common",
+        "optimal_report": "A",
+        "loss_asymmetry": "ACT_larger",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "3/5",
+          "signals": {
+            "+": {
+              "joint_state0": "1/10",
+              "joint_state1": "39/100",
+              "signal_probability": "49/100",
+              "posterior_state1": "39/49",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "117/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "21/100",
+              "signal_probability": "51/100",
+              "posterior_state1": "7/17",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "63/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "63/20"
+            }
+          },
+          "expected_terminal_loss": "111/20",
+          "expected_total_score": "123/20"
+        },
+        "B": {
+          "cost": "7/4",
+          "signals": {
+            "+": {
+              "joint_state0": "1/10",
+              "joint_state1": "33/100",
+              "signal_probability": "43/100",
+              "posterior_state1": "33/43",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "99/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "27/100",
+              "signal_probability": "57/100",
+              "posterior_state1": "9/19",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "81/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "81/20"
+            }
+          },
+          "expected_terminal_loss": "129/20",
+          "expected_total_score": "41/5"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "123/20",
+      "regret_of_wrong_report": "41/20",
+      "pre_report_terminal_risk_scale": "9",
+      "normalized_regret": "41/180"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_8132d4b5182a984e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "3/4",
+          "cost": "1/20"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 23,
+      "draws_for_case": 72,
+      "parameter_tuple": [
+        "3/20",
+        "20",
+        "15",
+        [
+          "3/4",
+          "3/4",
+          "1/20"
+        ],
+        [
+          "49/50",
+          "49/50",
+          "19/20"
+        ]
+      ],
+      "parameter_sha256": "8132d4b5182a984e59d16a77d09ca5d908b2522430dcdfff5decd1901c9efb4c",
+      "strata": {
+        "optimal_cost": "more_expensive",
+        "regret": "high",
+        "state1_prevalence": "rare",
+        "optimal_report": "A",
+        "loss_asymmetry": "ACT_larger",
+        "policy_pattern": "one_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "19/20",
+          "signals": {
+            "+": {
+              "joint_state0": "17/1000",
+              "joint_state1": "147/1000",
+              "signal_probability": "41/250",
+              "posterior_state1": "147/164",
+              "ACT_loss_contribution": "17/50",
+              "WAIT_loss_contribution": "441/200",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "17/50"
+            },
+            "-": {
+              "joint_state0": "833/1000",
+              "joint_state1": "3/1000",
+              "signal_probability": "209/250",
+              "posterior_state1": "3/836",
+              "ACT_loss_contribution": "833/50",
+              "WAIT_loss_contribution": "9/200",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/200"
+            }
+          },
+          "expected_terminal_loss": "77/200",
+          "expected_total_score": "267/200"
+        },
+        "B": {
+          "cost": "1/20",
+          "signals": {
+            "+": {
+              "joint_state0": "17/80",
+              "joint_state1": "9/80",
+              "signal_probability": "13/40",
+              "posterior_state1": "9/26",
+              "ACT_loss_contribution": "17/4",
+              "WAIT_loss_contribution": "27/16",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "27/16"
+            },
+            "-": {
+              "joint_state0": "51/80",
+              "joint_state1": "3/80",
+              "signal_probability": "27/40",
+              "posterior_state1": "1/18",
+              "ACT_loss_contribution": "51/4",
+              "WAIT_loss_contribution": "9/16",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/16"
+            }
+          },
+          "expected_terminal_loss": "9/4",
+          "expected_total_score": "23/10"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "267/200",
+      "regret_of_wrong_report": "193/200",
+      "pre_report_terminal_risk_scale": "9/4",
+      "normalized_regret": "193/450"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_456949cec6116de6",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "3/5"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 12,
+      "draws_for_case": 14,
+      "parameter_tuple": [
+        "1/2",
+        "30",
+        "30",
+        [
+          "13/20",
+          "49/50",
+          "3/5"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "7/4"
+        ]
+      ],
+      "parameter_sha256": "456949cec6116de6e96fea9aafc2e74c86d3f71e00abf906f991c4b9a3972c36",
+      "strata": {
+        "optimal_cost": "more_expensive",
+        "regret": "low",
+        "state1_prevalence": "common",
+        "optimal_report": "A",
+        "loss_asymmetry": "symmetric",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "7/4",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "9/4",
+              "WAIT_loss_contribution": "27/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/4"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "51/4",
+              "WAIT_loss_contribution": "3/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            }
+          },
+          "expected_terminal_loss": "15/4",
+          "expected_total_score": "11/2"
+        },
+        "B": {
+          "cost": "3/5",
+          "signals": {
+            "+": {
+              "joint_state0": "1/100",
+              "joint_state1": "13/40",
+              "signal_probability": "67/200",
+              "posterior_state1": "65/67",
+              "ACT_loss_contribution": "3/10",
+              "WAIT_loss_contribution": "39/4",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            },
+            "-": {
+              "joint_state0": "49/100",
+              "joint_state1": "7/40",
+              "signal_probability": "133/200",
+              "posterior_state1": "5/19",
+              "ACT_loss_contribution": "147/10",
+              "WAIT_loss_contribution": "21/4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/4"
+            }
+          },
+          "expected_terminal_loss": "111/20",
+          "expected_total_score": "123/20"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "11/2",
+      "regret_of_wrong_report": "13/20",
+      "pre_report_terminal_risk_scale": "15",
+      "normalized_regret": "13/300"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_f8ba5f89334029b5",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "7/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "13/10"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 5,
+      "draws_for_case": 21,
+      "parameter_tuple": [
+        "1/10",
+        "10",
+        "18",
+        [
+          "13/20",
+          "19/20",
+          "13/10"
+        ],
+        [
+          "4/5",
+          "9/10",
+          "7/5"
+        ]
+      ],
+      "parameter_sha256": "f8ba5f89334029b5f6cbc6c64edb8ea58a965fc8e4ca79c238d24b081e3c7f54",
+      "strata": {
+        "optimal_cost": "cheaper",
+        "regret": "moderate",
+        "state1_prevalence": "rare",
+        "optimal_report": "B",
+        "loss_asymmetry": "WAIT_larger",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "7/5",
+          "signals": {
+            "+": {
+              "joint_state0": "9/100",
+              "joint_state1": "2/25",
+              "signal_probability": "17/100",
+              "posterior_state1": "8/17",
+              "ACT_loss_contribution": "9/10",
+              "WAIT_loss_contribution": "36/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            },
+            "-": {
+              "joint_state0": "81/100",
+              "joint_state1": "1/50",
+              "signal_probability": "83/100",
+              "posterior_state1": "2/83",
+              "ACT_loss_contribution": "81/10",
+              "WAIT_loss_contribution": "9/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/25"
+            }
+          },
+          "expected_terminal_loss": "63/50",
+          "expected_total_score": "133/50"
+        },
+        "B": {
+          "cost": "13/10",
+          "signals": {
+            "+": {
+              "joint_state0": "9/200",
+              "joint_state1": "13/200",
+              "signal_probability": "11/100",
+              "posterior_state1": "13/22",
+              "ACT_loss_contribution": "9/20",
+              "WAIT_loss_contribution": "117/100",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            },
+            "-": {
+              "joint_state0": "171/200",
+              "joint_state1": "7/200",
+              "signal_probability": "89/100",
+              "posterior_state1": "7/178",
+              "ACT_loss_contribution": "171/20",
+              "WAIT_loss_contribution": "63/100",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "63/100"
+            }
+          },
+          "expected_terminal_loss": "27/25",
+          "expected_total_score": "119/50"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "119/50",
+      "regret_of_wrong_report": "7/25",
+      "pre_report_terminal_risk_scale": "9/5",
+      "normalized_regret": "7/45"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_ad60e1864f6365fa",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "4/5",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "1/4"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 22,
+      "draws_for_case": 1,
+      "parameter_tuple": [
+        "3/5",
+        "20",
+        "12",
+        [
+          "49/50",
+          "4/5",
+          "9/5"
+        ],
+        [
+          "49/50",
+          "49/50",
+          "1/4"
+        ]
+      ],
+      "parameter_sha256": "ad60e1864f6365fa5346937e68bf8c772edcd89f2126b2551293ba356bbc0ddb",
+      "strata": {
+        "optimal_cost": "cheaper",
+        "regret": "high",
+        "state1_prevalence": "common",
+        "optimal_report": "B",
+        "loss_asymmetry": "ACT_larger",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "9/5",
+          "signals": {
+            "+": {
+              "joint_state0": "2/25",
+              "joint_state1": "147/250",
+              "signal_probability": "167/250",
+              "posterior_state1": "147/167",
+              "ACT_loss_contribution": "8/5",
+              "WAIT_loss_contribution": "882/125",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "8/5"
+            },
+            "-": {
+              "joint_state0": "8/25",
+              "joint_state1": "3/250",
+              "signal_probability": "83/250",
+              "posterior_state1": "3/83",
+              "ACT_loss_contribution": "32/5",
+              "WAIT_loss_contribution": "18/125",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/125"
+            }
+          },
+          "expected_terminal_loss": "218/125",
+          "expected_total_score": "443/125"
+        },
+        "B": {
+          "cost": "1/4",
+          "signals": {
+            "+": {
+              "joint_state0": "1/125",
+              "joint_state1": "147/250",
+              "signal_probability": "149/250",
+              "posterior_state1": "147/149",
+              "ACT_loss_contribution": "4/25",
+              "WAIT_loss_contribution": "882/125",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "4/25"
+            },
+            "-": {
+              "joint_state0": "49/125",
+              "joint_state1": "3/250",
+              "signal_probability": "101/250",
+              "posterior_state1": "3/101",
+              "ACT_loss_contribution": "196/25",
+              "WAIT_loss_contribution": "18/125",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/125"
+            }
+          },
+          "expected_terminal_loss": "38/125",
+          "expected_total_score": "277/500"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "277/500",
+      "regret_of_wrong_report": "299/100",
+      "pre_report_terminal_risk_scale": "36/5",
+      "normalized_regret": "299/720"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_fd415a495419752e",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "27/20"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 6,
+      "draws_for_case": 85,
+      "parameter_tuple": [
+        "1/5",
+        "30",
+        "16",
+        [
+          "11/20",
+          "19/20",
+          "27/20"
+        ],
+        [
+          "7/10",
+          "3/4",
+          "4/5"
+        ]
+      ],
+      "parameter_sha256": "fd415a495419752e23dea02642a11f3be21ab3fbff32804778defd854c3ed0fa",
+      "strata": {
+        "optimal_cost": "more_expensive",
+        "regret": "low",
+        "state1_prevalence": "rare",
+        "optimal_report": "B",
+        "loss_asymmetry": "ACT_larger",
+        "policy_pattern": "one_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "4/5",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "7/50",
+              "signal_probability": "17/50",
+              "posterior_state1": "7/17",
+              "ACT_loss_contribution": "6",
+              "WAIT_loss_contribution": "56/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "56/25"
+            },
+            "-": {
+              "joint_state0": "3/5",
+              "joint_state1": "3/50",
+              "signal_probability": "33/50",
+              "posterior_state1": "1/11",
+              "ACT_loss_contribution": "18",
+              "WAIT_loss_contribution": "24/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "24/25"
+            }
+          },
+          "expected_terminal_loss": "16/5",
+          "expected_total_score": "4"
+        },
+        "B": {
+          "cost": "27/20",
+          "signals": {
+            "+": {
+              "joint_state0": "1/25",
+              "joint_state1": "11/100",
+              "signal_probability": "3/20",
+              "posterior_state1": "11/15",
+              "ACT_loss_contribution": "6/5",
+              "WAIT_loss_contribution": "44/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "6/5"
+            },
+            "-": {
+              "joint_state0": "19/25",
+              "joint_state1": "9/100",
+              "signal_probability": "17/20",
+              "posterior_state1": "9/85",
+              "ACT_loss_contribution": "114/5",
+              "WAIT_loss_contribution": "36/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "36/25"
+            }
+          },
+          "expected_terminal_loss": "66/25",
+          "expected_total_score": "399/100"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "399/100",
+      "regret_of_wrong_report": "1/100",
+      "pre_report_terminal_risk_scale": "16/5",
+      "normalized_regret": "1/320"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-H01N_00514dd537a72a5a",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "4/5",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "19/10"
+        }
+      }
+    },
+    "generation": {
+      "generator_version": "h01-independent-v1",
+      "seed": 28100697,
+      "index": 14,
+      "draws_for_case": 15,
+      "parameter_tuple": [
+        "7/10",
+        "24",
+        "24",
+        [
+          "19/20",
+          "19/20",
+          "19/10"
+        ],
+        [
+          "9/10",
+          "4/5",
+          "1"
+        ]
+      ],
+      "parameter_sha256": "00514dd537a72a5a8f80f51453c94178d4286e4c5e20958df1c86560f8f9783c",
+      "strata": {
+        "optimal_cost": "more_expensive",
+        "regret": "moderate",
+        "state1_prevalence": "common",
+        "optimal_report": "B",
+        "loss_asymmetry": "symmetric",
+        "policy_pattern": "both_signal_contingent"
+      },
+      "regret_definition": "absolute score gap / pre-report Bayes terminal risk",
+      "regret_boundaries": {
+        "low_max_inclusive": "1/10",
+        "moderate_max_inclusive": "7/20"
+      },
+      "split": "smoke",
+      "selection_uses_model_outcomes": false
+    },
+    "constraints": {
+      "candidate_report_count": 2,
+      "mandatory_acquisition_count": 1,
+      "downstream_actions": [
+        "ACT",
+        "WAIT"
+      ],
+      "optimal_downstream_actions_stipulated": true,
+      "no_acquisition_option": false,
+      "abstention_option": false,
+      "report_delivery": "fully readable canonical English",
+      "delivery_speed_equal": true,
+      "effort_equal": true,
+      "archive_label_has_cost_or_comprehension_effect": false
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "1",
+          "signals": {
+            "+": {
+              "joint_state0": "3/50",
+              "joint_state1": "63/100",
+              "signal_probability": "69/100",
+              "posterior_state1": "21/23",
+              "ACT_loss_contribution": "36/25",
+              "WAIT_loss_contribution": "378/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "36/25"
+            },
+            "-": {
+              "joint_state0": "6/25",
+              "joint_state1": "7/100",
+              "signal_probability": "31/100",
+              "posterior_state1": "7/31",
+              "ACT_loss_contribution": "144/25",
+              "WAIT_loss_contribution": "42/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "42/25"
+            }
+          },
+          "expected_terminal_loss": "78/25",
+          "expected_total_score": "103/25"
+        },
+        "B": {
+          "cost": "19/10",
+          "signals": {
+            "+": {
+              "joint_state0": "3/200",
+              "joint_state1": "133/200",
+              "signal_probability": "17/25",
+              "posterior_state1": "133/136",
+              "ACT_loss_contribution": "9/25",
+              "WAIT_loss_contribution": "399/25",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/25"
+            },
+            "-": {
+              "joint_state0": "57/200",
+              "joint_state1": "7/200",
+              "signal_probability": "8/25",
+              "posterior_state1": "7/64",
+              "ACT_loss_contribution": "171/25",
+              "WAIT_loss_contribution": "21/25",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/25"
+            }
+          },
+          "expected_terminal_loss": "6/5",
+          "expected_total_score": "31/10"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "31/10",
+      "regret_of_wrong_report": "51/50",
+      "pre_report_terminal_risk_scale": "36/5",
+      "normalized_regret": "17/120"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "protocol_version": 6,
+  "created_utc": "2026-10-06T18:09:09.379776+00:00",
+  "collection_state": "terminal",
+  "all_active_calls_drained": true,
+  "no_future_admissions": true,
+  "stages": {
+    "smoke": {
+      "status": "terminal",
+      "planned_paid_assignments": 24,
+      "attempted": 2,
+      "never_reserved": 22
+    },
+    "heldout": {
+      "status": "not_started_terminal",
+      "planned_paid_assignments": 1664,
+      "attempted": 0,
+      "never_reserved": 1664
+    }
+  },
+  "source_metadata_canonical_sha256": "b68f9ac0d0781ecf88a3a36a232cf1d668dfefefc5e7f4d8c447e2098f59757a",
+  "source_metadata_file_sha256": "1c0d7d795a39364b4913c0bd4ebd3947a2ae369f0a7f25e781223cafd24eb651",
+  "disposition": "Retired operational smoke; zero main observations; no native panel"
+}

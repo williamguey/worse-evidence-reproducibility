@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "protocol_version": 7,
+  "created_utc": "2026-10-06T23:46:59.984398+00:00",
+  "collection_stop_utc": "2026-10-06T23:16:43.249337+00:00",
+  "collection_state": "finished",
+  "all_active_calls_drained": true,
+  "no_future_admissions": true,
+  "stages": {
+    "smoke": {
+      "status": "finished",
+      "planned_paid_assignments": 24,
+      "attempted": 24,
+      "never_reserved": 0
+    },
+    "heldout": {
+      "status": "finished",
+      "planned_paid_assignments": 1664,
+      "attempted": 1664,
+      "never_reserved": 0
+    }
+  }
+}

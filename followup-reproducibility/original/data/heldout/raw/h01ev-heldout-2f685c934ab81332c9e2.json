@@ -1,0 +1,30 @@
+{
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google AI Studio",
+  "usage": {
+    "prompt_tokens": 339,
+    "completion_tokens": 941,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 936,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "message": {
+        "content": "{\"choice\":\"B\"}"
+      }
+    }
+  ],
+  "publication_projection": true,
+  "source_completion_status": "valid"
+}

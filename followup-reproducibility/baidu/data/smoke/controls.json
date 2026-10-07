@@ -1,0 +1,240 @@
+[
+  {
+    "case_id": "H01-REASON-20261006-smoke-control-001",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "27/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "527/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "27/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1/4",
+              "WAIT_loss_contribution": "57/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1/4"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19/4",
+              "WAIT_loss_contribution": "3/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            }
+          },
+          "expected_terminal_loss": "11/20",
+          "expected_total_score": "577/1000"
+        },
+        "B": {
+          "cost": "527/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "2",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "3",
+              "WAIT_loss_contribution": "12/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            }
+          },
+          "expected_terminal_loss": "22/5",
+          "expected_total_score": "4927/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "577/1000",
+      "regret_of_wrong_report": "87/20",
+      "pre_report_terminal_risk_scale": "5",
+      "normalized_regret": "87/100"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 0,
+      "split": "smoke",
+      "cost_offset": "17/1000",
+      "parameter_tuple": [
+        "1/2",
+        "10",
+        "12",
+        [
+          "19/20",
+          "19/20",
+          "27/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "527/1000"
+        ]
+      ],
+      "parameter_sha256": "8b856991d5feb4e9b2881173992467d2a2dc7f92ca1fced53509758c1153e2b5"
+    }
+  },
+  {
+    "case_id": "H01-REASON-20261006-smoke-control-006",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "267/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "217/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "217/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "3/2",
+              "WAIT_loss_contribution": "27/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "17/2",
+              "WAIT_loss_contribution": "3/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            }
+          },
+          "expected_terminal_loss": "21/10",
+          "expected_total_score": "2317/1000"
+        },
+        "B": {
+          "cost": "267/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "1",
+              "WAIT_loss_contribution": "51/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "9",
+              "WAIT_loss_contribution": "9/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            }
+          },
+          "expected_terminal_loss": "19/10",
+          "expected_total_score": "2167/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "2167/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "6",
+      "normalized_regret": "1/40"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 5,
+      "split": "smoke",
+      "cost_offset": "17/1000",
+      "parameter_tuple": [
+        "1/2",
+        "20",
+        "12",
+        [
+          "17/20",
+          "9/10",
+          "267/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "217/1000"
+        ]
+      ],
+      "parameter_sha256": "68ab2620e772582ce7244677105e816563ba81f55517b7d215cec1ba857a779b"
+    }
+  }
+]
