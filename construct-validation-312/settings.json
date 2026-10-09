@@ -1,0 +1,96 @@
+{
+  "models": [
+    {
+      "id": "llama_default",
+      "model": "meta-llama/llama-4-maverick",
+      "family": "llama",
+      "max_tokens": 4096,
+      "provider": {
+        "only": [
+          "digitalocean"
+        ],
+        "order": [
+          "digitalocean"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.1875,
+          "completion": 0.6525
+        }
+      },
+      "expected_provider": "DigitalOcean",
+      "reasoning_metadata_optional": true,
+      "native_reasoning_request": "OMITTED; endpoint does not advertise reasoning"
+    },
+    {
+      "id": "deepseek_off",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "family": "deepseek",
+      "reasoning": {
+        "enabled": false
+      },
+      "max_tokens": 8192,
+      "provider": {
+        "only": [
+          "baidu/fp8"
+        ],
+        "order": [
+          "baidu/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 1.32,
+          "completion": 3.96
+        }
+      },
+      "expected_provider": "Baidu",
+      "reasoning_metadata_optional": false
+    },
+    {
+      "id": "luna_off",
+      "model": "openai/gpt-5.6-luna",
+      "family": "openai",
+      "reasoning": {
+        "enabled": false
+      },
+      "max_tokens": 768,
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "order": [
+          "openai"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.4,
+          "completion": 1.8
+        }
+      },
+      "expected_provider": "OpenAI",
+      "reasoning_metadata_optional": false
+    }
+  ],
+  "scientific_cases": 312,
+  "control_cases": 32,
+  "conditions": [
+    "neutral_1",
+    "neutral_2",
+    "bundle_bad",
+    "bundle_good",
+    "preference_bad_1",
+    "preference_bad_2",
+    "sponsor_bad",
+    "commitment_bad",
+    "guard_bundle_bad",
+    "guard_neutral",
+    "simple_neutral",
+    "simple_bundle_bad"
+  ],
+  "unit": "whole numerical case; two orders nested",
+  "response_caching": false,
+  "context_compression": false
+}

@@ -1,0 +1,19 @@
+model_id,control_kind,order_group,count,valid,planned,missing,observed_rate,full_plan_identification_bounds,incorrect_valid
+llama_default,dominance,AB,16,16,16,0,1.0,"[1.0, 1.0]",0
+llama_default,dominance,BA,16,16,16,0,1.0,"[1.0, 1.0]",0
+llama_default,dominance,both_orders,32,32,32,0,1.0,"[1.0, 1.0]",0
+llama_default,nondominance,AB,8,15,16,1,0.5333333333333333,"[0.5, 0.5625]",7
+llama_default,nondominance,BA,8,15,16,1,0.5333333333333333,"[0.5, 0.5625]",7
+llama_default,nondominance,both_orders,16,30,32,2,0.5333333333333333,"[0.5, 0.5625]",14
+deepseek_off,dominance,AB,11,16,16,0,0.6875,"[0.6875, 0.6875]",5
+deepseek_off,dominance,BA,15,16,16,0,0.9375,"[0.9375, 0.9375]",1
+deepseek_off,dominance,both_orders,26,32,32,0,0.8125,"[0.8125, 0.8125]",6
+deepseek_off,nondominance,AB,7,16,16,0,0.4375,"[0.4375, 0.4375]",9
+deepseek_off,nondominance,BA,11,16,16,0,0.6875,"[0.6875, 0.6875]",5
+deepseek_off,nondominance,both_orders,18,32,32,0,0.5625,"[0.5625, 0.5625]",14
+luna_off,dominance,AB,16,16,16,0,1.0,"[1.0, 1.0]",0
+luna_off,dominance,BA,16,16,16,0,1.0,"[1.0, 1.0]",0
+luna_off,dominance,both_orders,32,32,32,0,1.0,"[1.0, 1.0]",0
+luna_off,nondominance,AB,12,16,16,0,0.75,"[0.75, 0.75]",4
+luna_off,nondominance,BA,12,15,16,1,0.8,"[0.75, 0.8125]",3
+luna_off,nondominance,both_orders,24,31,32,1,0.7741935483870968,"[0.75, 0.78125]",7

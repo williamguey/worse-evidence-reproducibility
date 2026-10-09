@@ -1,0 +1,614 @@
+{
+  "all_configurations": [
+    "llama_default",
+    "deepseek_off",
+    "luna_off"
+  ],
+  "all_planned_conditions": 12,
+  "case_bank": "shared312",
+  "forest": "four independent case banks, 19 rows / 11 configuration-bank slots; raw and supplied separate; no pooled estimate",
+  "full_audited_rows_retained": 36,
+  "main_rate_rows": [
+    {
+      "condition": "neutral_1",
+      "count": 194,
+      "full_plan_identification_bounds": [
+        0.3108974358974359,
+        0.3173076923076923
+      ],
+      "main_rate_figures": [],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.31290322580645163,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 620
+    },
+    {
+      "condition": "neutral_2",
+      "count": 191,
+      "full_plan_identification_bounds": [
+        0.3060897435897436,
+        0.3108974358974359
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.3075684380032206,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 621
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 515,
+      "full_plan_identification_bounds": [
+        0.8253205128205128,
+        0.8349358974358975
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 6,
+      "model_id": "llama_default",
+      "observed_rate": 0.8333333333333334,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 34,
+      "full_plan_identification_bounds": [
+        0.05448717948717949,
+        0.060897435897435896
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.054838709677419356,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 385,
+      "full_plan_identification_bounds": [
+        0.6169871794871795,
+        0.6298076923076923
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 8,
+      "model_id": "llama_default",
+      "observed_rate": 0.625,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 616
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 469,
+      "full_plan_identification_bounds": [
+        0.7516025641025641,
+        0.7580128205128205
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.7564516129032258,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 620
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 237,
+      "full_plan_identification_bounds": [
+        0.3798076923076923,
+        0.38782051282051283
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.38287560581583197,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 619
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 360,
+      "full_plan_identification_bounds": [
+        0.5769230769230769,
+        0.5801282051282052
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.5787781350482315,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 622
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 97,
+      "full_plan_identification_bounds": [
+        0.15544871794871795,
+        0.15865384615384615
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.15594855305466238,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 622
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 179,
+      "full_plan_identification_bounds": [
+        0.28685897435897434,
+        0.30128205128205127
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.2910569105691057,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 615
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 292,
+      "full_plan_identification_bounds": [
+        0.46794871794871795,
+        0.4823717948717949
+      ],
+      "main_rate_figures": [],
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.47479674796747967,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 615
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 254,
+      "full_plan_identification_bounds": [
+        0.40705128205128205,
+        0.41346153846153844
+      ],
+      "main_rate_figures": [],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.4096774193548387,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 620
+    },
+    {
+      "condition": "neutral_1",
+      "count": 186,
+      "full_plan_identification_bounds": [
+        0.2980769230769231,
+        0.3108974358974359
+      ],
+      "main_rate_figures": [],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.30194805194805197,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 616
+    },
+    {
+      "condition": "neutral_2",
+      "count": 206,
+      "full_plan_identification_bounds": [
+        0.3301282051282051,
+        0.33974358974358976
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.3333333333333333,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 618
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 597,
+      "full_plan_identification_bounds": [
+        0.9567307692307693,
+        0.9663461538461539
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9660194174757282,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 7,
+      "full_plan_identification_bounds": [
+        0.011217948717948718,
+        0.027243589743589744
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 10,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.011400651465798045,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 614
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 587,
+      "full_plan_identification_bounds": [
+        0.9407051282051282,
+        0.9551282051282052
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9544715447154472,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 615
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 605,
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9791666666666666
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9789644012944984,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 618
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 368,
+      "full_plan_identification_bounds": [
+        0.5897435897435898,
+        0.6041666666666666
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5983739837398374,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 605,
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9823717948717948
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9821428571428571,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 616
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 154,
+      "full_plan_identification_bounds": [
+        0.2467948717948718,
+        0.25961538461538464
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.25,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 616
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 217,
+      "full_plan_identification_bounds": [
+        0.34775641025641024,
+        0.3541666666666667
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.35,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 620
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 253,
+      "full_plan_identification_bounds": [
+        0.40544871794871795,
+        0.4166666666666667
+      ],
+      "main_rate_figures": [],
+      "missing": 7,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.4100486223662885,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 617
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 419,
+      "full_plan_identification_bounds": [
+        0.6714743589743589,
+        0.6842948717948718
+      ],
+      "main_rate_figures": [],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6801948051948052,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 616
+    },
+    {
+      "condition": "neutral_1",
+      "count": 84,
+      "full_plan_identification_bounds": [
+        0.1346153846153846,
+        0.15064102564102563
+      ],
+      "main_rate_figures": [],
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.13680781758957655,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 614
+    },
+    {
+      "condition": "neutral_2",
+      "count": 82,
+      "full_plan_identification_bounds": [
+        0.13141025641025642,
+        0.15224358974358973
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 13,
+      "model_id": "luna_off",
+      "observed_rate": 0.1342062193126023,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 611
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 82,
+      "full_plan_identification_bounds": [
+        0.13141025641025642,
+        0.14262820512820512
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates",
+        "fig:wording-components"
+      ],
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.13290113452188007,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 617
+    },
+    {
+      "condition": "bundle_good",
+      "count": 81,
+      "full_plan_identification_bounds": [
+        0.12980769230769232,
+        0.1362179487179487
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.13064516129032258,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 272,
+      "full_plan_identification_bounds": [
+        0.4358974358974359,
+        0.4423076923076923
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.43870967741935485,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 56,
+      "full_plan_identification_bounds": [
+        0.08974358974358974,
+        0.10737179487179487
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 11,
+      "model_id": "luna_off",
+      "observed_rate": 0.09135399673735727,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 613
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 437,
+      "full_plan_identification_bounds": [
+        0.7003205128205128,
+        0.7147435897435898
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.7105691056910569,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 78,
+      "full_plan_identification_bounds": [
+        0.125,
+        0.14102564102564102
+      ],
+      "main_rate_figures": [
+        "fig:wording-components"
+      ],
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.1270358306188925,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 614
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 62,
+      "full_plan_identification_bounds": [
+        0.09935897435897435,
+        0.10897435897435898
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.10032362459546926,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 618
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 85,
+      "full_plan_identification_bounds": [
+        0.1362179487179487,
+        0.14423076923076922
+      ],
+      "main_rate_figures": [
+        "fig:endorsement-rates"
+      ],
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.13731825525040386,
+      "planned": 624,
+      "retained_elsewhere": "also in all-36-arm companion table",
+      "valid": 619
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 62,
+      "full_plan_identification_bounds": [
+        0.09935897435897435,
+        0.11378205128205128
+      ],
+      "main_rate_figures": [],
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.1008130081300813,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 615
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 78,
+      "full_plan_identification_bounds": [
+        0.125,
+        0.1346153846153846
+      ],
+      "main_rate_figures": [],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.1262135922330097,
+      "planned": 624,
+      "retained_elsewhere": "all-36-arm companion table and scientific supplement",
+      "valid": 618
+    }
+  ],
+  "old_primary_or_source_endpoints": "unchanged scientific supplement; no new inference"
+}

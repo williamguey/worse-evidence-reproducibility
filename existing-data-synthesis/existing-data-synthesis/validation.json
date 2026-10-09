@@ -1,0 +1,46 @@
+{
+  "audited_scored_sha256": "72dbc944c9d6d6343ce920a58b2e4e176feb7206e5302f9e01396a4493ec3317",
+  "figure_coordinate_checks": [
+    {
+      "denominator_annotations_verified": 15,
+      "figure": "choices-priority",
+      "genuine_missingness_segments": 15,
+      "literal_coordinates_match_actual_audited_arm_counts": true,
+      "points": 15
+    },
+    {
+      "denominator_annotations_verified": 18,
+      "figure": "cue-components",
+      "genuine_missingness_segments": 18,
+      "literal_coordinates_match_actual_audited_arm_counts": true,
+      "points": 18
+    },
+    {
+      "absent_raw_slots": 3,
+      "denominator_annotations_verified": 19,
+      "existing_simultaneous_intervals": 8,
+      "figure": "cross-bank",
+      "genuine_missingness_segments": 19,
+      "honest_CI_not_reported_points": 11,
+      "literal_coordinates_match_verified_existing_native_rows": true,
+      "points": 19
+    }
+  ],
+  "genuine_original_empirical_audit_sha256": "b7df7af042d7562442f47198ac21b49de0af89ed4c543712d29988766213122b",
+  "independent_checks": {
+    "all_actual_projected_cells": 22656,
+    "audited_arm_summaries": 36,
+    "exact_independent_oracles": 344,
+    "independent_AB_BA_following_patterns": 24,
+    "independent_guard_bounds_and_complete_case_contrasts": 3,
+    "prior_control_type_rows": 6,
+    "prior_endorsement_per_order_rows": 48,
+    "prior_neutral_identity_position_rows": 48
+  },
+  "limits": "This derivative validation does not create another original empirical audit or independent scientific replication.",
+  "new_confidence_intervals": 0,
+  "new_hypothesis_tests": 0,
+  "new_model_calls": 0,
+  "offline_reproduction": "Exact diagnostics JSON, exact projected cross-bank JSON/CSV, all nineteen row objects equal original verified source summary, and all six held figure sources byte-identical after builder rerun.",
+  "status": "EXISTING_DATA_SUMMARY_AND_FIGURE_REPRODUCTION_PASS"
+}

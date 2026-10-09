@@ -1,0 +1,356 @@
+{
+  "caption_latex": "Bank-specific endorsement contrasts, without pooling cases or configurations. Older banks compare strong inferior endorsement with neutral prompts; the shared bank compares the inferior bundle with its second neutral repeat. Raw and supplied-cost tasks are distinct. Dots retain the original complete-case estimates and weighting; thick segments retain all planned missing outcomes. Thin intervals are the existing Holm10, Holm5 or Holm9 simultaneous 95\\% intervals under independent whole-case clusters; hollow points mark contrasts for which a confidence interval was not reported. Full denominators and settings are supplied in the companion.",
+  "crossbank_input_sha256": "dfb826c81933d373f0f0d6a382850127bc625ce2822a3f5d4800ea7dd5bb36d8",
+  "main_omits_incomplete_retired_stages": true,
+  "new_inference": false,
+  "plotted_rows": [
+    {
+      "bank_id": "original96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (off)",
+      "identification_bounds_pp": [
+        65.625,
+        65.625
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 65.625,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 13
+    },
+    {
+      "bank_id": "original96",
+      "complete_cases": 96,
+      "configuration_label": "GPT-5.6 Luna (off)",
+      "identification_bounds_pp": [
+        -1.0416666666666665,
+        -1.0416666666666665
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": -1.0416666666666665,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 12
+    },
+    {
+      "bank_id": "original96",
+      "complete_cases": 96,
+      "configuration_label": "Gemini 3.8 Flash (low)",
+      "identification_bounds_pp": [
+        0.5208333333333333,
+        0.5208333333333333
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.5208333333333333,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 11
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (off)",
+      "identification_bounds_pp": [
+        46.875,
+        46.875
+      ],
+      "native_family": "Holm10",
+      "native_simultaneous_ci_pp": [
+        29.037892857300175,
+        63.51036081189595
+      ],
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 46.875,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 9
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (low)",
+      "identification_bounds_pp": [
+        0.5208333333333333,
+        0.5208333333333333
+      ],
+      "native_family": "Holm10",
+      "native_simultaneous_ci_pp": [
+        -8.178260110725939,
+        9.20871967209927
+      ],
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.5208333333333333,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 8
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 96,
+      "configuration_label": "GPT-6 Luna (low)",
+      "identification_bounds_pp": [
+        1.5625,
+        1.5625
+      ],
+      "native_family": "Holm10",
+      "native_simultaneous_ci_pp": [
+        -8.976612277193901,
+        13.302109058895988
+      ],
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 1.5625,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 7
+    },
+    {
+      "bank_id": "popular96",
+      "complete_cases": 96,
+      "configuration_label": "Llama 4 Maverick (default)",
+      "identification_bounds_pp": [
+        61.458333333333336,
+        61.458333333333336
+      ],
+      "native_family": "Holm5",
+      "native_simultaneous_ci_pp": [
+        45.20899723808199,
+        74.8292627311826
+      ],
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 61.458333333333336,
+      "representation": "raw",
+      "valid_pairs": 192,
+      "y": 5
+    },
+    {
+      "bank_id": "popular96",
+      "complete_cases": 95,
+      "configuration_label": "Claude Sonnet 5.5 (high)",
+      "identification_bounds_pp": [
+        -0.5208333333333333,
+        0.0
+      ],
+      "native_family": "Holm5",
+      "native_simultaneous_ci_pp": [
+        -8.479622543006656,
+        7.83841756374722
+      ],
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.0,
+      "representation": "raw",
+      "valid_pairs": 191,
+      "y": 4
+    },
+    {
+      "bank_id": "original96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (off)",
+      "identification_bounds_pp": [
+        65.10416666666666,
+        65.10416666666666
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 65.10416666666666,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 13
+    },
+    {
+      "bank_id": "original96",
+      "complete_cases": 96,
+      "configuration_label": "GPT-5.6 Luna (off)",
+      "identification_bounds_pp": [
+        -1.5625,
+        -1.5625
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": -1.5625,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 12
+    },
+    {
+      "bank_id": "original96",
+      "complete_cases": 92,
+      "configuration_label": "Gemini 3.8 Flash (low)",
+      "identification_bounds_pp": [
+        -1.0416666666666665,
+        1.0416666666666665
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.0,
+      "representation": "supplied",
+      "valid_pairs": 188,
+      "y": 11
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (off)",
+      "identification_bounds_pp": [
+        63.020833333333336,
+        63.020833333333336
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 63.020833333333336,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 9
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 96,
+      "configuration_label": "DeepSeek v4 Pro (low)",
+      "identification_bounds_pp": [
+        0.0,
+        0.0
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.0,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 8
+    },
+    {
+      "bank_id": "matched96",
+      "complete_cases": 95,
+      "configuration_label": "GPT-6 Luna (low)",
+      "identification_bounds_pp": [
+        -1.0416666666666665,
+        -0.5208333333333333
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": -1.0416666666666665,
+      "representation": "supplied",
+      "valid_pairs": 191,
+      "y": 7
+    },
+    {
+      "bank_id": "popular96",
+      "complete_cases": 96,
+      "configuration_label": "Llama 4 Maverick (default)",
+      "identification_bounds_pp": [
+        49.47916666666667,
+        49.47916666666667
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 49.47916666666667,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 5
+    },
+    {
+      "bank_id": "popular96",
+      "complete_cases": 96,
+      "configuration_label": "Claude Sonnet 5.5 (high)",
+      "identification_bounds_pp": [
+        0.0,
+        0.0
+      ],
+      "native_family": null,
+      "native_simultaneous_ci_pp": null,
+      "planned_cases": 96,
+      "planned_pairs": 192,
+      "point_pp": 0.0,
+      "representation": "supplied",
+      "valid_pairs": 192,
+      "y": 4
+    },
+    {
+      "bank_id": "shared312",
+      "complete_cases": 304,
+      "configuration_label": "Llama 4 Maverick (default)",
+      "identification_bounds_pp": [
+        51.442307692307686,
+        52.88461538461539
+      ],
+      "native_family": "Holm9",
+      "native_simultaneous_ci_pp": [
+        42.621285986536925,
+        61.63503707021587
+      ],
+      "planned_cases": 312,
+      "planned_pairs": 624,
+      "point_pp": 52.13815789473685,
+      "representation": "supplied",
+      "valid_pairs": 615,
+      "y": 2
+    },
+    {
+      "bank_id": "shared312",
+      "complete_cases": 301,
+      "configuration_label": "DeepSeek v4 Pro (off)",
+      "identification_bounds_pp": [
+        61.69871794871795,
+        63.62179487179487
+      ],
+      "native_family": "Holm9",
+      "native_simultaneous_ci_pp": [
+        53.900001635648586,
+        71.12085898312266
+      ],
+      "planned_cases": 312,
+      "planned_pairs": 624,
+      "point_pp": 62.95681063122923,
+      "representation": "supplied",
+      "valid_pairs": 612,
+      "y": 1
+    },
+    {
+      "bank_id": "shared312",
+      "complete_cases": 295,
+      "configuration_label": "GPT-5.6 Luna (off)",
+      "identification_bounds_pp": [
+        -2.083333333333333,
+        1.1217948717948718
+      ],
+      "native_family": "Holm9",
+      "native_simultaneous_ci_pp": [
+        -7.630579253701242,
+        6.068384982996858
+      ],
+      "planned_cases": 312,
+      "planned_pairs": 624,
+      "point_pp": -0.5084745762711864,
+      "representation": "supplied",
+      "valid_pairs": 604,
+      "y": 0
+    }
+  ],
+  "slots_without_raw_measurement": 3
+}

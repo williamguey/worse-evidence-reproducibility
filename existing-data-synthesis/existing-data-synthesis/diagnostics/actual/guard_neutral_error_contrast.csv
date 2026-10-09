@@ -1,0 +1,4 @@
+model_id,contrast,planned_case_clusters,complete_case_clusters,missing_or_incomplete_case_clusters,complete_case_descriptive_contrast,full_plan_identification_bounds,exact_full_plan_identification_bounds
+llama_default,guard_neutral_minus_neutral_2,312,301,11,-0.016611295681063124,"[-0.02403846153846154, -0.004807692307692308]","['-5/208', '-1/208']"
+deepseek_off,guard_neutral_minus_neutral_2,312,303,9,0.01485148514851485,"[0.008012820512820512, 0.02403846153846154]","['5/624', '5/208']"
+luna_off,guard_neutral_minus_neutral_2,312,297,15,0.005050505050505051,"[-0.016025641025641024, 0.01282051282051282]","['-5/312', '1/78']"

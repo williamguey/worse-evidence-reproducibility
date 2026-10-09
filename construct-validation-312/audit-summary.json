@@ -1,0 +1,171 @@
+{
+  "status": "EMPIRICAL_DATA_AUDIT_PASS",
+  "collection_stop_utc": "2026-10-08T14:30:35.347298+00:00",
+  "prospective": {
+    "science_cases": 312,
+    "controls": 32,
+    "smoke_cases": 3,
+    "main_cells": 22656,
+    "smoke_cells": 9,
+    "oracle_route": "independent four-policy exact Fraction enumeration",
+    "balanced_strata": {
+      "('A', 'cheaper', 'low', 'rare')": 13,
+      "('A', 'cheaper', 'low', 'common')": 13,
+      "('A', 'cheaper', 'moderate', 'rare')": 13,
+      "('A', 'cheaper', 'moderate', 'common')": 13,
+      "('A', 'cheaper', 'high', 'rare')": 13,
+      "('A', 'cheaper', 'high', 'common')": 13,
+      "('A', 'more_expensive', 'low', 'rare')": 13,
+      "('A', 'more_expensive', 'low', 'common')": 13,
+      "('A', 'more_expensive', 'moderate', 'rare')": 13,
+      "('A', 'more_expensive', 'moderate', 'common')": 13,
+      "('A', 'more_expensive', 'high', 'rare')": 13,
+      "('A', 'more_expensive', 'high', 'common')": 13,
+      "('B', 'cheaper', 'low', 'rare')": 13,
+      "('B', 'cheaper', 'low', 'common')": 13,
+      "('B', 'cheaper', 'moderate', 'rare')": 13,
+      "('B', 'cheaper', 'moderate', 'common')": 13,
+      "('B', 'cheaper', 'high', 'rare')": 13,
+      "('B', 'cheaper', 'high', 'common')": 13,
+      "('B', 'more_expensive', 'low', 'rare')": 13,
+      "('B', 'more_expensive', 'low', 'common')": 13,
+      "('B', 'more_expensive', 'moderate', 'rare')": 13,
+      "('B', 'more_expensive', 'moderate', 'common')": 13,
+      "('B', 'more_expensive', 'high', 'rare')": 13,
+      "('B', 'more_expensive', 'high', 'common')": 13
+    }
+  },
+  "acquisition_states": {
+    "('main', 'valid_unscored')": 22410,
+    "('main', 'missing_transport')": 243,
+    "('main', 'missing_pre_reservation')": 3,
+    "('smoke', 'valid_unscored')": 9
+  },
+  "operations": {
+    "main": {
+      "admissions": 22656,
+      "reserved": 22653,
+      "maximum_observed_worker_intervals": 12,
+      "maximum_by_config": {
+        "llama_default": 4,
+        "deepseek_off": 4,
+        "luna_off": 4
+      },
+      "retained_trips": 1,
+      "wire_order_not_asserted": true
+    },
+    "smoke": {
+      "admissions": 9,
+      "reserved": 9,
+      "maximum_observed_worker_intervals": 1,
+      "maximum_by_config": {
+        "llama_default": 1,
+        "deepseek_off": 1,
+        "luna_off": 1
+      },
+      "retained_trips": 0,
+      "wire_order_not_asserted": true
+    }
+  },
+  "inference_crosschecks": {
+    "primary_tests": 9,
+    "independent_case_envelopes": true,
+    "independent_fixed_mixture": true,
+    "independent_inverted_ci": true,
+    "independent_holm9": true,
+    "arm_count_checks": 36,
+    "stability_selection_checks": 3
+  },
+  "controls": {
+    "llama_default": {
+      "planned": 64,
+      "valid": 62,
+      "correct": 48,
+      "missing": 2
+    },
+    "deepseek_off": {
+      "planned": 64,
+      "valid": 64,
+      "correct": 44,
+      "missing": 0
+    },
+    "luna_off": {
+      "planned": 64,
+      "valid": 63,
+      "correct": 56,
+      "missing": 1
+    }
+  },
+  "limitations": [
+    "No physical wire-send timestamps: logical admissions, worker starts and receipt/terminal completions are different events.",
+    "Wall-clock worker intervals corroborate scheduler limits; physical provider concurrency and within-service independence are not directly observable.",
+    "Whole-case response independence is an assumption. Missingness envelopes do not repair shared-service dependence.",
+    "Offline reproduction preserves observed outputs, not a promise that nondeterministic provider reruns reproduce them."
+  ],
+  "operative_collection_provenance": {
+    "original_prospective_clearance_sha256": "cb6e6161ff904a9d7a72136415b7e86e7facf89f7c115d63febd4cceff6e6c22",
+    "original_frozen_source_sha256": "899df64a6323c9d0f3f4b14f760cadbcdbb6853a596b5fc995a921109709b2fb",
+    "original_future_invocation_hold_preserved": true,
+    "initial_process_identity_is_later_exact_observation": true,
+    "guarded_amendment_clearance_sha256": "67fd6bd8aa57180d67884a21a48cc58c20416510088318835b26ee8c0d1fd34e",
+    "guarded_invocations": 2,
+    "affirmative_zero_admission_refusals": 0,
+    "read_only_endpoint_setup_refusals": 0,
+    "reserved_cells_partitioned": 22653,
+    "invocations": [
+      {
+        "kind": "INITIAL",
+        "reserved_cells": 19362,
+        "created_utc": "2026-10-08T10:50:00.640443+00:00",
+        "observed_exit_utc": "2026-10-08T12:33:55.658030+00:00",
+        "operative_scheduler_entered": true,
+        "scheduler_entry_marker_recorded": true,
+        "acquiring_worker_loop_entered": true,
+        "physical_wire_times_available": false,
+        "collector_started_utc": "2026-10-08T10:50:19.463046+00:00",
+        "fully_drained_finished_utc": "2026-10-08T12:33:55.417000+00:00",
+        "stop_reason": "circuit"
+      },
+      {
+        "kind": "GUARDED",
+        "reserved_cells": 0,
+        "created_utc": "2026-10-08T12:56:27.919238+00:00",
+        "observed_exit_utc": "2026-10-08T12:56:28.065598+00:00",
+        "operative_scheduler_entered": false,
+        "scheduler_entry_marker_recorded": false,
+        "acquiring_worker_loop_entered": false,
+        "physical_wire_times_available": false,
+        "no_admission_refusal": false,
+        "read_only_setup_refusal": false
+      },
+      {
+        "kind": "GUARDED",
+        "reserved_cells": 808,
+        "created_utc": "2026-10-08T13:30:29.574761+00:00",
+        "observed_exit_utc": "2026-10-08T13:35:51.873640+00:00",
+        "operative_scheduler_entered": true,
+        "scheduler_entry_marker_recorded": true,
+        "acquiring_worker_loop_entered": true,
+        "physical_wire_times_available": false,
+        "collector_started_utc": "2026-10-08T13:31:30.660648+00:00",
+        "stop_reason": "root_accounting_interrupt"
+      },
+      {
+        "kind": "GUARDED",
+        "reserved_cells": 2483,
+        "created_utc": "2026-10-08T14:14:38.802232+00:00",
+        "observed_exit_utc": "2026-10-08T14:30:35.543413+00:00",
+        "operative_scheduler_entered": true,
+        "scheduler_entry_marker_recorded": true,
+        "acquiring_worker_loop_entered": true,
+        "physical_wire_times_available": false,
+        "collector_started_utc": "2026-10-08T14:15:41.743966+00:00",
+        "fully_drained_finished_utc": "2026-10-08T14:30:35.347298+00:00",
+        "stop_reason": null
+      }
+    ],
+    "limitation": "Logical admission/worker/terminal events are not physical wire timestamps. Initial exact process identity was observed later during the already approved invocation. Immutable circuit observations preserve trip content and legal monotone acknowledgments."
+  },
+  "acquisition_audit_sha256": "b7df7af042d7562442f47198ac21b49de0af89ed4c543712d29988766213122b",
+  "original_frozen_scientific_source_sha256": "958a389c9263620421532bc1bceb6d1ff58b5577efd3f87aac67d4ccf9c53a57"
+}

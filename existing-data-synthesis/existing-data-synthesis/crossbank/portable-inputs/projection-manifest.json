@@ -1,0 +1,79 @@
+{
+  "kind": "minimal scientific input projection for an existing-data figure",
+  "new_inference": false,
+  "source_builder_sha256": "662f73a75a04e0ecae2a29226d38ca4461b4a37f0d972c3d5f7b666815230c59",
+  "input_files": {
+    "original_analysis": {
+      "relative_path": "projection/followup-reproducibility/original/results/heldout/analysis.json",
+      "original_sha256": "bf36be59cf521b615adca5c2e79c9c118320111a89509a8e3ca844615148a41b",
+      "projected_sha256": "6cc5f2e4deb218e95fdb364d8a0fc773e94ccd72170b7d658bd1901f96e76afc",
+      "original_bytes": 35307420,
+      "projected_bytes": 580835
+    },
+    "matched_analysis": {
+      "relative_path": "projection/followup-reproducibility/baidu/results/new-native-holm4.json",
+      "original_sha256": "46d8ae853c051a8bf719dbf2c5529ebe106fa80b3f617da396c06bbf573d349a",
+      "projected_sha256": "9758de2e90d51b77caeb91b6d14074992f26f68548e5a47313de388c08b181ab",
+      "original_bytes": 632796,
+      "projected_bytes": 104768
+    },
+    "matched_holm10": {
+      "relative_path": "projection/followup-reproducibility/baidu/results/paper-holm10.json",
+      "original_sha256": "8b8d14ea112d850ff3420501e6b85c934d2eb543b06de163298bb0a898a12002",
+      "projected_sha256": "a623963f253f7007719593eb2d6690ea15babe55ba5f29df5dd69f30f648b0f3",
+      "original_bytes": 15518,
+      "projected_bytes": 363
+    },
+    "matched_cells": {
+      "relative_path": "projection/followup-reproducibility/baidu/results/new-scored-cells.json",
+      "original_sha256": "cda052305961bab493664aef343aec3a828a36ef9ce61286cf0874e64453ac75",
+      "projected_sha256": "4a48fd7f2a60693ced89f76555558da829bdfa407cf1fa5e381bb1b109f53a90",
+      "original_bytes": 2333923,
+      "projected_bytes": 535970
+    },
+    "matched_pairs": {
+      "relative_path": "reproduction-output/transition-diagnostics.json",
+      "original_sha256": "b938d6fbce9608fcbc415bd7c67ff4d5471528aff2a9ff3e5b3dd9075c11871c",
+      "projected_sha256": "7a811b643e5a3d763df505596a36dc654a8a9aedd4dfd58826d83e422eeafedb",
+      "original_bytes": 105183,
+      "projected_bytes": 992
+    },
+    "popular_analysis": {
+      "relative_path": "reproduction-output/extension/reproduced-analysis.json",
+      "original_sha256": "4f7e0f713f71687a65a741f54a67b421f476a47ffc62b8e8b4d8de087bafec41",
+      "projected_sha256": "f463a2054e1b6791d1158d2f1d99fbc6af8e925fd64450bf3a43d2d599bab59a",
+      "original_bytes": 788789,
+      "projected_bytes": 66989
+    },
+    "popular_cells": {
+      "relative_path": "reproduction-output/extension/reproduced-cells.json",
+      "original_sha256": "353623217dd2a3feaabc6dab83fa33ebaf3c1eeced10921b1a3f9b951653e227",
+      "projected_sha256": "de54db84cfaa1484d9bedcdc2c1f1ef6ceb3fd5f9677c449b446dfd9cfe3ef99",
+      "original_bytes": 2471955,
+      "projected_bytes": 347418
+    },
+    "popular_pairs": {
+      "relative_path": "reproduction-output/extension-transitions.json",
+      "original_sha256": "d2b97f685fb7e2a40aaa5dbe59338aa7fc9285895bdd553e46d230fdb6a3832e",
+      "projected_sha256": "4fb750ad0a0294de19f3d9660c947ea67477188e33253bb478947fa26cee30f7",
+      "original_bytes": 4901,
+      "projected_bytes": 536
+    },
+    "shared_analysis": {
+      "relative_path": "reproduction-output/construct-validation/analysis.json",
+      "original_sha256": "7372f69682cf4cadccc2f7e10f772471e98e1b42d743106d53fb83b9bda720f5",
+      "projected_sha256": "f63a3d98499345dc47916bbb8f174c4a39c937027c8d6d936ec023dbab374259",
+      "original_bytes": 71031,
+      "projected_bytes": 1425
+    },
+    "shared_cells": {
+      "relative_path": "reproduction-output/construct-validation/scored.json",
+      "original_sha256": "72dbc944c9d6d6343ce920a58b2e4e176feb7206e5302f9e01396a4493ec3317",
+      "projected_sha256": "5b3166499e86b0e510b8c5e610aa658658e34d23f86f1557efcd3545892c5f7d",
+      "original_bytes": 7652450,
+      "projected_bytes": 537389
+    }
+  },
+  "privacy": "required scored fields, native case weighting, exact means/counts/bounds and existing intervals only; no pricing, tokens, receipts, request IDs, private paths, reviews or hidden reasoning",
+  "projection_note": "A field projection is not a new scientific analysis; original source commitments are retained separately from new input hashes."
+}

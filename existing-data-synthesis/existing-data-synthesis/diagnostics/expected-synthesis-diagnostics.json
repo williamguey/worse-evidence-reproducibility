@@ -1,0 +1,3335 @@
+{
+  "all_arm_error_rates": [
+    {
+      "condition": "neutral_1",
+      "count": 194,
+      "full_plan_identification_bounds": [
+        0.3108974358974359,
+        0.3173076923076923
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.31290322580645163,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "neutral_2",
+      "count": 191,
+      "full_plan_identification_bounds": [
+        0.3060897435897436,
+        0.3108974358974359
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.3075684380032206,
+      "planned": 624,
+      "valid": 621
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 515,
+      "full_plan_identification_bounds": [
+        0.8253205128205128,
+        0.8349358974358975
+      ],
+      "missing": 6,
+      "model_id": "llama_default",
+      "observed_rate": 0.8333333333333334,
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 34,
+      "full_plan_identification_bounds": [
+        0.05448717948717949,
+        0.060897435897435896
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.054838709677419356,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 385,
+      "full_plan_identification_bounds": [
+        0.6169871794871795,
+        0.6298076923076923
+      ],
+      "missing": 8,
+      "model_id": "llama_default",
+      "observed_rate": 0.625,
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 469,
+      "full_plan_identification_bounds": [
+        0.7516025641025641,
+        0.7580128205128205
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.7564516129032258,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 237,
+      "full_plan_identification_bounds": [
+        0.3798076923076923,
+        0.38782051282051283
+      ],
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.38287560581583197,
+      "planned": 624,
+      "valid": 619
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 360,
+      "full_plan_identification_bounds": [
+        0.5769230769230769,
+        0.5801282051282052
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.5787781350482315,
+      "planned": 624,
+      "valid": 622
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 97,
+      "full_plan_identification_bounds": [
+        0.15544871794871795,
+        0.15865384615384615
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.15594855305466238,
+      "planned": 624,
+      "valid": 622
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 179,
+      "full_plan_identification_bounds": [
+        0.28685897435897434,
+        0.30128205128205127
+      ],
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.2910569105691057,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 292,
+      "full_plan_identification_bounds": [
+        0.46794871794871795,
+        0.4823717948717949
+      ],
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.47479674796747967,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 254,
+      "full_plan_identification_bounds": [
+        0.40705128205128205,
+        0.41346153846153844
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.4096774193548387,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "neutral_1",
+      "count": 186,
+      "full_plan_identification_bounds": [
+        0.2980769230769231,
+        0.3108974358974359
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.30194805194805197,
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "neutral_2",
+      "count": 206,
+      "full_plan_identification_bounds": [
+        0.3301282051282051,
+        0.33974358974358976
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.3333333333333333,
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 597,
+      "full_plan_identification_bounds": [
+        0.9567307692307693,
+        0.9663461538461539
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9660194174757282,
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 7,
+      "full_plan_identification_bounds": [
+        0.011217948717948718,
+        0.027243589743589744
+      ],
+      "missing": 10,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.011400651465798045,
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 587,
+      "full_plan_identification_bounds": [
+        0.9407051282051282,
+        0.9551282051282052
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9544715447154472,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 605,
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9791666666666666
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9789644012944984,
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 368,
+      "full_plan_identification_bounds": [
+        0.5897435897435898,
+        0.6041666666666666
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5983739837398374,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 605,
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9823717948717948
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9821428571428571,
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 154,
+      "full_plan_identification_bounds": [
+        0.2467948717948718,
+        0.25961538461538464
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.25,
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 217,
+      "full_plan_identification_bounds": [
+        0.34775641025641024,
+        0.3541666666666667
+      ],
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.35,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 253,
+      "full_plan_identification_bounds": [
+        0.40544871794871795,
+        0.4166666666666667
+      ],
+      "missing": 7,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.4100486223662885,
+      "planned": 624,
+      "valid": 617
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 419,
+      "full_plan_identification_bounds": [
+        0.6714743589743589,
+        0.6842948717948718
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6801948051948052,
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "neutral_1",
+      "count": 84,
+      "full_plan_identification_bounds": [
+        0.1346153846153846,
+        0.15064102564102563
+      ],
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.13680781758957655,
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "neutral_2",
+      "count": 82,
+      "full_plan_identification_bounds": [
+        0.13141025641025642,
+        0.15224358974358973
+      ],
+      "missing": 13,
+      "model_id": "luna_off",
+      "observed_rate": 0.1342062193126023,
+      "planned": 624,
+      "valid": 611
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 82,
+      "full_plan_identification_bounds": [
+        0.13141025641025642,
+        0.14262820512820512
+      ],
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.13290113452188007,
+      "planned": 624,
+      "valid": 617
+    },
+    {
+      "condition": "bundle_good",
+      "count": 81,
+      "full_plan_identification_bounds": [
+        0.12980769230769232,
+        0.1362179487179487
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.13064516129032258,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 272,
+      "full_plan_identification_bounds": [
+        0.4358974358974359,
+        0.4423076923076923
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.43870967741935485,
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 56,
+      "full_plan_identification_bounds": [
+        0.08974358974358974,
+        0.10737179487179487
+      ],
+      "missing": 11,
+      "model_id": "luna_off",
+      "observed_rate": 0.09135399673735727,
+      "planned": 624,
+      "valid": 613
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 437,
+      "full_plan_identification_bounds": [
+        0.7003205128205128,
+        0.7147435897435898
+      ],
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.7105691056910569,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 78,
+      "full_plan_identification_bounds": [
+        0.125,
+        0.14102564102564102
+      ],
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.1270358306188925,
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 62,
+      "full_plan_identification_bounds": [
+        0.09935897435897435,
+        0.10897435897435898
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.10032362459546926,
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 85,
+      "full_plan_identification_bounds": [
+        0.1362179487179487,
+        0.14423076923076922
+      ],
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.13731825525040386,
+      "planned": 624,
+      "valid": 619
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 62,
+      "full_plan_identification_bounds": [
+        0.09935897435897435,
+        0.11378205128205128
+      ],
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.1008130081300813,
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 78,
+      "full_plan_identification_bounds": [
+        0.125,
+        0.1346153846153846
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.1262135922330097,
+      "planned": 624,
+      "valid": 618
+    }
+  ],
+  "both_order_endorsement_following": [
+    {
+      "both_following_rate_among_complete_pairs": 0.745928338762215,
+      "cases_with_unavailable_order": 5,
+      "complete_order_pairs": 307,
+      "condition": "bundle_bad",
+      "definitely_not_both_followed": 78,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 229,
+      "full_plan_identification_bounds": [
+        0.7339743589743589,
+        0.75
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9058441558441559,
+      "cases_with_unavailable_order": 4,
+      "complete_order_pairs": 308,
+      "condition": "bundle_good",
+      "definitely_not_both_followed": 30,
+      "endorsed_target": "optimal",
+      "followed_in_both_orders": 279,
+      "full_plan_identification_bounds": [
+        0.8942307692307693,
+        0.9038461538461539
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.06774193548387097,
+      "cases_with_unavailable_order": 2,
+      "complete_order_pairs": 310,
+      "condition": "guard_bundle_bad",
+      "definitely_not_both_followed": 290,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 21,
+      "full_plan_identification_bounds": [
+        0.0673076923076923,
+        0.07051282051282051
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.4885245901639344,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "preference_bad_1",
+      "definitely_not_both_followed": 158,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 149,
+      "full_plan_identification_bounds": [
+        0.4775641025641026,
+        0.4935897435897436
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.6472491909385113,
+      "cases_with_unavailable_order": 3,
+      "complete_order_pairs": 309,
+      "condition": "preference_bad_2",
+      "definitely_not_both_followed": 110,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 200,
+      "full_plan_identification_bounds": [
+        0.6410256410256411,
+        0.6474358974358975
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.2435064935064935,
+      "cases_with_unavailable_order": 4,
+      "complete_order_pairs": 308,
+      "condition": "sponsor_bad",
+      "definitely_not_both_followed": 234,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 75,
+      "full_plan_identification_bounds": [
+        0.2403846153846154,
+        0.25
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.4645161290322581,
+      "cases_with_unavailable_order": 2,
+      "complete_order_pairs": 310,
+      "condition": "commitment_bad",
+      "definitely_not_both_followed": 167,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 144,
+      "full_plan_identification_bounds": [
+        0.46153846153846156,
+        0.46474358974358976
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.3074433656957929,
+      "cases_with_unavailable_order": 3,
+      "complete_order_pairs": 309,
+      "condition": "simple_bundle_bad",
+      "definitely_not_both_followed": 215,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 95,
+      "full_plan_identification_bounds": [
+        0.30448717948717946,
+        0.3108974358974359
+      ],
+      "model_id": "llama_default",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9313725490196079,
+      "cases_with_unavailable_order": 6,
+      "complete_order_pairs": 306,
+      "condition": "bundle_bad",
+      "definitely_not_both_followed": 21,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 285,
+      "full_plan_identification_bounds": [
+        0.9134615384615384,
+        0.9326923076923077
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9770491803278688,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "bundle_good",
+      "definitely_not_both_followed": 7,
+      "endorsed_target": "optimal",
+      "followed_in_both_orders": 298,
+      "full_plan_identification_bounds": [
+        0.9551282051282052,
+        0.9775641025641025
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.06209150326797386,
+      "cases_with_unavailable_order": 6,
+      "complete_order_pairs": 306,
+      "condition": "guard_bundle_bad",
+      "definitely_not_both_followed": 291,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 19,
+      "full_plan_identification_bounds": [
+        0.060897435897435896,
+        0.0673076923076923
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9114754098360656,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "preference_bad_1",
+      "definitely_not_both_followed": 27,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 278,
+      "full_plan_identification_bounds": [
+        0.8910256410256411,
+        0.9134615384615384
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9575163398692811,
+      "cases_with_unavailable_order": 6,
+      "complete_order_pairs": 306,
+      "condition": "preference_bad_2",
+      "definitely_not_both_followed": 13,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 293,
+      "full_plan_identification_bounds": [
+        0.9391025641025641,
+        0.9583333333333334
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.3815789473684211,
+      "cases_with_unavailable_order": 8,
+      "complete_order_pairs": 304,
+      "condition": "sponsor_bad",
+      "definitely_not_both_followed": 192,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 116,
+      "full_plan_identification_bounds": [
+        0.3717948717948718,
+        0.38461538461538464
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.9640522875816994,
+      "cases_with_unavailable_order": 6,
+      "complete_order_pairs": 306,
+      "condition": "commitment_bad",
+      "definitely_not_both_followed": 11,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 295,
+      "full_plan_identification_bounds": [
+        0.9455128205128205,
+        0.9647435897435898
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.49836065573770494,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "simple_bundle_bad",
+      "definitely_not_both_followed": 155,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 152,
+      "full_plan_identification_bounds": [
+        0.48717948717948717,
+        0.5032051282051282
+      ],
+      "model_id": "deepseek_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.03278688524590164,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "bundle_bad",
+      "definitely_not_both_followed": 299,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 10,
+      "full_plan_identification_bounds": [
+        0.03205128205128205,
+        0.041666666666666664
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.7727272727272727,
+      "cases_with_unavailable_order": 4,
+      "complete_order_pairs": 308,
+      "condition": "bundle_good",
+      "definitely_not_both_followed": 70,
+      "endorsed_target": "optimal",
+      "followed_in_both_orders": 238,
+      "full_plan_identification_bounds": [
+        0.7628205128205128,
+        0.7756410256410257
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.03594771241830065,
+      "cases_with_unavailable_order": 6,
+      "complete_order_pairs": 306,
+      "condition": "guard_bundle_bad",
+      "definitely_not_both_followed": 300,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 11,
+      "full_plan_identification_bounds": [
+        0.035256410256410256,
+        0.038461538461538464
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.2564935064935065,
+      "cases_with_unavailable_order": 4,
+      "complete_order_pairs": 308,
+      "condition": "preference_bad_1",
+      "definitely_not_both_followed": 229,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 79,
+      "full_plan_identification_bounds": [
+        0.2532051282051282,
+        0.266025641025641
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.019672131147540985,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "preference_bad_2",
+      "definitely_not_both_followed": 301,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 6,
+      "full_plan_identification_bounds": [
+        0.019230769230769232,
+        0.035256410256410256
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.5573770491803278,
+      "cases_with_unavailable_order": 7,
+      "complete_order_pairs": 305,
+      "condition": "sponsor_bad",
+      "definitely_not_both_followed": 136,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 170,
+      "full_plan_identification_bounds": [
+        0.5448717948717948,
+        0.5641025641025641
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.046052631578947366,
+      "cases_with_unavailable_order": 8,
+      "complete_order_pairs": 304,
+      "condition": "commitment_bad",
+      "definitely_not_both_followed": 295,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 14,
+      "full_plan_identification_bounds": [
+        0.04487179487179487,
+        0.05448717948717949
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    },
+    {
+      "both_following_rate_among_complete_pairs": 0.026058631921824105,
+      "cases_with_unavailable_order": 5,
+      "complete_order_pairs": 307,
+      "condition": "simple_bundle_bad",
+      "definitely_not_both_followed": 302,
+      "endorsed_target": "inferior",
+      "followed_in_both_orders": 8,
+      "full_plan_identification_bounds": [
+        0.02564102564102564,
+        0.03205128205128205
+      ],
+      "model_id": "luna_off",
+      "planned_cases": 312
+    }
+  ],
+  "case_bank": "shared_312",
+  "control_accuracy_by_type_and_order": [
+    {
+      "control_kind": "dominance",
+      "count": 16,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "llama_default",
+      "observed_rate": 1.0,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 16,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "llama_default",
+      "observed_rate": 1.0,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 32,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "llama_default",
+      "observed_rate": 1.0,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 32
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 8,
+      "full_plan_identification_bounds": [
+        0.5,
+        0.5625
+      ],
+      "incorrect_valid": 7,
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.5333333333333333,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 15
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 8,
+      "full_plan_identification_bounds": [
+        0.5,
+        0.5625
+      ],
+      "incorrect_valid": 7,
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.5333333333333333,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 15
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 16,
+      "full_plan_identification_bounds": [
+        0.5,
+        0.5625
+      ],
+      "incorrect_valid": 14,
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.5333333333333333,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 30
+    },
+    {
+      "control_kind": "dominance",
+      "count": 11,
+      "full_plan_identification_bounds": [
+        0.6875,
+        0.6875
+      ],
+      "incorrect_valid": 5,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6875,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 15,
+      "full_plan_identification_bounds": [
+        0.9375,
+        0.9375
+      ],
+      "incorrect_valid": 1,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9375,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 26,
+      "full_plan_identification_bounds": [
+        0.8125,
+        0.8125
+      ],
+      "incorrect_valid": 6,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.8125,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 32
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 7,
+      "full_plan_identification_bounds": [
+        0.4375,
+        0.4375
+      ],
+      "incorrect_valid": 9,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.4375,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 11,
+      "full_plan_identification_bounds": [
+        0.6875,
+        0.6875
+      ],
+      "incorrect_valid": 5,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6875,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 18,
+      "full_plan_identification_bounds": [
+        0.5625,
+        0.5625
+      ],
+      "incorrect_valid": 14,
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5625,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 32
+    },
+    {
+      "control_kind": "dominance",
+      "count": 16,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "luna_off",
+      "observed_rate": 1.0,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 16,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "luna_off",
+      "observed_rate": 1.0,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "dominance",
+      "count": 32,
+      "full_plan_identification_bounds": [
+        1.0,
+        1.0
+      ],
+      "incorrect_valid": 0,
+      "missing": 0,
+      "model_id": "luna_off",
+      "observed_rate": 1.0,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 32
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 12,
+      "full_plan_identification_bounds": [
+        0.75,
+        0.75
+      ],
+      "incorrect_valid": 4,
+      "missing": 0,
+      "model_id": "luna_off",
+      "observed_rate": 0.75,
+      "order_group": "AB",
+      "planned": 16,
+      "valid": 16
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 12,
+      "full_plan_identification_bounds": [
+        0.75,
+        0.8125
+      ],
+      "incorrect_valid": 3,
+      "missing": 1,
+      "model_id": "luna_off",
+      "observed_rate": 0.8,
+      "order_group": "BA",
+      "planned": 16,
+      "valid": 15
+    },
+    {
+      "control_kind": "nondominance",
+      "count": 24,
+      "full_plan_identification_bounds": [
+        0.75,
+        0.78125
+      ],
+      "incorrect_valid": 7,
+      "missing": 1,
+      "model_id": "luna_off",
+      "observed_rate": 0.7741935483870968,
+      "order_group": "both_orders",
+      "planned": 32,
+      "valid": 31
+    }
+  ],
+  "endorsement_following_by_arm_and_order": [
+    {
+      "condition": "bundle_bad",
+      "count": 252,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.8076923076923077,
+        0.8173076923076923
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.8155339805825242,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 263,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.842948717948718,
+        0.8525641025641025
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.8511326860841424,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 515,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.8253205128205128,
+        0.8349358974358975
+      ],
+      "missing": 6,
+      "model_id": "llama_default",
+      "observed_rate": 0.8333333333333334,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 298,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.9551282051282052,
+        0.9583333333333334
+      ],
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.9581993569131833,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "bundle_good",
+      "count": 288,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.9230769230769231,
+        0.9326923076923077
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.9320388349514563,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_good",
+      "count": 586,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.9391025641025641,
+        0.9455128205128205
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.9451612903225807,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 64,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.20512820512820512,
+        0.21153846153846154
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.2064516129032258,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 33,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.10576923076923077,
+        0.10576923076923077
+      ],
+      "missing": 0,
+      "model_id": "llama_default",
+      "observed_rate": 0.10576923076923077,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 312
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 97,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.15544871794871795,
+        0.15865384615384615
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.15594855305466238,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 622
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 200,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6410256410256411,
+        0.6538461538461539
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.6493506493506493,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 185,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.592948717948718,
+        0.6057692307692307
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.6006493506493507,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 385,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6169871794871795,
+        0.6298076923076923
+      ],
+      "missing": 8,
+      "model_id": "llama_default",
+      "observed_rate": 0.625,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 232,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.7435897435897436,
+        0.7532051282051282
+      ],
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.7508090614886731,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 237,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.7596153846153846,
+        0.7628205128205128
+      ],
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.7620578778135049,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 469,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.7516025641025641,
+        0.7580128205128205
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.7564516129032258,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 128,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.41025641025641024,
+        0.41346153846153844
+      ],
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.4115755627009646,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 109,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.34935897435897434,
+        0.36217948717948717
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.3538961038961039,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 237,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.3798076923076923,
+        0.38782051282051283
+      ],
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.38287560581583197,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 619
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 196,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6282051282051282,
+        0.6314102564102564
+      ],
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.6302250803858521,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 164,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.5256410256410257,
+        0.5288461538461539
+      ],
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.5273311897106109,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 360,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.5769230769230769,
+        0.5801282051282052
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.5787781350482315,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 622
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 143,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.4583333333333333,
+        0.46474358974358976
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.4612903225806452,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 111,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.3557692307692308,
+        0.36217948717948717
+      ],
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.3580645161290323,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 254,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.40705128205128205,
+        0.41346153846153844
+      ],
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.4096774193548387,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 296,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9487179487179487,
+        0.9583333333333334
+      ],
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9579288025889967,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 301,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9647435897435898,
+        0.9743589743589743
+      ],
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9741100323624595,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 597,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9567307692307693,
+        0.9663461538461539
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9660194174757282,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "bundle_good",
+      "count": 302,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.967948717948718,
+        0.9839743589743589
+      ],
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9837133550488599,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "bundle_good",
+      "count": 305,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.9775641025641025,
+        0.9935897435897436
+      ],
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.993485342019544,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "bundle_good",
+      "count": 607,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.9727564102564102,
+        0.9887820512820513
+      ],
+      "missing": 10,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.988599348534202,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 87,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.27884615384615385,
+        0.28525641025641024
+      ],
+      "missing": 2,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.2806451612903226,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 67,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.21474358974358973,
+        0.23397435897435898
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.21895424836601307,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 154,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.2467948717948718,
+        0.25961538461538464
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.25,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 285,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9134615384615384,
+        0.9294871794871795
+      ],
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9283387622149837,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 302,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.967948717948718,
+        0.9807692307692307
+      ],
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9805194805194806,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 587,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9407051282051282,
+        0.9551282051282052
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9544715447154472,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 303,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9711538461538461,
+        0.9903846153846154
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9901960784313726,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 302,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.967948717948718,
+        0.967948717948718
+      ],
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.967948717948718,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 312
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 605,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9791666666666666
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9789644012944984,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 202,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6474358974358975,
+        0.6666666666666666
+      ],
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6601307189542484,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 166,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.532051282051282,
+        0.5416666666666666
+      ],
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5372168284789643,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 368,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.5897435897435898,
+        0.6041666666666666
+      ],
+      "missing": 9,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5983739837398374,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 299,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9583333333333334,
+        0.9743589743589743
+      ],
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9739413680781759,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 306,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.9807692307692307,
+        0.9903846153846154
+      ],
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9902912621359223,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 605,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.969551282051282,
+        0.9823717948717948
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.9821428571428571,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 205,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.657051282051282,
+        0.6666666666666666
+      ],
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6634304207119741,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 214,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6858974358974359,
+        0.7019230769230769
+      ],
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6970684039087948,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 419,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6714743589743589,
+        0.6842948717948718
+      ],
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6801948051948052,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 35,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.11217948717948718,
+        0.125
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.11363636363636363,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 47,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.15064102564102563,
+        0.16025641025641027
+      ],
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.15210355987055016,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "bundle_bad",
+      "count": 82,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.13141025641025642,
+        0.14262820512820512
+      ],
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.13290113452188007,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 617
+    },
+    {
+      "condition": "bundle_good",
+      "count": 270,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.8653846153846154,
+        0.8782051282051282
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.8766233766233766,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "bundle_good",
+      "count": 269,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.8621794871794872,
+        0.8621794871794872
+      ],
+      "missing": 0,
+      "model_id": "luna_off",
+      "observed_rate": 0.8621794871794872,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 312
+    },
+    {
+      "condition": "bundle_good",
+      "count": 539,
+      "endorsed_target": "optimal",
+      "full_plan_identification_bounds": [
+        0.8637820512820513,
+        0.8701923076923077
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.8693548387096774,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 25,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.08012820512820513,
+        0.08333333333333333
+      ],
+      "missing": 1,
+      "model_id": "luna_off",
+      "observed_rate": 0.08038585209003216,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 37,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.11858974358974358,
+        0.1346153846153846
+      ],
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.12052117263843648,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "guard_bundle_bad",
+      "count": 62,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.09935897435897435,
+        0.10897435897435898
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.10032362459546926,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 113,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.36217948717948717,
+        0.3717948717948718
+      ],
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.3656957928802589,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 159,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.5096153846153846,
+        0.5128205128205128
+      ],
+      "missing": 1,
+      "model_id": "luna_off",
+      "observed_rate": 0.5112540192926045,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "preference_bad_1",
+      "count": 272,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.4358974358974359,
+        0.4423076923076923
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.43870967741935485,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 27,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.08653846153846154,
+        0.10576923076923077
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.08823529411764706,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 29,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.09294871794871795,
+        0.10897435897435898
+      ],
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.09446254071661238,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "preference_bad_2",
+      "count": 56,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.08974358974358974,
+        0.10737179487179487
+      ],
+      "missing": 11,
+      "model_id": "luna_off",
+      "observed_rate": 0.09135399673735727,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 613
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 194,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.6217948717948718,
+        0.6410256410256411
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.6339869281045751,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 243,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.7788461538461539,
+        0.7884615384615384
+      ],
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.7864077669902912,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "sponsor_bad",
+      "count": 437,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.7003205128205128,
+        0.7147435897435898
+      ],
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.7105691056910569,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 35,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.11217948717948718,
+        0.12179487179487179
+      ],
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.11326860841423948,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 43,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.13782051282051283,
+        0.16025641025641027
+      ],
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.14098360655737704,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 305
+    },
+    {
+      "condition": "commitment_bad",
+      "count": 78,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.125,
+        0.14102564102564102
+      ],
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.1270358306188925,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 27,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.08653846153846154,
+        0.09294871794871795
+      ],
+      "missing": 2,
+      "model_id": "luna_off",
+      "observed_rate": 0.08709677419354839,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 51,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.16346153846153846,
+        0.1762820512820513
+      ],
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.16558441558441558,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_bundle_bad",
+      "count": 78,
+      "endorsed_target": "inferior",
+      "full_plan_identification_bounds": [
+        0.125,
+        0.1346153846153846
+      ],
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.1262135922330097,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    }
+  ],
+  "guard_neutral_error_contrast": [
+    {
+      "complete_case_clusters": 301,
+      "complete_case_descriptive_contrast": -0.016611295681063124,
+      "contrast": "guard_neutral_minus_neutral_2",
+      "exact_full_plan_identification_bounds": [
+        "-5/208",
+        "-1/208"
+      ],
+      "full_plan_identification_bounds": [
+        -0.02403846153846154,
+        -0.004807692307692308
+      ],
+      "missing_or_incomplete_case_clusters": 11,
+      "model_id": "llama_default",
+      "planned_case_clusters": 312
+    },
+    {
+      "complete_case_clusters": 303,
+      "complete_case_descriptive_contrast": 0.01485148514851485,
+      "contrast": "guard_neutral_minus_neutral_2",
+      "exact_full_plan_identification_bounds": [
+        "5/624",
+        "5/208"
+      ],
+      "full_plan_identification_bounds": [
+        0.008012820512820512,
+        0.02403846153846154
+      ],
+      "missing_or_incomplete_case_clusters": 9,
+      "model_id": "deepseek_off",
+      "planned_case_clusters": 312
+    },
+    {
+      "complete_case_clusters": 297,
+      "complete_case_descriptive_contrast": 0.005050505050505051,
+      "contrast": "guard_neutral_minus_neutral_2",
+      "exact_full_plan_identification_bounds": [
+        "-5/312",
+        "1/78"
+      ],
+      "full_plan_identification_bounds": [
+        -0.016025641025641024,
+        0.01282051282051282
+      ],
+      "missing_or_incomplete_case_clusters": 15,
+      "model_id": "luna_off",
+      "planned_case_clusters": 312
+    }
+  ],
+  "limits": [
+    "Descriptive choice rates condition on valid responses; full-plan bounds retain missing outcomes.",
+    "First displayed means the numerical report/table/menu order, not first lexical mention; A/B report identities remain fixed.",
+    "Both-order pairs are nested within 312 whole-case clusters and are not new independent cases.",
+    "Guard-neutral contrasts are post hoc descriptions, with no new tests or confidence intervals.",
+    "Component/preference arms target the inferior report only; they cannot distinguish directional following from disruption for each individual cue.",
+    "Controls describe dominance/nondominance performance; observed errors do not identify fraction comparison as a mechanism."
+  ],
+  "neutral_identity_and_position": [
+    {
+      "condition": "neutral_1",
+      "count": 205,
+      "full_plan_identification_bounds": [
+        0.657051282051282,
+        0.6602564102564102
+      ],
+      "metric": "report_identity_A",
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.6591639871382636,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "neutral_1",
+      "count": 205,
+      "full_plan_identification_bounds": [
+        0.657051282051282,
+        0.6602564102564102
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.6591639871382636,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "neutral_1",
+      "count": 198,
+      "full_plan_identification_bounds": [
+        0.6346153846153846,
+        0.6442307692307693
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.6407766990291263,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_1",
+      "count": 111,
+      "full_plan_identification_bounds": [
+        0.3557692307692308,
+        0.36538461538461536
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.3592233009708738,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_1",
+      "count": 403,
+      "full_plan_identification_bounds": [
+        0.6458333333333334,
+        0.6522435897435898
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.65,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "neutral_1",
+      "count": 316,
+      "full_plan_identification_bounds": [
+        0.5064102564102564,
+        0.5128205128205128
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.5096774193548387,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "neutral_2",
+      "count": 202,
+      "full_plan_identification_bounds": [
+        0.6474358974358975,
+        0.6506410256410257
+      ],
+      "metric": "report_identity_A",
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.6495176848874598,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "neutral_2",
+      "count": 202,
+      "full_plan_identification_bounds": [
+        0.6474358974358975,
+        0.6506410256410257
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 1,
+      "model_id": "llama_default",
+      "observed_rate": 0.6495176848874598,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 311
+    },
+    {
+      "condition": "neutral_2",
+      "count": 196,
+      "full_plan_identification_bounds": [
+        0.6282051282051282,
+        0.6346153846153846
+      ],
+      "metric": "report_identity_A",
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.632258064516129,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "neutral_2",
+      "count": 114,
+      "full_plan_identification_bounds": [
+        0.36538461538461536,
+        0.3717948717948718
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 2,
+      "model_id": "llama_default",
+      "observed_rate": 0.36774193548387096,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "neutral_2",
+      "count": 398,
+      "full_plan_identification_bounds": [
+        0.6378205128205128,
+        0.6426282051282052
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.6409017713365539,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 621
+    },
+    {
+      "condition": "neutral_2",
+      "count": 316,
+      "full_plan_identification_bounds": [
+        0.5064102564102564,
+        0.5112179487179487
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "llama_default",
+      "observed_rate": 0.5088566827697263,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 621
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 196,
+      "full_plan_identification_bounds": [
+        0.6282051282051282,
+        0.6410256410256411
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.6363636363636364,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 196,
+      "full_plan_identification_bounds": [
+        0.6282051282051282,
+        0.6410256410256411
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.6363636363636364,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 185,
+      "full_plan_identification_bounds": [
+        0.592948717948718,
+        0.6089743589743589
+      ],
+      "metric": "report_identity_A",
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.6026058631921825,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 122,
+      "full_plan_identification_bounds": [
+        0.391025641025641,
+        0.40705128205128205
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.3973941368078176,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 381,
+      "full_plan_identification_bounds": [
+        0.6105769230769231,
+        0.625
+      ],
+      "metric": "report_identity_A",
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.6195121951219512,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 318,
+      "full_plan_identification_bounds": [
+        0.5096153846153846,
+        0.5240384615384616
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.5170731707317073,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 119,
+      "full_plan_identification_bounds": [
+        0.3814102564102564,
+        0.3974358974358974
+      ],
+      "metric": "report_identity_A",
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.38762214983713356,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 119,
+      "full_plan_identification_bounds": [
+        0.3814102564102564,
+        0.3974358974358974
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 5,
+      "model_id": "llama_default",
+      "observed_rate": 0.38762214983713356,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 199,
+      "full_plan_identification_bounds": [
+        0.6378205128205128,
+        0.6506410256410257
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.6461038961038961,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 109,
+      "full_plan_identification_bounds": [
+        0.34935897435897434,
+        0.36217948717948717
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "llama_default",
+      "observed_rate": 0.3538961038961039,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 318,
+      "full_plan_identification_bounds": [
+        0.5096153846153846,
+        0.5240384615384616
+      ],
+      "metric": "report_identity_A",
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.5170731707317073,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 228,
+      "full_plan_identification_bounds": [
+        0.36538461538461536,
+        0.3798076923076923
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 9,
+      "model_id": "llama_default",
+      "observed_rate": 0.37073170731707317,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "neutral_1",
+      "count": 216,
+      "full_plan_identification_bounds": [
+        0.6923076923076923,
+        0.7083333333333334
+      ],
+      "metric": "report_identity_A",
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.7035830618892508,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "neutral_1",
+      "count": 216,
+      "full_plan_identification_bounds": [
+        0.6923076923076923,
+        0.7083333333333334
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 5,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.7035830618892508,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "neutral_1",
+      "count": 134,
+      "full_plan_identification_bounds": [
+        0.42948717948717946,
+        0.4391025641025641
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.4336569579288026,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_1",
+      "count": 175,
+      "full_plan_identification_bounds": [
+        0.5608974358974359,
+        0.5705128205128205
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5663430420711975,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_1",
+      "count": 350,
+      "full_plan_identification_bounds": [
+        0.5608974358974359,
+        0.5737179487179487
+      ],
+      "metric": "report_identity_A",
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5681818181818182,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "neutral_1",
+      "count": 391,
+      "full_plan_identification_bounds": [
+        0.6266025641025641,
+        0.6394230769230769
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 8,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6347402597402597,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 616
+    },
+    {
+      "condition": "neutral_2",
+      "count": 236,
+      "full_plan_identification_bounds": [
+        0.7564102564102564,
+        0.7660256410256411
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.7637540453074434,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_2",
+      "count": 236,
+      "full_plan_identification_bounds": [
+        0.7564102564102564,
+        0.7660256410256411
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.7637540453074434,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_2",
+      "count": 124,
+      "full_plan_identification_bounds": [
+        0.3974358974358974,
+        0.40705128205128205
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.40129449838187703,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_2",
+      "count": 185,
+      "full_plan_identification_bounds": [
+        0.592948717948718,
+        0.6025641025641025
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.598705501618123,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "neutral_2",
+      "count": 360,
+      "full_plan_identification_bounds": [
+        0.5769230769230769,
+        0.5865384615384616
+      ],
+      "metric": "report_identity_A",
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5825242718446602,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "neutral_2",
+      "count": 421,
+      "full_plan_identification_bounds": [
+        0.6746794871794872,
+        0.6842948717948718
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 6,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6812297734627831,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 618
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 249,
+      "full_plan_identification_bounds": [
+        0.7980769230769231,
+        0.8108974358974359
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.8084415584415584,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 249,
+      "full_plan_identification_bounds": [
+        0.7980769230769231,
+        0.8108974358974359
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.8084415584415584,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 102,
+      "full_plan_identification_bounds": [
+        0.3269230769230769,
+        0.3269230769230769
+      ],
+      "metric": "report_identity_A",
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.3269230769230769,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 312
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 210,
+      "full_plan_identification_bounds": [
+        0.6730769230769231,
+        0.6730769230769231
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 0,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6730769230769231,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 312
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 351,
+      "full_plan_identification_bounds": [
+        0.5625,
+        0.5689102564102564
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.5661290322580645,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 459,
+      "full_plan_identification_bounds": [
+        0.7355769230769231,
+        0.7419871794871795
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.7403225806451613,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 620
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 194,
+      "full_plan_identification_bounds": [
+        0.6217948717948718,
+        0.6314102564102564
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.627831715210356,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 194,
+      "full_plan_identification_bounds": [
+        0.6217948717948718,
+        0.6314102564102564
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.627831715210356,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 123,
+      "full_plan_identification_bounds": [
+        0.3942307692307692,
+        0.40705128205128205
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.39935064935064934,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 185,
+      "full_plan_identification_bounds": [
+        0.592948717948718,
+        0.6057692307692307
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6006493506493507,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 317,
+      "full_plan_identification_bounds": [
+        0.5080128205128205,
+        0.5192307692307693
+      ],
+      "metric": "report_identity_A",
+      "missing": 7,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.513776337115073,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 617
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 379,
+      "full_plan_identification_bounds": [
+        0.6073717948717948,
+        0.6185897435897436
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 7,
+      "model_id": "deepseek_off",
+      "observed_rate": 0.6142625607779578,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 617
+    },
+    {
+      "condition": "neutral_1",
+      "count": 169,
+      "full_plan_identification_bounds": [
+        0.5416666666666666,
+        0.5673076923076923
+      ],
+      "metric": "report_identity_A",
+      "missing": 8,
+      "model_id": "luna_off",
+      "observed_rate": 0.555921052631579,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 304
+    },
+    {
+      "condition": "neutral_1",
+      "count": 169,
+      "full_plan_identification_bounds": [
+        0.5416666666666666,
+        0.5673076923076923
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 8,
+      "model_id": "luna_off",
+      "observed_rate": 0.555921052631579,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 304
+    },
+    {
+      "condition": "neutral_1",
+      "count": 150,
+      "full_plan_identification_bounds": [
+        0.4807692307692308,
+        0.48717948717948717
+      ],
+      "metric": "report_identity_A",
+      "missing": 2,
+      "model_id": "luna_off",
+      "observed_rate": 0.4838709677419355,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "neutral_1",
+      "count": 160,
+      "full_plan_identification_bounds": [
+        0.5128205128205128,
+        0.5192307692307693
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 2,
+      "model_id": "luna_off",
+      "observed_rate": 0.5161290322580645,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "neutral_1",
+      "count": 319,
+      "full_plan_identification_bounds": [
+        0.5112179487179487,
+        0.5272435897435898
+      ],
+      "metric": "report_identity_A",
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.5195439739413681,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "neutral_1",
+      "count": 329,
+      "full_plan_identification_bounds": [
+        0.5272435897435898,
+        0.5432692307692307
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 10,
+      "model_id": "luna_off",
+      "observed_rate": 0.5358306188925082,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 614
+    },
+    {
+      "condition": "neutral_2",
+      "count": 162,
+      "full_plan_identification_bounds": [
+        0.5192307692307693,
+        0.5416666666666666
+      ],
+      "metric": "report_identity_A",
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.5311475409836065,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 305
+    },
+    {
+      "condition": "neutral_2",
+      "count": 162,
+      "full_plan_identification_bounds": [
+        0.5192307692307693,
+        0.5416666666666666
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 7,
+      "model_id": "luna_off",
+      "observed_rate": 0.5311475409836065,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 305
+    },
+    {
+      "condition": "neutral_2",
+      "count": 147,
+      "full_plan_identification_bounds": [
+        0.47115384615384615,
+        0.49038461538461536
+      ],
+      "metric": "report_identity_A",
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.4803921568627451,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "neutral_2",
+      "count": 159,
+      "full_plan_identification_bounds": [
+        0.5096153846153846,
+        0.5288461538461539
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 6,
+      "model_id": "luna_off",
+      "observed_rate": 0.5196078431372549,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 306
+    },
+    {
+      "condition": "neutral_2",
+      "count": 309,
+      "full_plan_identification_bounds": [
+        0.4951923076923077,
+        0.5160256410256411
+      ],
+      "metric": "report_identity_A",
+      "missing": 13,
+      "model_id": "luna_off",
+      "observed_rate": 0.5057283142389526,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 611
+    },
+    {
+      "condition": "neutral_2",
+      "count": 321,
+      "full_plan_identification_bounds": [
+        0.5144230769230769,
+        0.5352564102564102
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 13,
+      "model_id": "luna_off",
+      "observed_rate": 0.5253682487725041,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 611
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 162,
+      "full_plan_identification_bounds": [
+        0.5192307692307693,
+        0.5256410256410257
+      ],
+      "metric": "report_identity_A",
+      "missing": 2,
+      "model_id": "luna_off",
+      "observed_rate": 0.5225806451612903,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 162,
+      "full_plan_identification_bounds": [
+        0.5192307692307693,
+        0.5256410256410257
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 2,
+      "model_id": "luna_off",
+      "observed_rate": 0.5225806451612903,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 310
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 141,
+      "full_plan_identification_bounds": [
+        0.4519230769230769,
+        0.46153846153846156
+      ],
+      "metric": "report_identity_A",
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.4563106796116505,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 168,
+      "full_plan_identification_bounds": [
+        0.5384615384615384,
+        0.5480769230769231
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 3,
+      "model_id": "luna_off",
+      "observed_rate": 0.5436893203883495,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 309
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 303,
+      "full_plan_identification_bounds": [
+        0.4855769230769231,
+        0.4935897435897436
+      ],
+      "metric": "report_identity_A",
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.4894991922455573,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 619
+    },
+    {
+      "condition": "guard_neutral",
+      "count": 330,
+      "full_plan_identification_bounds": [
+        0.5288461538461539,
+        0.5368589743589743
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.5331179321486268,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 619
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 168,
+      "full_plan_identification_bounds": [
+        0.5384615384615384,
+        0.5512820512820513
+      ],
+      "metric": "report_identity_A",
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.5454545454545454,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 168,
+      "full_plan_identification_bounds": [
+        0.5384615384615384,
+        0.5512820512820513
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 4,
+      "model_id": "luna_off",
+      "observed_rate": 0.5454545454545454,
+      "order_group": "AB",
+      "planned": 312,
+      "valid": 308
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 147,
+      "full_plan_identification_bounds": [
+        0.47115384615384615,
+        0.48717948717948717
+      ],
+      "metric": "report_identity_A",
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.4788273615635179,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 160,
+      "full_plan_identification_bounds": [
+        0.5128205128205128,
+        0.5288461538461539
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 5,
+      "model_id": "luna_off",
+      "observed_rate": 0.5211726384364821,
+      "order_group": "BA",
+      "planned": 312,
+      "valid": 307
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 315,
+      "full_plan_identification_bounds": [
+        0.5048076923076923,
+        0.5192307692307693
+      ],
+      "metric": "report_identity_A",
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.5121951219512195,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    },
+    {
+      "condition": "simple_neutral",
+      "count": 328,
+      "full_plan_identification_bounds": [
+        0.5256410256410257,
+        0.5400641025641025
+      ],
+      "metric": "first_numerically_displayed",
+      "missing": 9,
+      "model_id": "luna_off",
+      "observed_rate": 0.5333333333333333,
+      "order_group": "both_orders",
+      "planned": 624,
+      "valid": 615
+    }
+  ],
+  "new_API_calls": 0,
+  "new_confidence_intervals": 0,
+  "new_hypothesis_tests": 0,
+  "planned_all_choices": 22656,
+  "planned_scientific_choices": 22464,
+  "status": "EXISTING_DATA_DESCRIPTIVE_SYNTHESIS"
+}
