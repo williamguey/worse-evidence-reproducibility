@@ -1,0 +1,13 @@
+cohort,representation,gap_band,planned_cases,both_order_complete_cases,planned_responses_per_arm,neutral_valid_responses,neutral_errors,strong_inferior_valid_responses,strong_inferior_errors,both_order_fullcase_contrast_exact,both_order_fullcase_contrast_pp
+Original H01,raw,low,32,32,64,64,31,64,60,29/64,45.3125
+Original H01,raw,moderate,32,32,64,64,16,64,61,45/64,70.3125
+Original H01,raw,high,32,32,64,64,5,64,57,13/16,81.25
+Original H01,supplied,low,32,32,64,64,32,64,63,31/64,48.4375
+Original H01,supplied,moderate,32,32,64,64,20,64,58,19/32,59.375
+Original H01,supplied,high,32,32,64,64,7,64,63,7/8,87.5
+Baidu follow-up,raw,low,32,32,64,64,24,64,55,31/64,48.4375
+Baidu follow-up,raw,moderate,32,32,64,64,25,64,50,25/64,39.0625
+Baidu follow-up,raw,high,32,32,64,64,16,64,50,17/32,53.125
+Baidu follow-up,supplied,low,32,32,64,64,26,64,63,37/64,57.8125
+Baidu follow-up,supplied,moderate,32,32,64,64,25,64,62,37/64,57.8125
+Baidu follow-up,supplied,high,32,32,64,64,10,64,57,47/64,73.4375

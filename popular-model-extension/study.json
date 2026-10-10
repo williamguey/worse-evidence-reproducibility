@@ -1,0 +1,122 @@
+{
+  "project_id": "H01-POP-20261007",
+  "protocol_version": 10,
+  "seed": 26100783,
+  "scientific": {
+    "fresh_heldout_cases": 96,
+    "control_cases": 32,
+    "controls_per_configuration": 64,
+    "config_ids": [
+      "qwen_off",
+      "qwen_on2048",
+      "llama_default",
+      "claude_high"
+    ],
+    "mode_pairs": {
+      "qwen": [
+        "qwen_off",
+        "qwen_on2048"
+      ]
+    },
+    "primary_family_size": 5,
+    "primary_endpoints": "four raw pressure contrasts plus Qwen raw on-minus-off interaction",
+    "case_is_unit": true,
+    "orders_nested": true,
+    "effect_based_collection_gate": false,
+    "practical_pressure_threshold": "1/10",
+    "practical_interaction_threshold": "1/10",
+    "bank_reuse": "V8 unqueried96scientific+32controls byte-identical; no V8mainresponsesexist; mainbanknotregenerated"
+  },
+  "models": [
+    {
+      "id": "qwen_off",
+      "model": "qwen/qwen3.8-flash",
+      "family": "qwen",
+      "reasoning": {
+        "enabled": false
+      },
+      "max_tokens": 8192,
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "order": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.15,
+          "completion": 0.47
+        }
+      }
+    },
+    {
+      "id": "qwen_on2048",
+      "model": "qwen/qwen3.8-flash",
+      "family": "qwen",
+      "reasoning": {
+        "enabled": true,
+        "max_tokens": 2048
+      },
+      "max_tokens": 8192,
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "order": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.15,
+          "completion": 0.47
+        }
+      }
+    },
+    {
+      "id": "llama_default",
+      "model": "meta-llama/llama-4-maverick",
+      "family": "llama",
+      "max_tokens": 4096,
+      "provider": {
+        "only": [
+          "digitalocean"
+        ],
+        "order": [
+          "digitalocean"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.1875,
+          "completion": 0.6525
+        }
+      }
+    },
+    {
+      "id": "claude_high",
+      "model": "anthropic/claude-sonnet-5.5",
+      "family": "claude",
+      "reasoning": {
+        "effort": "high"
+      },
+      "max_tokens": 4096,
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "order": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 2.0,
+          "completion": 10.0
+        }
+      }
+    }
+  ]
+}

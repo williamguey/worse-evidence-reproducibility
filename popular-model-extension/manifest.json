@@ -1,0 +1,30 @@
+{
+  "kind": "AUDITED_ACTUAL_SCIENTIFIC_COMPANION",
+  "files": {
+    "README.txt": "924053ade85244c1a1c57b0159eb7b92aa05833bba2ee6b43a2c284818dde2e3",
+    "acquisition-provenance.json": "e028c19be8a85a02fa1ba6c951f60fd37ce1ea32970727a9955bdfda8308bb31",
+    "cases.json": "73b14e1f9772e16433435463db440c2762fe0d46050488ccfd466f99bff4bc95",
+    "controls.json": "c3b8422905db72b63fc8e31fe9d96866f646e31b486bc1b01c773f775156698f",
+    "decision_engine.py": "65503446d6542622b1f64ba45178351ea6d46713b2b4f9613e821daaa4745d26",
+    "expected-analysis.json": "4f7e0f713f71687a65a741f54a67b421f476a47ffc62b8e8b4d8de087bafec41",
+    "expected-controls.json": "2878cbd68b10f83add7e53c61ed41319792382ceb88f95639d048d9a1f02b1ac",
+    "extension_reproduction.py": "87a6d7ad3f01a81f8a633b9ab1accc871d00f941a59e4ea8f767c39bbebb42fe",
+    "inference.py": "ca308af36776a8f9eeb2d6e806891d2b6fbb386d0292629833ac319465312f1a",
+    "outcomes.json": "2eb804ac81b76f9855cb33bb45ae52d62717c0fd6bb6e968f6dcef755677d8d1",
+    "parameter_codec.py": "571d17daaa36d3a2f2981198f60d71872c755984455a526c22295a806f869fd5",
+    "reproduce.py": "fd4b2613240d0e84564b65aef980768735c8488cf4586a5ff581ff6413b085ac",
+    "request-index.json": "7c847a46e9f4394d9ff7760ed477db3322ed8ed6497fd9e08391e3f78aa39f47",
+    "sampling-proof.json": "a9b0df8d76999f1bec491d16dac830c88b9bc1e40f5c12797dddd8031de5300b",
+    "study.json": "211ee22ede5218b7a192495a8ae07fc718614f81bdf7f4c9dff642a1454f1574"
+  },
+  "api_calls": 0,
+  "excludes": [
+    "manuscripts",
+    "reviews",
+    "private source inventory",
+    "credentials",
+    "ledger/DB",
+    "budget amounts",
+    "reasoning text"
+  ]
+}

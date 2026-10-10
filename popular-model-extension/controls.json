@@ -1,0 +1,3778 @@
+[
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-001",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "51/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "551/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "51/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1/4",
+              "WAIT_loss_contribution": "57/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1/4"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19/4",
+              "WAIT_loss_contribution": "3/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            }
+          },
+          "expected_terminal_loss": "11/20",
+          "expected_total_score": "601/1000"
+        },
+        "B": {
+          "cost": "551/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "2",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "3",
+              "WAIT_loss_contribution": "12/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            }
+          },
+          "expected_terminal_loss": "22/5",
+          "expected_total_score": "4951/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "601/1000",
+      "regret_of_wrong_report": "87/20",
+      "pre_report_terminal_risk_scale": "5",
+      "normalized_regret": "87/100"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 0,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "10",
+        "12",
+        [
+          "19/20",
+          "19/20",
+          "51/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "551/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-002",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "14",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "61/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "561/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "561/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "21/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "18/5",
+              "WAIT_loss_contribution": "14/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "14/5"
+            }
+          },
+          "expected_terminal_loss": "26/5",
+          "expected_total_score": "5761/1000"
+        },
+        "B": {
+          "cost": "61/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/10",
+              "WAIT_loss_contribution": "133/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/10",
+              "WAIT_loss_contribution": "7/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/20"
+            }
+          },
+          "expected_terminal_loss": "13/20",
+          "expected_total_score": "711/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "711/1000",
+      "regret_of_wrong_report": "101/20",
+      "pre_report_terminal_risk_scale": "6",
+      "normalized_regret": "101/120"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 1,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "12",
+        "14",
+        [
+          "19/20",
+          "19/20",
+          "61/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "561/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-003",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "14",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "71/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "571/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "71/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "7/20",
+              "WAIT_loss_contribution": "38/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "7/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "133/20",
+              "WAIT_loss_contribution": "2/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "2/5"
+            }
+          },
+          "expected_terminal_loss": "3/4",
+          "expected_total_score": "821/1000"
+        },
+        "B": {
+          "cost": "571/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "14/5",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "14/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "21/5",
+              "WAIT_loss_contribution": "16/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "16/5"
+            }
+          },
+          "expected_terminal_loss": "6",
+          "expected_total_score": "6571/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "821/1000",
+      "regret_of_wrong_report": "23/4",
+      "pre_report_terminal_risk_scale": "7",
+      "normalized_regret": "23/28"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 2,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "14",
+        "16",
+        [
+          "19/20",
+          "19/20",
+          "71/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "571/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-004",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "81/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "581/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "581/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "16/5",
+              "WAIT_loss_contribution": "27/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "16/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "24/5",
+              "WAIT_loss_contribution": "18/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            }
+          },
+          "expected_terminal_loss": "34/5",
+          "expected_total_score": "7381/1000"
+        },
+        "B": {
+          "cost": "81/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "2/5",
+              "WAIT_loss_contribution": "171/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "38/5",
+              "WAIT_loss_contribution": "9/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            }
+          },
+          "expected_terminal_loss": "17/20",
+          "expected_total_score": "931/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "931/1000",
+      "regret_of_wrong_report": "129/20",
+      "pre_report_terminal_risk_scale": "8",
+      "normalized_regret": "129/160"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 3,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "16",
+        "18",
+        [
+          "19/20",
+          "19/20",
+          "81/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "581/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-005",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "91/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "591/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "91/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "9/20",
+              "WAIT_loss_contribution": "19/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "171/20",
+              "WAIT_loss_contribution": "1/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            }
+          },
+          "expected_terminal_loss": "19/20",
+          "expected_total_score": "1041/1000"
+        },
+        "B": {
+          "cost": "591/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "18/5",
+              "WAIT_loss_contribution": "6",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "27/5",
+              "WAIT_loss_contribution": "4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4"
+            }
+          },
+          "expected_terminal_loss": "38/5",
+          "expected_total_score": "8191/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1041/1000",
+      "regret_of_wrong_report": "143/20",
+      "pre_report_terminal_risk_scale": "9",
+      "normalized_regret": "143/180"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 4,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "18",
+        "20",
+        [
+          "19/20",
+          "19/20",
+          "91/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "591/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-006",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "22",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "101/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "601/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "601/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "4",
+              "WAIT_loss_contribution": "33/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "4"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "6",
+              "WAIT_loss_contribution": "22/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "22/5"
+            }
+          },
+          "expected_terminal_loss": "42/5",
+          "expected_total_score": "9001/1000"
+        },
+        "B": {
+          "cost": "101/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1/2",
+              "WAIT_loss_contribution": "209/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19/2",
+              "WAIT_loss_contribution": "11/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "11/20"
+            }
+          },
+          "expected_terminal_loss": "21/20",
+          "expected_total_score": "1151/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "1151/1000",
+      "regret_of_wrong_report": "157/20",
+      "pre_report_terminal_risk_scale": "10",
+      "normalized_regret": "157/200"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 5,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "20",
+        "22",
+        [
+          "19/20",
+          "19/20",
+          "101/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "601/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-007",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "22",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "111/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "611/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "111/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "11/20",
+              "WAIT_loss_contribution": "57/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "11/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "209/20",
+              "WAIT_loss_contribution": "3/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            }
+          },
+          "expected_terminal_loss": "23/20",
+          "expected_total_score": "1261/1000"
+        },
+        "B": {
+          "cost": "611/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "22/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "22/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "33/5",
+              "WAIT_loss_contribution": "24/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            }
+          },
+          "expected_terminal_loss": "46/5",
+          "expected_total_score": "9811/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1261/1000",
+      "regret_of_wrong_report": "171/20",
+      "pre_report_terminal_risk_scale": "11",
+      "normalized_regret": "171/220"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 6,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "22",
+        "24",
+        [
+          "19/20",
+          "19/20",
+          "111/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "611/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-008",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "26",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "121/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "621/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "621/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "24/5",
+              "WAIT_loss_contribution": "39/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "24/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "26/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "26/5"
+            }
+          },
+          "expected_terminal_loss": "10",
+          "expected_total_score": "10621/1000"
+        },
+        "B": {
+          "cost": "121/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/5",
+              "WAIT_loss_contribution": "247/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/5",
+              "WAIT_loss_contribution": "13/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "13/20"
+            }
+          },
+          "expected_terminal_loss": "5/4",
+          "expected_total_score": "1371/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "1371/1000",
+      "regret_of_wrong_report": "37/4",
+      "pre_report_terminal_risk_scale": "12",
+      "normalized_regret": "37/48"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 7,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "24",
+        "26",
+        [
+          "19/20",
+          "19/20",
+          "121/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "621/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-009",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "26",
+      "loss_WAIT_state1": "28",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "131/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "631/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "131/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "13/20",
+              "WAIT_loss_contribution": "133/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "13/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "247/20",
+              "WAIT_loss_contribution": "7/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/10"
+            }
+          },
+          "expected_terminal_loss": "27/20",
+          "expected_total_score": "1481/1000"
+        },
+        "B": {
+          "cost": "631/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "26/5",
+              "WAIT_loss_contribution": "42/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "26/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "39/5",
+              "WAIT_loss_contribution": "28/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "28/5"
+            }
+          },
+          "expected_terminal_loss": "54/5",
+          "expected_total_score": "11431/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1481/1000",
+      "regret_of_wrong_report": "199/20",
+      "pre_report_terminal_risk_scale": "13",
+      "normalized_regret": "199/260"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 8,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "26",
+        "28",
+        [
+          "19/20",
+          "19/20",
+          "131/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "631/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-010",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "28",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "141/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "641/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "641/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "28/5",
+              "WAIT_loss_contribution": "9",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "28/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "42/5",
+              "WAIT_loss_contribution": "6",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6"
+            }
+          },
+          "expected_terminal_loss": "58/5",
+          "expected_total_score": "12241/1000"
+        },
+        "B": {
+          "cost": "141/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "7/10",
+              "WAIT_loss_contribution": "57/4",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "7/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "133/10",
+              "WAIT_loss_contribution": "3/4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/4"
+            }
+          },
+          "expected_terminal_loss": "29/20",
+          "expected_total_score": "1591/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "1591/1000",
+      "regret_of_wrong_report": "213/20",
+      "pre_report_terminal_risk_scale": "14",
+      "normalized_regret": "213/280"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 9,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "28",
+        "30",
+        [
+          "19/20",
+          "19/20",
+          "141/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "641/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-011",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "32",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "151/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "651/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "151/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "3/4",
+              "WAIT_loss_contribution": "76/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/4"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "57/4",
+              "WAIT_loss_contribution": "4/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4/5"
+            }
+          },
+          "expected_terminal_loss": "31/20",
+          "expected_total_score": "1701/1000"
+        },
+        "B": {
+          "cost": "651/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "6",
+              "WAIT_loss_contribution": "48/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "6"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "9",
+              "WAIT_loss_contribution": "32/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "32/5"
+            }
+          },
+          "expected_terminal_loss": "62/5",
+          "expected_total_score": "13051/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1701/1000",
+      "regret_of_wrong_report": "227/20",
+      "pre_report_terminal_risk_scale": "15",
+      "normalized_regret": "227/300"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 10,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "30",
+        "32",
+        [
+          "19/20",
+          "19/20",
+          "151/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "651/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-012",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "32",
+      "loss_WAIT_state1": "34",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "161/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "661/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "661/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "32/5",
+              "WAIT_loss_contribution": "51/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "32/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "48/5",
+              "WAIT_loss_contribution": "34/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "34/5"
+            }
+          },
+          "expected_terminal_loss": "66/5",
+          "expected_total_score": "13861/1000"
+        },
+        "B": {
+          "cost": "161/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "4/5",
+              "WAIT_loss_contribution": "323/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "4/5"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "76/5",
+              "WAIT_loss_contribution": "17/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "17/20"
+            }
+          },
+          "expected_terminal_loss": "33/20",
+          "expected_total_score": "1811/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "1811/1000",
+      "regret_of_wrong_report": "241/20",
+      "pre_report_terminal_risk_scale": "16",
+      "normalized_regret": "241/320"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 11,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "32",
+        "34",
+        [
+          "19/20",
+          "19/20",
+          "161/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "661/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-013",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "34",
+      "loss_WAIT_state1": "36",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "171/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "671/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "171/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "17/20",
+              "WAIT_loss_contribution": "171/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "17/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "323/20",
+              "WAIT_loss_contribution": "9/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            }
+          },
+          "expected_terminal_loss": "7/4",
+          "expected_total_score": "1921/1000"
+        },
+        "B": {
+          "cost": "671/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "34/5",
+              "WAIT_loss_contribution": "54/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "34/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "51/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "36/5"
+            }
+          },
+          "expected_terminal_loss": "14",
+          "expected_total_score": "14671/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1921/1000",
+      "regret_of_wrong_report": "51/4",
+      "pre_report_terminal_risk_scale": "17",
+      "normalized_regret": "3/4"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 12,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "34",
+        "36",
+        [
+          "19/20",
+          "19/20",
+          "171/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "671/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-014",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "36",
+      "loss_WAIT_state1": "38",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "181/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "681/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "681/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "36/5",
+              "WAIT_loss_contribution": "57/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "36/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "54/5",
+              "WAIT_loss_contribution": "38/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "38/5"
+            }
+          },
+          "expected_terminal_loss": "74/5",
+          "expected_total_score": "15481/1000"
+        },
+        "B": {
+          "cost": "181/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "9/10",
+              "WAIT_loss_contribution": "361/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "171/10",
+              "WAIT_loss_contribution": "19/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "19/20"
+            }
+          },
+          "expected_terminal_loss": "37/20",
+          "expected_total_score": "2031/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "2031/1000",
+      "regret_of_wrong_report": "269/20",
+      "pre_report_terminal_risk_scale": "18",
+      "normalized_regret": "269/360"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 13,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "36",
+        "38",
+        [
+          "19/20",
+          "19/20",
+          "181/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "681/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-015",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "38",
+      "loss_WAIT_state1": "40",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "191/1000"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "691/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "191/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "19/20",
+              "WAIT_loss_contribution": "19",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "19/20"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "361/20",
+              "WAIT_loss_contribution": "1",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1"
+            }
+          },
+          "expected_terminal_loss": "39/20",
+          "expected_total_score": "2141/1000"
+        },
+        "B": {
+          "cost": "691/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "38/5",
+              "WAIT_loss_contribution": "12",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "38/5"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "57/5",
+              "WAIT_loss_contribution": "8",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "8"
+            }
+          },
+          "expected_terminal_loss": "78/5",
+          "expected_total_score": "16291/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "2141/1000",
+      "regret_of_wrong_report": "283/20",
+      "pre_report_terminal_risk_scale": "19",
+      "normalized_regret": "283/380"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 14,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "38",
+        "40",
+        [
+          "19/20",
+          "19/20",
+          "191/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "691/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-016",
+    "control": true,
+    "family": "dominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "40",
+      "loss_WAIT_state1": "42",
+      "reports": {
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "201/1000"
+        },
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "701/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "701/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/5",
+              "joint_state1": "3/10",
+              "signal_probability": "1/2",
+              "posterior_state1": "3/5",
+              "ACT_loss_contribution": "8",
+              "WAIT_loss_contribution": "63/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "8"
+            },
+            "-": {
+              "joint_state0": "3/10",
+              "joint_state1": "1/5",
+              "signal_probability": "1/2",
+              "posterior_state1": "2/5",
+              "ACT_loss_contribution": "12",
+              "WAIT_loss_contribution": "42/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "42/5"
+            }
+          },
+          "expected_terminal_loss": "82/5",
+          "expected_total_score": "17101/1000"
+        },
+        "B": {
+          "cost": "201/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/40",
+              "joint_state1": "19/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "19/20",
+              "ACT_loss_contribution": "1",
+              "WAIT_loss_contribution": "399/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1"
+            },
+            "-": {
+              "joint_state0": "19/40",
+              "joint_state1": "1/40",
+              "signal_probability": "1/2",
+              "posterior_state1": "1/20",
+              "ACT_loss_contribution": "19",
+              "WAIT_loss_contribution": "21/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/20"
+            }
+          },
+          "expected_terminal_loss": "41/20",
+          "expected_total_score": "2251/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "2251/1000",
+      "regret_of_wrong_report": "297/20",
+      "pre_report_terminal_risk_scale": "20",
+      "normalized_regret": "297/400"
+    },
+    "generation": {
+      "kind": "known_performance_and_price_dominance",
+      "index": 15,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "40",
+        "42",
+        [
+          "19/20",
+          "19/20",
+          "201/1000"
+        ],
+        [
+          "3/5",
+          "3/5",
+          "701/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-017",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "9/10",
+              "WAIT_loss_contribution": "17/4",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "81/10",
+              "WAIT_loss_contribution": "3/4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/4"
+            }
+          },
+          "expected_terminal_loss": "33/20",
+          "expected_total_score": "1941/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "27/20",
+              "WAIT_loss_contribution": "9/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "27/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "153/20",
+              "WAIT_loss_contribution": "1/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1/2"
+            }
+          },
+          "expected_terminal_loss": "37/20",
+          "expected_total_score": "2091/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "1941/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "5",
+      "normalized_regret": "3/100"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 16,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "18",
+        "10",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-018",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "3/2",
+              "WAIT_loss_contribution": "27/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "17/2",
+              "WAIT_loss_contribution": "3/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/5"
+            }
+          },
+          "expected_terminal_loss": "21/10",
+          "expected_total_score": "2341/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "1",
+              "WAIT_loss_contribution": "51/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "1"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "9",
+              "WAIT_loss_contribution": "9/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            }
+          },
+          "expected_terminal_loss": "19/10",
+          "expected_total_score": "2191/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "2191/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "6",
+      "normalized_regret": "1/40"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 17,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "20",
+        "12",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-019",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "22",
+      "loss_WAIT_state1": "14",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "11/10",
+              "WAIT_loss_contribution": "119/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "11/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "99/10",
+              "WAIT_loss_contribution": "21/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/20"
+            }
+          },
+          "expected_terminal_loss": "43/20",
+          "expected_total_score": "2441/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "33/20",
+              "WAIT_loss_contribution": "63/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "33/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "187/20",
+              "WAIT_loss_contribution": "7/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/10"
+            }
+          },
+          "expected_terminal_loss": "47/20",
+          "expected_total_score": "2591/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "2441/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "7",
+      "normalized_regret": "3/140"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 18,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "22",
+        "14",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-020",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "9/5",
+              "WAIT_loss_contribution": "36/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/5"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "51/5",
+              "WAIT_loss_contribution": "4/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "4/5"
+            }
+          },
+          "expected_terminal_loss": "13/5",
+          "expected_total_score": "2841/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "6/5",
+              "WAIT_loss_contribution": "34/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "6/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "54/5",
+              "WAIT_loss_contribution": "6/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6/5"
+            }
+          },
+          "expected_terminal_loss": "12/5",
+          "expected_total_score": "2691/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "2691/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "8",
+      "normalized_regret": "3/160"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 19,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "24",
+        "16",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-021",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "26",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "13/10",
+              "WAIT_loss_contribution": "153/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "13/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "117/10",
+              "WAIT_loss_contribution": "27/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "27/20"
+            }
+          },
+          "expected_terminal_loss": "53/20",
+          "expected_total_score": "2941/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "39/20",
+              "WAIT_loss_contribution": "81/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "39/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "221/20",
+              "WAIT_loss_contribution": "9/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/10"
+            }
+          },
+          "expected_terminal_loss": "57/20",
+          "expected_total_score": "3091/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "2941/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "9",
+      "normalized_regret": "1/60"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 20,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "26",
+        "18",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-022",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "28",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "21/10",
+              "WAIT_loss_contribution": "9",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "21/10"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "119/10",
+              "WAIT_loss_contribution": "1",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "1"
+            }
+          },
+          "expected_terminal_loss": "31/10",
+          "expected_total_score": "3341/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "7/5",
+              "WAIT_loss_contribution": "17/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "7/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "63/5",
+              "WAIT_loss_contribution": "3/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            }
+          },
+          "expected_terminal_loss": "29/10",
+          "expected_total_score": "3191/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "3191/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "10",
+      "normalized_regret": "3/200"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 21,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "28",
+        "20",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-023",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "22",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "3/2",
+              "WAIT_loss_contribution": "187/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "27/2",
+              "WAIT_loss_contribution": "33/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "33/20"
+            }
+          },
+          "expected_terminal_loss": "63/20",
+          "expected_total_score": "3441/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "9/4",
+              "WAIT_loss_contribution": "99/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/4"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "51/4",
+              "WAIT_loss_contribution": "11/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "11/10"
+            }
+          },
+          "expected_terminal_loss": "67/20",
+          "expected_total_score": "3591/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "3441/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "11",
+      "normalized_regret": "3/220"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 22,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "30",
+        "22",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-024",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "32",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "54/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "68/5",
+              "WAIT_loss_contribution": "6/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "6/5"
+            }
+          },
+          "expected_terminal_loss": "18/5",
+          "expected_total_score": "3841/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "8/5",
+              "WAIT_loss_contribution": "51/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "8/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "72/5",
+              "WAIT_loss_contribution": "9/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/5"
+            }
+          },
+          "expected_terminal_loss": "17/5",
+          "expected_total_score": "3691/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "3691/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "12",
+      "normalized_regret": "1/80"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 23,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "32",
+        "24",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-025",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "34",
+      "loss_WAIT_state1": "26",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "17/10",
+              "WAIT_loss_contribution": "221/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "17/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "153/10",
+              "WAIT_loss_contribution": "39/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "39/20"
+            }
+          },
+          "expected_terminal_loss": "73/20",
+          "expected_total_score": "3941/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "51/20",
+              "WAIT_loss_contribution": "117/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "51/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "289/20",
+              "WAIT_loss_contribution": "13/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "13/10"
+            }
+          },
+          "expected_terminal_loss": "77/20",
+          "expected_total_score": "4091/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "3941/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "13",
+      "normalized_regret": "3/260"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 24,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "34",
+        "26",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-026",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "36",
+      "loss_WAIT_state1": "28",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "27/10",
+              "WAIT_loss_contribution": "63/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "27/10"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "153/10",
+              "WAIT_loss_contribution": "7/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "7/5"
+            }
+          },
+          "expected_terminal_loss": "41/10",
+          "expected_total_score": "4341/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "9/5",
+              "WAIT_loss_contribution": "119/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "9/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "81/5",
+              "WAIT_loss_contribution": "21/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "21/10"
+            }
+          },
+          "expected_terminal_loss": "39/10",
+          "expected_total_score": "4191/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "4191/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "14",
+      "normalized_regret": "3/280"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 25,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "36",
+        "28",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-027",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "38",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "19/10",
+              "WAIT_loss_contribution": "51/4",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "19/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "171/10",
+              "WAIT_loss_contribution": "9/4",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/4"
+            }
+          },
+          "expected_terminal_loss": "83/20",
+          "expected_total_score": "4441/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "57/20",
+              "WAIT_loss_contribution": "27/2",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "57/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "323/20",
+              "WAIT_loss_contribution": "3/2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3/2"
+            }
+          },
+          "expected_terminal_loss": "87/20",
+          "expected_total_score": "4591/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "4441/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "15",
+      "normalized_regret": "1/100"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 26,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "38",
+        "30",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-028",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "40",
+      "loss_WAIT_state1": "32",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "3",
+              "WAIT_loss_contribution": "72/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "3"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "17",
+              "WAIT_loss_contribution": "8/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "8/5"
+            }
+          },
+          "expected_terminal_loss": "23/5",
+          "expected_total_score": "4841/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "2",
+              "WAIT_loss_contribution": "68/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "2"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "18",
+              "WAIT_loss_contribution": "12/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            }
+          },
+          "expected_terminal_loss": "22/5",
+          "expected_total_score": "4691/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "4691/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "16",
+      "normalized_regret": "3/320"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 27,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "40",
+        "32",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-029",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "42",
+      "loss_WAIT_state1": "34",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "21/10",
+              "WAIT_loss_contribution": "289/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "21/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "189/10",
+              "WAIT_loss_contribution": "51/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "51/20"
+            }
+          },
+          "expected_terminal_loss": "93/20",
+          "expected_total_score": "4941/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "63/20",
+              "WAIT_loss_contribution": "153/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "63/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "357/20",
+              "WAIT_loss_contribution": "17/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "17/10"
+            }
+          },
+          "expected_terminal_loss": "97/20",
+          "expected_total_score": "5091/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "4941/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "17",
+      "normalized_regret": "3/340"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 28,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "42",
+        "34",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-030",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "44",
+      "loss_WAIT_state1": "36",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "33/10",
+              "WAIT_loss_contribution": "81/5",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "33/10"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "187/10",
+              "WAIT_loss_contribution": "9/5",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "9/5"
+            }
+          },
+          "expected_terminal_loss": "51/10",
+          "expected_total_score": "5341/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "11/5",
+              "WAIT_loss_contribution": "153/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "11/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "99/5",
+              "WAIT_loss_contribution": "27/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "27/10"
+            }
+          },
+          "expected_terminal_loss": "49/10",
+          "expected_total_score": "5191/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "5191/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "18",
+      "normalized_regret": "1/120"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 29,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "44",
+        "36",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-031",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "46",
+      "loss_WAIT_state1": "38",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "23/10",
+              "WAIT_loss_contribution": "323/20",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "23/10"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "207/10",
+              "WAIT_loss_contribution": "57/20",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "57/20"
+            }
+          },
+          "expected_terminal_loss": "103/20",
+          "expected_total_score": "5441/1000"
+        },
+        "B": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "69/20",
+              "WAIT_loss_contribution": "171/10",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "69/20"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "391/20",
+              "WAIT_loss_contribution": "19/10",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "19/10"
+            }
+          },
+          "expected_terminal_loss": "107/20",
+          "expected_total_score": "5591/1000"
+        }
+      },
+      "optimal_reports": [
+        "A"
+      ],
+      "optimal_report": "A",
+      "optimal_score": "5441/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "19",
+      "normalized_regret": "3/380"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 30,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "46",
+        "38",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "H01-EXT-20261007-heldout-control-032",
+    "control": true,
+    "family": "nondominance_control",
+    "scenario": "fictional verification simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "48",
+      "loss_WAIT_state1": "40",
+      "reports": {
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "291/1000"
+        },
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "241/1000"
+        }
+      }
+    },
+    "oracle": {
+      "reports": {
+        "A": {
+          "cost": "241/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "3/40",
+              "joint_state1": "9/20",
+              "signal_probability": "21/40",
+              "posterior_state1": "6/7",
+              "ACT_loss_contribution": "18/5",
+              "WAIT_loss_contribution": "18",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "18/5"
+            },
+            "-": {
+              "joint_state0": "17/40",
+              "joint_state1": "1/20",
+              "signal_probability": "19/40",
+              "posterior_state1": "2/19",
+              "ACT_loss_contribution": "102/5",
+              "WAIT_loss_contribution": "2",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "2"
+            }
+          },
+          "expected_terminal_loss": "28/5",
+          "expected_total_score": "5841/1000"
+        },
+        "B": {
+          "cost": "291/1000",
+          "signals": {
+            "+": {
+              "joint_state0": "1/20",
+              "joint_state1": "17/40",
+              "signal_probability": "19/40",
+              "posterior_state1": "17/19",
+              "ACT_loss_contribution": "12/5",
+              "WAIT_loss_contribution": "17",
+              "optimal_actions": [
+                "ACT"
+              ],
+              "optimal_loss_contribution": "12/5"
+            },
+            "-": {
+              "joint_state0": "9/20",
+              "joint_state1": "3/40",
+              "signal_probability": "21/40",
+              "posterior_state1": "1/7",
+              "ACT_loss_contribution": "108/5",
+              "WAIT_loss_contribution": "3",
+              "optimal_actions": [
+                "WAIT"
+              ],
+              "optimal_loss_contribution": "3"
+            }
+          },
+          "expected_terminal_loss": "27/5",
+          "expected_total_score": "5691/1000"
+        }
+      },
+      "optimal_reports": [
+        "B"
+      ],
+      "optimal_report": "B",
+      "optimal_score": "5691/1000",
+      "regret_of_wrong_report": "3/20",
+      "pre_report_terminal_risk_scale": "20",
+      "normalized_regret": "3/400"
+    },
+    "generation": {
+      "kind": "nondominance_supplied_total_comparison",
+      "index": 31,
+      "split": "heldout",
+      "cost_offset": "41/1000",
+      "parameter_tuple": [
+        "1/2",
+        "48",
+        "40",
+        [
+          "17/20",
+          "9/10",
+          "291/1000"
+        ],
+        [
+          "9/10",
+          "17/20",
+          "241/1000"
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "version": "h01-public-gap-band-description-v1",
+  "role": "post hoc descriptive table using prespecified numerical gap bands",
+  "gap_definition": "inferior-minus-optimal report total-cost gap / pre-report Bayes terminal risk",
+  "gap_bands": {
+    "low": "(0,1/10]",
+    "moderate": "(1/10,7/20]",
+    "high": "(7/20,infinity)"
+  },
+  "contrast": "Average strong-inferior-minus-neutral binary error over AB/BA within each case, then equally average cases complete in all four responses within each band.",
+  "unit": "32 numerical cases per band and cohort; two orders per case; cohorts are separate.",
+  "interpretation": "Numerical gap is not validated task difficulty. This table adds no tests or intervals and does not identify knowledge, baseline-adjusted susceptibility or provider causal effects.",
+  "verification": {
+    "independent_rational_oracle_cases": 192,
+    "selected_planned_scored_cells": 1536,
+    "scored_choices_errors_and_frozen_bands_match_oracle": true
+  },
+  "public_input_hashes": {
+    "original_scoring": {
+      "path": "original/results/heldout/analysis.json",
+      "sha256": "bf36be59cf521b615adca5c2e79c9c118320111a89509a8e3ca844615148a41b"
+    },
+    "original_cases": {
+      "path": "original/data/heldout/cases.json",
+      "sha256": "55ecda5711cc4da394472f0972c2d3939d7a79ea4629f6ce650fafd5d36afaf4"
+    },
+    "followup_scoring": {
+      "path": "baidu/results/new-scored-cells.json",
+      "sha256": "cda052305961bab493664aef343aec3a828a36ef9ce61286cf0874e64453ac75"
+    },
+    "followup_cases": {
+      "path": "baidu/data/heldout/cases.json",
+      "sha256": "8b368002a5f9d3944539f4e9c3d02c806587129efc393433b6e1d6872563dd8a"
+    }
+  },
+  "rows": [
+    {
+      "cohort": "Original H01",
+      "representation": "raw",
+      "gap_band": "low",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 31,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 60,
+      "both_order_fullcase_contrast_exact": "29/64",
+      "both_order_fullcase_contrast_pp": 45.3125
+    },
+    {
+      "cohort": "Original H01",
+      "representation": "raw",
+      "gap_band": "moderate",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 16,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 61,
+      "both_order_fullcase_contrast_exact": "45/64",
+      "both_order_fullcase_contrast_pp": 70.3125
+    },
+    {
+      "cohort": "Original H01",
+      "representation": "raw",
+      "gap_band": "high",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 5,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 57,
+      "both_order_fullcase_contrast_exact": "13/16",
+      "both_order_fullcase_contrast_pp": 81.25
+    },
+    {
+      "cohort": "Original H01",
+      "representation": "supplied",
+      "gap_band": "low",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 32,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 63,
+      "both_order_fullcase_contrast_exact": "31/64",
+      "both_order_fullcase_contrast_pp": 48.4375
+    },
+    {
+      "cohort": "Original H01",
+      "representation": "supplied",
+      "gap_band": "moderate",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 20,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 58,
+      "both_order_fullcase_contrast_exact": "19/32",
+      "both_order_fullcase_contrast_pp": 59.375
+    },
+    {
+      "cohort": "Original H01",
+      "representation": "supplied",
+      "gap_band": "high",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 7,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 63,
+      "both_order_fullcase_contrast_exact": "7/8",
+      "both_order_fullcase_contrast_pp": 87.5
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "raw",
+      "gap_band": "low",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 24,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 55,
+      "both_order_fullcase_contrast_exact": "31/64",
+      "both_order_fullcase_contrast_pp": 48.4375
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "raw",
+      "gap_band": "moderate",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 25,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 50,
+      "both_order_fullcase_contrast_exact": "25/64",
+      "both_order_fullcase_contrast_pp": 39.0625
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "raw",
+      "gap_band": "high",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 16,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 50,
+      "both_order_fullcase_contrast_exact": "17/32",
+      "both_order_fullcase_contrast_pp": 53.125
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "supplied",
+      "gap_band": "low",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 26,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 63,
+      "both_order_fullcase_contrast_exact": "37/64",
+      "both_order_fullcase_contrast_pp": 57.8125
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "supplied",
+      "gap_band": "moderate",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 25,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 62,
+      "both_order_fullcase_contrast_exact": "37/64",
+      "both_order_fullcase_contrast_pp": 57.8125
+    },
+    {
+      "cohort": "Baidu follow-up",
+      "representation": "supplied",
+      "gap_band": "high",
+      "planned_cases": 32,
+      "both_order_complete_cases": 32,
+      "planned_responses_per_arm": 64,
+      "neutral_valid_responses": 64,
+      "neutral_errors": 10,
+      "strong_inferior_valid_responses": 64,
+      "strong_inferior_errors": 57,
+      "both_order_fullcase_contrast_exact": "47/64",
+      "both_order_fullcase_contrast_pp": 73.4375
+    }
+  ]
+}

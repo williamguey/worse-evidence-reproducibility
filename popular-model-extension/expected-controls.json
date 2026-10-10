@@ -1,0 +1,42 @@
+{
+  "claude_high": {
+    "benchmark": "at least63of64plannedvalidcorrect",
+    "benchmark_met": true,
+    "correct_valid": 64,
+    "errors_valid": 0,
+    "missing_or_invalid": 0,
+    "planned": 64,
+    "role": "descriptive; no exclusion or family modification",
+    "valid": 64
+  },
+  "llama_default": {
+    "benchmark": "at least63of64plannedvalidcorrect",
+    "benchmark_met": true,
+    "correct_valid": 64,
+    "errors_valid": 0,
+    "missing_or_invalid": 0,
+    "planned": 64,
+    "role": "descriptive; no exclusion or family modification",
+    "valid": 64
+  },
+  "qwen_off": {
+    "benchmark": "at least63of64plannedvalidcorrect",
+    "benchmark_met": false,
+    "correct_valid": 11,
+    "errors_valid": 0,
+    "missing_or_invalid": 53,
+    "planned": 64,
+    "role": "descriptive; no exclusion or family modification",
+    "valid": 11
+  },
+  "qwen_on2048": {
+    "benchmark": "at least63of64plannedvalidcorrect",
+    "benchmark_met": false,
+    "correct_valid": 11,
+    "errors_valid": 0,
+    "missing_or_invalid": 53,
+    "planned": 64,
+    "role": "descriptive; no exclusion or family modification",
+    "valid": 11
+  }
+}

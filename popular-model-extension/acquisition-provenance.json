@@ -1,0 +1,17 @@
+{
+  "protocol_version": 10,
+  "kind": "FIXED_PLAN_ACQUISITION_HISTORY",
+  "fixed_plan_request_count": 3328,
+  "original_reservations_retained": 465,
+  "atomic_continuation_reservations_retained": 70,
+  "permanently_retired_never_attempted_Qwen_assignments": 1498,
+  "later_Llama_Claude_reservations": 1295,
+  "new_cases_or_configurations": 0,
+  "paid_retries": 0,
+  "Holm_family_size": 5,
+  "selection_basis": "Operational rate-limit circuit and explicit permission to drop troublesome configurations before choices or effects were inspected.",
+  "acquisition_note": "An admission-observation race stopped the original dispatcher. A separately reviewed atomic continuation retained every original row and missing attempt. Repeated Qwen rate limits then stopped that continuation. The remaining unattempted Qwen assignments were permanently retired; only unattempted Llama/Claude assignments could continue. The complete original plan, endpoints and algebraic missingness bounds were retained.",
+  "no_effect_based_selection": true,
+  "physical_wire_timestamps_inferred": false,
+  "public_scope": "Scientific choices and minimal missing/failure metadata; excludes DB, budgets, credentials, raw reasoning, private notes/source inventories, manuscripts and reviews."
+}
