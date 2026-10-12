@@ -1,0 +1,4362 @@
+{
+  "status": "POST_HOC_DESCRIPTIVE_CROSSCHECK_PASS",
+  "not_confirmatory": true,
+  "definitions_file_sha256": "7cc83e0be5cdd327f2a45de61fe3965cac26862a2bc09a7f0f8bb7f8f5d5aa1a",
+  "source_manifest_sha256": "8f1548cb3d89f48a76f7ef91b1ead8ee854ead36a4738fb981cdbee1c6426581",
+  "source_files": {
+    "cases.json": "737ec2c8ca1613fdfbb483c7bb9166fe83417025ae01374e412b55b50090b1b2",
+    "plan.json": "90f03ea26ab9029acea4fb0be27eaa1b539b3d87018e9edbd17101040862bcf1",
+    "responses.jsonl": "fe0fee5b9214ca10e929be7100def42f2ee4789a7a2d24d35dd713ce60f4699d",
+    "expected-analysis.json": "02833ffa9ba44e32b44813cd02526b439f1b38cd04c606cb48648590d9075871",
+    "audit-summary.json": "dd399950e727aaae92427b3c5c38ec8421659a2eb6c935bda65cbaa2cd760f84"
+  },
+  "case_count": 312,
+  "groups": {
+    "denominator_group": {
+      "different": 275,
+      "same": 37
+    },
+    "gap_band": {
+      "low": 104,
+      "moderate": 104,
+      "high": 104
+    }
+  },
+  "group_case_percentages": {
+    "different": 88.14102564102564,
+    "same": 11.85897435897436
+  },
+  "checks": {
+    "full_package_manifest_verified": true,
+    "exact_four_policy_vs_signal_minima": 312,
+    "neutral_bodies_checked": 1872,
+    "response_vs_case_grid_aggregation": true,
+    "audited_neutral_arm_counts_matched": 6,
+    "all_missing_cells_retained": true
+  },
+  "rows": [
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 616,
+      "missing": 8,
+      "errors": 186,
+      "observed_error_rate": 0.30194805194805197,
+      "full_plan_error_bounds": [
+        0.2980769230769231,
+        0.3108974358974359
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 543,
+      "missing": 7,
+      "errors": 179,
+      "observed_error_rate": 0.3296500920810313,
+      "full_plan_error_bounds": [
+        0.32545454545454544,
+        0.3381818181818182
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 73,
+      "missing": 1,
+      "errors": 7,
+      "observed_error_rate": 0.0958904109589041,
+      "full_plan_error_bounds": [
+        0.0945945945945946,
+        0.10810810810810811
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 203,
+      "missing": 5,
+      "errors": 41,
+      "observed_error_rate": 0.2019704433497537,
+      "full_plan_error_bounds": [
+        0.1971153846153846,
+        0.22115384615384615
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 207,
+      "missing": 1,
+      "errors": 88,
+      "observed_error_rate": 0.4251207729468599,
+      "full_plan_error_bounds": [
+        0.4230769230769231,
+        0.42788461538461536
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 206,
+      "missing": 2,
+      "errors": 57,
+      "observed_error_rate": 0.2766990291262136,
+      "full_plan_error_bounds": [
+        0.27403846153846156,
+        0.28365384615384615
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 618,
+      "missing": 6,
+      "errors": 206,
+      "observed_error_rate": 0.3333333333333333,
+      "full_plan_error_bounds": [
+        0.3301282051282051,
+        0.33974358974358976
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 545,
+      "missing": 5,
+      "errors": 203,
+      "observed_error_rate": 0.3724770642201835,
+      "full_plan_error_bounds": [
+        0.3690909090909091,
+        0.3781818181818182
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 73,
+      "missing": 1,
+      "errors": 3,
+      "observed_error_rate": 0.0410958904109589,
+      "full_plan_error_bounds": [
+        0.04054054054054054,
+        0.05405405405405406
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 207,
+      "missing": 1,
+      "errors": 55,
+      "observed_error_rate": 0.26570048309178745,
+      "full_plan_error_bounds": [
+        0.2644230769230769,
+        0.2692307692307692
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 204,
+      "missing": 4,
+      "errors": 83,
+      "observed_error_rate": 0.4068627450980392,
+      "full_plan_error_bounds": [
+        0.39903846153846156,
+        0.4182692307692308
+      ]
+    },
+    {
+      "model_id": "deepseek_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 207,
+      "missing": 1,
+      "errors": 68,
+      "observed_error_rate": 0.3285024154589372,
+      "full_plan_error_bounds": [
+        0.3269230769230769,
+        0.3317307692307692
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 620,
+      "missing": 4,
+      "errors": 194,
+      "observed_error_rate": 0.31290322580645163,
+      "full_plan_error_bounds": [
+        0.3108974358974359,
+        0.3173076923076923
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 546,
+      "missing": 4,
+      "errors": 190,
+      "observed_error_rate": 0.34798534798534797,
+      "full_plan_error_bounds": [
+        0.34545454545454546,
+        0.3527272727272727
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 74,
+      "missing": 0,
+      "errors": 4,
+      "observed_error_rate": 0.05405405405405406,
+      "full_plan_error_bounds": [
+        0.05405405405405406,
+        0.05405405405405406
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 206,
+      "missing": 2,
+      "errors": 56,
+      "observed_error_rate": 0.27184466019417475,
+      "full_plan_error_bounds": [
+        0.2692307692307692,
+        0.27884615384615385
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 206,
+      "missing": 2,
+      "errors": 77,
+      "observed_error_rate": 0.3737864077669903,
+      "full_plan_error_bounds": [
+        0.3701923076923077,
+        0.3798076923076923
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 208,
+      "missing": 0,
+      "errors": 61,
+      "observed_error_rate": 0.2932692307692308,
+      "full_plan_error_bounds": [
+        0.2932692307692308,
+        0.2932692307692308
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 621,
+      "missing": 3,
+      "errors": 191,
+      "observed_error_rate": 0.3075684380032206,
+      "full_plan_error_bounds": [
+        0.3060897435897436,
+        0.3108974358974359
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 547,
+      "missing": 3,
+      "errors": 188,
+      "observed_error_rate": 0.3436928702010969,
+      "full_plan_error_bounds": [
+        0.3418181818181818,
+        0.3472727272727273
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 74,
+      "missing": 0,
+      "errors": 3,
+      "observed_error_rate": 0.04054054054054054,
+      "full_plan_error_bounds": [
+        0.04054054054054054,
+        0.04054054054054054
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 208,
+      "missing": 0,
+      "errors": 57,
+      "observed_error_rate": 0.27403846153846156,
+      "full_plan_error_bounds": [
+        0.27403846153846156,
+        0.27403846153846156
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 206,
+      "missing": 2,
+      "errors": 72,
+      "observed_error_rate": 0.34951456310679613,
+      "full_plan_error_bounds": [
+        0.34615384615384615,
+        0.3557692307692308
+      ]
+    },
+    {
+      "model_id": "llama_default",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 207,
+      "missing": 1,
+      "errors": 62,
+      "observed_error_rate": 0.2995169082125604,
+      "full_plan_error_bounds": [
+        0.2980769230769231,
+        0.30288461538461536
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 614,
+      "missing": 10,
+      "errors": 84,
+      "observed_error_rate": 0.13680781758957655,
+      "full_plan_error_bounds": [
+        0.1346153846153846,
+        0.15064102564102563
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 542,
+      "missing": 8,
+      "errors": 76,
+      "observed_error_rate": 0.14022140221402213,
+      "full_plan_error_bounds": [
+        0.13818181818181818,
+        0.15272727272727274
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 72,
+      "missing": 2,
+      "errors": 8,
+      "observed_error_rate": 0.1111111111111111,
+      "full_plan_error_bounds": [
+        0.10810810810810811,
+        0.13513513513513514
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 207,
+      "missing": 1,
+      "errors": 7,
+      "observed_error_rate": 0.033816425120772944,
+      "full_plan_error_bounds": [
+        0.03365384615384615,
+        0.038461538461538464
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 202,
+      "missing": 6,
+      "errors": 65,
+      "observed_error_rate": 0.3217821782178218,
+      "full_plan_error_bounds": [
+        0.3125,
+        0.34134615384615385
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_1",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 205,
+      "missing": 3,
+      "errors": 12,
+      "observed_error_rate": 0.05853658536585366,
+      "full_plan_error_bounds": [
+        0.057692307692307696,
+        0.07211538461538461
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "all",
+      "group": "all",
+      "cases": 312,
+      "planned": 624,
+      "valid": 611,
+      "missing": 13,
+      "errors": 82,
+      "observed_error_rate": 0.1342062193126023,
+      "full_plan_error_bounds": [
+        0.13141025641025642,
+        0.15224358974358973
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "different",
+      "cases": 275,
+      "planned": 550,
+      "valid": 539,
+      "missing": 11,
+      "errors": 77,
+      "observed_error_rate": 0.14285714285714285,
+      "full_plan_error_bounds": [
+        0.14,
+        0.16
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "denominator_group",
+      "group": "same",
+      "cases": 37,
+      "planned": 74,
+      "valid": 72,
+      "missing": 2,
+      "errors": 5,
+      "observed_error_rate": 0.06944444444444445,
+      "full_plan_error_bounds": [
+        0.06756756756756757,
+        0.0945945945945946
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "high",
+      "cases": 104,
+      "planned": 208,
+      "valid": 202,
+      "missing": 6,
+      "errors": 5,
+      "observed_error_rate": 0.024752475247524754,
+      "full_plan_error_bounds": [
+        0.02403846153846154,
+        0.052884615384615384
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "low",
+      "cases": 104,
+      "planned": 208,
+      "valid": 203,
+      "missing": 5,
+      "errors": 65,
+      "observed_error_rate": 0.32019704433497537,
+      "full_plan_error_bounds": [
+        0.3125,
+        0.33653846153846156
+      ]
+    },
+    {
+      "model_id": "luna_off",
+      "condition": "neutral_2",
+      "group_variable": "gap_band",
+      "group": "moderate",
+      "cases": 104,
+      "planned": 208,
+      "valid": 206,
+      "missing": 2,
+      "errors": 12,
+      "observed_error_rate": 0.05825242718446602,
+      "full_plan_error_bounds": [
+        0.057692307692307696,
+        0.0673076923076923
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1482f7d029ed4e41",
+      "totals": {
+        "A": "87/20",
+        "B": "489/100"
+      },
+      "winner": "A",
+      "gap": "27/50",
+      "normalized_gap": "9/100",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8475a0856d5c0a6f",
+      "totals": {
+        "A": "413/100",
+        "B": "43/10"
+      },
+      "winner": "A",
+      "gap": "17/100",
+      "normalized_gap": "17/480",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3de870a8522ba8cc",
+      "totals": {
+        "A": "141/40",
+        "B": "379/100"
+      },
+      "winner": "A",
+      "gap": "53/200",
+      "normalized_gap": "53/900",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b54b1097fa77cc47",
+      "totals": {
+        "A": "5/2",
+        "B": "13/5"
+      },
+      "winner": "A",
+      "gap": "1/10",
+      "normalized_gap": "1/30",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7313fbc2c0c83838",
+      "totals": {
+        "A": "11/5",
+        "B": "197/80"
+      },
+      "winner": "A",
+      "gap": "21/80",
+      "normalized_gap": "7/80",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6a5f8cb9a7cbf355",
+      "totals": {
+        "A": "117/50",
+        "B": "51/20"
+      },
+      "winner": "A",
+      "gap": "21/100",
+      "normalized_gap": "7/80",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b31d4fa67f6c9c40",
+      "totals": {
+        "A": "51/10",
+        "B": "26/5"
+      },
+      "winner": "A",
+      "gap": "1/10",
+      "normalized_gap": "1/50",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-98caeddb1805ba82",
+      "totals": {
+        "A": "331/100",
+        "B": "357/100"
+      },
+      "winner": "A",
+      "gap": "13/50",
+      "normalized_gap": "13/160",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-bbf4093b6659afb2",
+      "totals": {
+        "A": "179/50",
+        "B": "1803/500"
+      },
+      "winner": "A",
+      "gap": "13/500",
+      "normalized_gap": "13/1500",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0d434d6a272b025a",
+      "totals": {
+        "A": "12/5",
+        "B": "53/20"
+      },
+      "winner": "A",
+      "gap": "1/4",
+      "normalized_gap": "1/16",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9c69945c3fbc5821",
+      "totals": {
+        "A": "163/50",
+        "B": "171/50"
+      },
+      "winner": "A",
+      "gap": "4/25",
+      "normalized_gap": "4/75",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-414902644d87cb48",
+      "totals": {
+        "A": "257/100",
+        "B": "27/10"
+      },
+      "winner": "A",
+      "gap": "13/100",
+      "normalized_gap": "13/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f31f562ef7860b34",
+      "totals": {
+        "A": "89/20",
+        "B": "201/40"
+      },
+      "winner": "A",
+      "gap": "23/40",
+      "normalized_gap": "23/300",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d049d36c830a86e2",
+      "totals": {
+        "A": "119/50",
+        "B": "267/100"
+      },
+      "winner": "A",
+      "gap": "29/100",
+      "normalized_gap": "29/360",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8c0950a15f82960c",
+      "totals": {
+        "A": "33/10",
+        "B": "73/20"
+      },
+      "winner": "A",
+      "gap": "7/20",
+      "normalized_gap": "7/100",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-934c1f2b4c38ed55",
+      "totals": {
+        "A": "15/2",
+        "B": "169/20"
+      },
+      "winner": "A",
+      "gap": "19/20",
+      "normalized_gap": "19/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-90380ff35e8c913b",
+      "totals": {
+        "A": "49/10",
+        "B": "507/100"
+      },
+      "winner": "A",
+      "gap": "17/100",
+      "normalized_gap": "17/600",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ee4e7b15a1647c0f",
+      "totals": {
+        "A": "9/4",
+        "B": "261/100"
+      },
+      "winner": "A",
+      "gap": "9/25",
+      "normalized_gap": "3/50",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fb88ed7022e7594e",
+      "totals": {
+        "A": "311/50",
+        "B": "679/100"
+      },
+      "winner": "A",
+      "gap": "57/100",
+      "normalized_gap": "19/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-080d219888e36c38",
+      "totals": {
+        "A": "149/40",
+        "B": "397/100"
+      },
+      "winner": "A",
+      "gap": "49/200",
+      "normalized_gap": "49/900",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-46a0f186f2a95766",
+      "totals": {
+        "A": "153/50",
+        "B": "317/100"
+      },
+      "winner": "A",
+      "gap": "11/100",
+      "normalized_gap": "11/240",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9217605fb4553cfe",
+      "totals": {
+        "A": "31/10",
+        "B": "82/25"
+      },
+      "winner": "A",
+      "gap": "9/50",
+      "normalized_gap": "9/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1ddb9dec3697a556",
+      "totals": {
+        "A": "301/100",
+        "B": "313/100"
+      },
+      "winner": "A",
+      "gap": "3/25",
+      "normalized_gap": "1/40",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-405adbea3f917e9f",
+      "totals": {
+        "A": "209/50",
+        "B": "43/10"
+      },
+      "winner": "A",
+      "gap": "3/25",
+      "normalized_gap": "1/25",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-933b9e75fe5242a4",
+      "totals": {
+        "A": "229/50",
+        "B": "107/20"
+      },
+      "winner": "A",
+      "gap": "77/100",
+      "normalized_gap": "77/1080",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1827b5be3eb0783e",
+      "totals": {
+        "A": "84/25",
+        "B": "351/100"
+      },
+      "winner": "A",
+      "gap": "3/20",
+      "normalized_gap": "1/32",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-83d0751a6454abc3",
+      "totals": {
+        "A": "47/10",
+        "B": "1253/200"
+      },
+      "winner": "A",
+      "gap": "313/200",
+      "normalized_gap": "313/900",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-24b27dcb2dd183cc",
+      "totals": {
+        "A": "173/100",
+        "B": "233/100"
+      },
+      "winner": "A",
+      "gap": "3/5",
+      "normalized_gap": "1/5",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-82863833518caebf",
+      "totals": {
+        "A": "141/100",
+        "B": "201/100"
+      },
+      "winner": "A",
+      "gap": "3/5",
+      "normalized_gap": "1/5",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-57d6a78011a944b0",
+      "totals": {
+        "A": "87/40",
+        "B": "16/5"
+      },
+      "winner": "A",
+      "gap": "41/40",
+      "normalized_gap": "41/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1c0abe0949831c19",
+      "totals": {
+        "A": "21/10",
+        "B": "64/25"
+      },
+      "winner": "A",
+      "gap": "23/50",
+      "normalized_gap": "23/100",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8e618a53488e7a2c",
+      "totals": {
+        "A": "507/100",
+        "B": "762/125"
+      },
+      "winner": "A",
+      "gap": "513/500",
+      "normalized_gap": "171/800",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-efea9acaa6e917bb",
+      "totals": {
+        "A": "251/50",
+        "B": "28/5"
+      },
+      "winner": "A",
+      "gap": "29/50",
+      "normalized_gap": "29/200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3a3beb7477c8958f",
+      "totals": {
+        "A": "433/100",
+        "B": "109/20"
+      },
+      "winner": "A",
+      "gap": "28/25",
+      "normalized_gap": "7/25",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4d5072bd8969b94a",
+      "totals": {
+        "A": "211/100",
+        "B": "141/50"
+      },
+      "winner": "A",
+      "gap": "71/100",
+      "normalized_gap": "71/320",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f010d047c61a3407",
+      "totals": {
+        "A": "111/25",
+        "B": "579/100"
+      },
+      "winner": "A",
+      "gap": "27/20",
+      "normalized_gap": "9/32",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-01f47dd31a48a9a4",
+      "totals": {
+        "A": "23/5",
+        "B": "6"
+      },
+      "winner": "A",
+      "gap": "7/5",
+      "normalized_gap": "7/20",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4432d5a064c687e0",
+      "totals": {
+        "A": "72/25",
+        "B": "464/125"
+      },
+      "winner": "A",
+      "gap": "104/125",
+      "normalized_gap": "52/225",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e3ed29becd7689a0",
+      "totals": {
+        "A": "168/25",
+        "B": "2993/400"
+      },
+      "winner": "A",
+      "gap": "61/80",
+      "normalized_gap": "61/480",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-813cf03e7d5f383b",
+      "totals": {
+        "A": "1321/500",
+        "B": "257/50"
+      },
+      "winner": "A",
+      "gap": "1249/500",
+      "normalized_gap": "1249/4000",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-00f1db1cc50c67b8",
+      "totals": {
+        "A": "403/100",
+        "B": "489/100"
+      },
+      "winner": "A",
+      "gap": "43/50",
+      "normalized_gap": "43/300",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a8c9f7c341526e4d",
+      "totals": {
+        "A": "15/4",
+        "B": "32/5"
+      },
+      "winner": "A",
+      "gap": "53/20",
+      "normalized_gap": "53/200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6cf62ad3fd46fd74",
+      "totals": {
+        "A": "42/25",
+        "B": "699/250"
+      },
+      "winner": "A",
+      "gap": "279/250",
+      "normalized_gap": "93/400",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b5f295f18b20f048",
+      "totals": {
+        "A": "17/5",
+        "B": "104/25"
+      },
+      "winner": "A",
+      "gap": "19/25",
+      "normalized_gap": "19/75",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9280386592b8daec",
+      "totals": {
+        "A": "3/2",
+        "B": "177/100"
+      },
+      "winner": "A",
+      "gap": "27/100",
+      "normalized_gap": "27/160",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-67b72c94bd6ba028",
+      "totals": {
+        "A": "269/100",
+        "B": "33/8"
+      },
+      "winner": "A",
+      "gap": "287/200",
+      "normalized_gap": "287/1500",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-40f6079edaca9fcb",
+      "totals": {
+        "A": "49/20",
+        "B": "319/100"
+      },
+      "winner": "A",
+      "gap": "37/50",
+      "normalized_gap": "37/120",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4b2ce5bf63b6334c",
+      "totals": {
+        "A": "367/100",
+        "B": "23/5"
+      },
+      "winner": "A",
+      "gap": "93/100",
+      "normalized_gap": "31/200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3cf9e14d1c665dc0",
+      "totals": {
+        "A": "21/5",
+        "B": "211/40"
+      },
+      "winner": "A",
+      "gap": "43/40",
+      "normalized_gap": "43/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-420c9aeb463455fb",
+      "totals": {
+        "A": "281/100",
+        "B": "197/50"
+      },
+      "winner": "A",
+      "gap": "113/100",
+      "normalized_gap": "113/360",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5c1466e44519018a",
+      "totals": {
+        "A": "53/50",
+        "B": "131/50"
+      },
+      "winner": "A",
+      "gap": "39/25",
+      "normalized_gap": "13/50",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d34dedcf6dc9630a",
+      "totals": {
+        "A": "92/25",
+        "B": "61/10"
+      },
+      "winner": "A",
+      "gap": "121/50",
+      "normalized_gap": "121/400",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-66d21bedf6164e5c",
+      "totals": {
+        "A": "1483/500",
+        "B": "121/25"
+      },
+      "winner": "A",
+      "gap": "937/500",
+      "normalized_gap": "937/1800",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e1aaaa0357663927",
+      "totals": {
+        "A": "29/50",
+        "B": "1"
+      },
+      "winner": "A",
+      "gap": "21/50",
+      "normalized_gap": "7/10",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4d311ab9b1c429db",
+      "totals": {
+        "A": "163/200",
+        "B": "33/10"
+      },
+      "winner": "A",
+      "gap": "497/200",
+      "normalized_gap": "497/500",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9437a0d5ad0f46c5",
+      "totals": {
+        "A": "23/5",
+        "B": "8"
+      },
+      "winner": "A",
+      "gap": "17/5",
+      "normalized_gap": "17/30",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-522f8b28971c4ce6",
+      "totals": {
+        "A": "211/100",
+        "B": "67/20"
+      },
+      "winner": "A",
+      "gap": "31/25",
+      "normalized_gap": "31/85",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-77db69afa5c35fc2",
+      "totals": {
+        "A": "9/4",
+        "B": "1801/500"
+      },
+      "winner": "A",
+      "gap": "169/125",
+      "normalized_gap": "169/450",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d879d828af8cf661",
+      "totals": {
+        "A": "119/50",
+        "B": "83/20"
+      },
+      "winner": "A",
+      "gap": "177/100",
+      "normalized_gap": "177/200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2de03de9625a2b3d",
+      "totals": {
+        "A": "591/500",
+        "B": "79/20"
+      },
+      "winner": "A",
+      "gap": "346/125",
+      "normalized_gap": "173/125",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e5533544be47cb7f",
+      "totals": {
+        "A": "3/2",
+        "B": "37/10"
+      },
+      "winner": "A",
+      "gap": "11/5",
+      "normalized_gap": "22/25",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1a175696b014ec7b",
+      "totals": {
+        "A": "397/100",
+        "B": "61/10"
+      },
+      "winner": "A",
+      "gap": "213/100",
+      "normalized_gap": "213/400",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e31f3988190c9222",
+      "totals": {
+        "A": "47/25",
+        "B": "121/40"
+      },
+      "winner": "A",
+      "gap": "229/200",
+      "normalized_gap": "229/480",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9dd74bb33677daed",
+      "totals": {
+        "A": "59/25",
+        "B": "71/20"
+      },
+      "winner": "A",
+      "gap": "119/100",
+      "normalized_gap": "119/150",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2f2bc8ca6ddbd2dc",
+      "totals": {
+        "A": "283/250",
+        "B": "69/20"
+      },
+      "winner": "A",
+      "gap": "1159/500",
+      "normalized_gap": "1159/1500",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fa5e6df9e8f7f8e3",
+      "totals": {
+        "A": "113/50",
+        "B": "419/100"
+      },
+      "winner": "A",
+      "gap": "193/100",
+      "normalized_gap": "193/240",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3311923d21a1b2b4",
+      "totals": {
+        "A": "441/100",
+        "B": "129/20"
+      },
+      "winner": "A",
+      "gap": "51/25",
+      "normalized_gap": "17/40",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b39cb740ae0aa20f",
+      "totals": {
+        "A": "83/50",
+        "B": "128/25"
+      },
+      "winner": "A",
+      "gap": "173/50",
+      "normalized_gap": "173/210",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-698ae7861cde1a4a",
+      "totals": {
+        "A": "71/25",
+        "B": "239/50"
+      },
+      "winner": "A",
+      "gap": "97/50",
+      "normalized_gap": "97/120",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ca84474d6106b981",
+      "totals": {
+        "A": "17/5",
+        "B": "801/100"
+      },
+      "winner": "A",
+      "gap": "461/100",
+      "normalized_gap": "461/800",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d51f1afe7dd6e81b",
+      "totals": {
+        "A": "67/50",
+        "B": "343/100"
+      },
+      "winner": "A",
+      "gap": "209/100",
+      "normalized_gap": "209/320",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-28a2dbffe7135f0d",
+      "totals": {
+        "A": "59/20",
+        "B": "119/20"
+      },
+      "winner": "A",
+      "gap": "3",
+      "normalized_gap": "3/4",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5ef5022696a2445a",
+      "totals": {
+        "A": "237/100",
+        "B": "27/5"
+      },
+      "winner": "A",
+      "gap": "303/100",
+      "normalized_gap": "303/320",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d0419fd8eb6ad2b3",
+      "totals": {
+        "A": "133/125",
+        "B": "2207/500"
+      },
+      "winner": "A",
+      "gap": "67/20",
+      "normalized_gap": "67/144",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a5f88f6fc0169405",
+      "totals": {
+        "A": "4319/1000",
+        "B": "171/25"
+      },
+      "winner": "A",
+      "gap": "2521/1000",
+      "normalized_gap": "2521/7200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-813184eae4c708c2",
+      "totals": {
+        "A": "271/100",
+        "B": "323/50"
+      },
+      "winner": "A",
+      "gap": "15/4",
+      "normalized_gap": "25/32",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e3a2aa347f2d0cfa",
+      "totals": {
+        "A": "4/5",
+        "B": "81/20"
+      },
+      "winner": "A",
+      "gap": "13/4",
+      "normalized_gap": "13/12",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5e152c6d7aa3a949",
+      "totals": {
+        "A": "39/20",
+        "B": "71/20"
+      },
+      "winner": "A",
+      "gap": "8/5",
+      "normalized_gap": "8/15",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6a5566a8a0295330",
+      "totals": {
+        "A": "14/5",
+        "B": "153/50"
+      },
+      "winner": "A",
+      "gap": "13/50",
+      "normalized_gap": "13/150",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-505e2fb0d033de4d",
+      "totals": {
+        "A": "771/200",
+        "B": "79/20"
+      },
+      "winner": "A",
+      "gap": "19/200",
+      "normalized_gap": "19/480",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-176dc79945d4918f",
+      "totals": {
+        "A": "87/20",
+        "B": "22/5"
+      },
+      "winner": "A",
+      "gap": "1/20",
+      "normalized_gap": "1/50",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d77912601858ac50",
+      "totals": {
+        "A": "309/100",
+        "B": "31/10"
+      },
+      "winner": "A",
+      "gap": "1/100",
+      "normalized_gap": "1/240",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-bc0c761e702ba7f0",
+      "totals": {
+        "A": "197/50",
+        "B": "441/100"
+      },
+      "winner": "A",
+      "gap": "47/100",
+      "normalized_gap": "47/480",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-488fe224625f6d44",
+      "totals": {
+        "A": "229/100",
+        "B": "23/10"
+      },
+      "winner": "A",
+      "gap": "1/100",
+      "normalized_gap": "1/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9572c6a5fd465778",
+      "totals": {
+        "A": "957/200",
+        "B": "26/5"
+      },
+      "winner": "A",
+      "gap": "83/200",
+      "normalized_gap": "83/900",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-984f2f6ef5fa0548",
+      "totals": {
+        "A": "207/100",
+        "B": "43/20"
+      },
+      "winner": "A",
+      "gap": "2/25",
+      "normalized_gap": "2/45",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a900e035725a6b1b",
+      "totals": {
+        "A": "72/25",
+        "B": "161/50"
+      },
+      "winner": "A",
+      "gap": "17/50",
+      "normalized_gap": "17/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7b8664f5e479d8c6",
+      "totals": {
+        "A": "41/8",
+        "B": "53/10"
+      },
+      "winner": "A",
+      "gap": "7/40",
+      "normalized_gap": "7/180",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-02ea16c2000ebc2c",
+      "totals": {
+        "A": "61/20",
+        "B": "63/20"
+      },
+      "winner": "A",
+      "gap": "1/10",
+      "normalized_gap": "1/12",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3fe759bfdc94450c",
+      "totals": {
+        "A": "141/40",
+        "B": "287/80"
+      },
+      "winner": "A",
+      "gap": "1/16",
+      "normalized_gap": "1/60",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-930c2ba68c13162c",
+      "totals": {
+        "A": "182/25",
+        "B": "151/20"
+      },
+      "winner": "A",
+      "gap": "27/100",
+      "normalized_gap": "9/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ca12bcbd9f606e6d",
+      "totals": {
+        "A": "97/20",
+        "B": "103/20"
+      },
+      "winner": "A",
+      "gap": "3/10",
+      "normalized_gap": "1/16",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-dcc105d27efc3cd9",
+      "totals": {
+        "A": "31/5",
+        "B": "311/50"
+      },
+      "winner": "A",
+      "gap": "1/50",
+      "normalized_gap": "1/400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-399becef06d9588c",
+      "totals": {
+        "A": "409/125",
+        "B": "169/50"
+      },
+      "winner": "A",
+      "gap": "27/250",
+      "normalized_gap": "3/100",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ce8e6e628042001f",
+      "totals": {
+        "A": "473/100",
+        "B": "2519/500"
+      },
+      "winner": "A",
+      "gap": "77/250",
+      "normalized_gap": "77/1500",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4079fdb0999b5fb3",
+      "totals": {
+        "A": "6",
+        "B": "699/100"
+      },
+      "winner": "A",
+      "gap": "99/100",
+      "normalized_gap": "33/400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-424536f1349eaab9",
+      "totals": {
+        "A": "363/100",
+        "B": "77/20"
+      },
+      "winner": "A",
+      "gap": "11/50",
+      "normalized_gap": "11/300",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-33e033137b00f66c",
+      "totals": {
+        "A": "143/40",
+        "B": "18/5"
+      },
+      "winner": "A",
+      "gap": "1/40",
+      "normalized_gap": "1/240",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c94b8a7d96991cdc",
+      "totals": {
+        "A": "147/50",
+        "B": "299/100"
+      },
+      "winner": "A",
+      "gap": "1/20",
+      "normalized_gap": "1/72",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c73a46ccf762eb54",
+      "totals": {
+        "A": "73/25",
+        "B": "13/4"
+      },
+      "winner": "A",
+      "gap": "33/100",
+      "normalized_gap": "11/120",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-651a316d8bef0bce",
+      "totals": {
+        "A": "77/25",
+        "B": "78/25"
+      },
+      "winner": "A",
+      "gap": "1/25",
+      "normalized_gap": "1/150",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-055cd85551248aa7",
+      "totals": {
+        "A": "711/250",
+        "B": "76/25"
+      },
+      "winner": "A",
+      "gap": "49/250",
+      "normalized_gap": "49/1500",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-541dc0a637d8e088",
+      "totals": {
+        "A": "86/25",
+        "B": "37/10"
+      },
+      "winner": "A",
+      "gap": "13/50",
+      "normalized_gap": "13/360",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6a2f6e90a5a8f68e",
+      "totals": {
+        "A": "259/50",
+        "B": "541/100"
+      },
+      "winner": "A",
+      "gap": "23/100",
+      "normalized_gap": "23/960",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-78ee4007edbbcca5",
+      "totals": {
+        "A": "76/25",
+        "B": "13/4"
+      },
+      "winner": "A",
+      "gap": "21/100",
+      "normalized_gap": "21/160",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f681576bfec02334",
+      "totals": {
+        "A": "523/100",
+        "B": "6"
+      },
+      "winner": "A",
+      "gap": "77/100",
+      "normalized_gap": "77/600",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4d0757d30e735a95",
+      "totals": {
+        "A": "77/25",
+        "B": "7/2"
+      },
+      "winner": "A",
+      "gap": "21/50",
+      "normalized_gap": "7/45",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9f9cc2ae1e0b2f34",
+      "totals": {
+        "A": "229/50",
+        "B": "53/10"
+      },
+      "winner": "A",
+      "gap": "18/25",
+      "normalized_gap": "3/20",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d7d1ee7ea0351979",
+      "totals": {
+        "A": "71/50",
+        "B": "3/2"
+      },
+      "winner": "A",
+      "gap": "2/25",
+      "normalized_gap": "2/15",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-660a1c7bfd93aede",
+      "totals": {
+        "A": "683/500",
+        "B": "7/4"
+      },
+      "winner": "A",
+      "gap": "48/125",
+      "normalized_gap": "8/25",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d8a7aa05dc832910",
+      "totals": {
+        "A": "739/250",
+        "B": "7/2"
+      },
+      "winner": "A",
+      "gap": "68/125",
+      "normalized_gap": "68/225",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8fc8ea1c50cea5f6",
+      "totals": {
+        "A": "437/200",
+        "B": "3"
+      },
+      "winner": "A",
+      "gap": "163/200",
+      "normalized_gap": "163/540",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9c161ed3820799de",
+      "totals": {
+        "A": "159/100",
+        "B": "19/10"
+      },
+      "winner": "A",
+      "gap": "31/100",
+      "normalized_gap": "31/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9bef4ab2ed687a0b",
+      "totals": {
+        "A": "43/20",
+        "B": "13/4"
+      },
+      "winner": "A",
+      "gap": "11/10",
+      "normalized_gap": "11/32",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-df0bb6ffa6bcc8a7",
+      "totals": {
+        "A": "119/20",
+        "B": "169/20"
+      },
+      "winner": "A",
+      "gap": "5/2",
+      "normalized_gap": "1/3",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7a07da023da56c8a",
+      "totals": {
+        "A": "31/20",
+        "B": "43/20"
+      },
+      "winner": "A",
+      "gap": "3/5",
+      "normalized_gap": "3/10",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a7129892d99e9783",
+      "totals": {
+        "A": "27/10",
+        "B": "59/20"
+      },
+      "winner": "A",
+      "gap": "1/4",
+      "normalized_gap": "5/36",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1174734265991c42",
+      "totals": {
+        "A": "68/25",
+        "B": "16/5"
+      },
+      "winner": "A",
+      "gap": "12/25",
+      "normalized_gap": "1/5",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-02d68d96615c7886",
+      "totals": {
+        "A": "15/4",
+        "B": "141/20"
+      },
+      "winner": "A",
+      "gap": "33/10",
+      "normalized_gap": "33/100",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6cb5a327912c4ffa",
+      "totals": {
+        "A": "229/100",
+        "B": "57/20"
+      },
+      "winner": "A",
+      "gap": "14/25",
+      "normalized_gap": "7/30",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3ae8ded7fc16ca47",
+      "totals": {
+        "A": "121/50",
+        "B": "22/5"
+      },
+      "winner": "A",
+      "gap": "99/50",
+      "normalized_gap": "33/100",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b56210986959ed4c",
+      "totals": {
+        "A": "193/50",
+        "B": "31/5"
+      },
+      "winner": "A",
+      "gap": "117/50",
+      "normalized_gap": "117/400",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f2039da7828913d9",
+      "totals": {
+        "A": "43/10",
+        "B": "107/20"
+      },
+      "winner": "A",
+      "gap": "21/20",
+      "normalized_gap": "21/100",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c565052c40f93477",
+      "totals": {
+        "A": "277/100",
+        "B": "331/100"
+      },
+      "winner": "A",
+      "gap": "27/50",
+      "normalized_gap": "27/160",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fd0a4db2b646a244",
+      "totals": {
+        "A": "37/10",
+        "B": "109/20"
+      },
+      "winner": "A",
+      "gap": "7/4",
+      "normalized_gap": "7/24",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b17802617d89cb08",
+      "totals": {
+        "A": "191/50",
+        "B": "221/50"
+      },
+      "winner": "A",
+      "gap": "3/5",
+      "normalized_gap": "1/6",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4bc1fdbcf2334dcb",
+      "totals": {
+        "A": "149/50",
+        "B": "831/200"
+      },
+      "winner": "A",
+      "gap": "47/40",
+      "normalized_gap": "47/192",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-96f8abe859034ee6",
+      "totals": {
+        "A": "489/100",
+        "B": "109/20"
+      },
+      "winner": "A",
+      "gap": "14/25",
+      "normalized_gap": "7/60",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5bb4859297114221",
+      "totals": {
+        "A": "353/100",
+        "B": "123/25"
+      },
+      "winner": "A",
+      "gap": "139/100",
+      "normalized_gap": "139/600",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d9c73a4dee724374",
+      "totals": {
+        "A": "349/100",
+        "B": "43/10"
+      },
+      "winner": "A",
+      "gap": "81/100",
+      "normalized_gap": "27/80",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1c5f2e95048e7d66",
+      "totals": {
+        "A": "81/20",
+        "B": "31/5"
+      },
+      "winner": "A",
+      "gap": "43/20",
+      "normalized_gap": "43/120",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-22cd38b12ad7673e",
+      "totals": {
+        "A": "1389/500",
+        "B": "63/20"
+      },
+      "winner": "A",
+      "gap": "93/250",
+      "normalized_gap": "93/250",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b13ee36054e5fb4b",
+      "totals": {
+        "A": "21/10",
+        "B": "97/20"
+      },
+      "winner": "A",
+      "gap": "11/4",
+      "normalized_gap": "11/16",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3339b9cd5f0b5f98",
+      "totals": {
+        "A": "21/8",
+        "B": "24/5"
+      },
+      "winner": "A",
+      "gap": "87/40",
+      "normalized_gap": "29/60",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-91b699cfaf8fac6b",
+      "totals": {
+        "A": "1353/500",
+        "B": "31/5"
+      },
+      "winner": "A",
+      "gap": "1747/500",
+      "normalized_gap": "1747/2000",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5e6ed81b0aa62857",
+      "totals": {
+        "A": "3/2",
+        "B": "51/20"
+      },
+      "winner": "A",
+      "gap": "21/20",
+      "normalized_gap": "21/50",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-503e7cbf166fa24c",
+      "totals": {
+        "A": "3/2",
+        "B": "11/4"
+      },
+      "winner": "A",
+      "gap": "5/4",
+      "normalized_gap": "5/8",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d8375a3d707ff4a3",
+      "totals": {
+        "A": "71/25",
+        "B": "47/10"
+      },
+      "winner": "A",
+      "gap": "93/50",
+      "normalized_gap": "31/50",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-68d2175fdf09e710",
+      "totals": {
+        "A": "1027/500",
+        "B": "97/20"
+      },
+      "winner": "A",
+      "gap": "699/250",
+      "normalized_gap": "233/400",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f88c462d5f9fc4bc",
+      "totals": {
+        "A": "127/200",
+        "B": "13/5"
+      },
+      "winner": "A",
+      "gap": "393/200",
+      "normalized_gap": "131/200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-53ace6bb7e4d535b",
+      "totals": {
+        "A": "61/20",
+        "B": "51/10"
+      },
+      "winner": "A",
+      "gap": "41/20",
+      "normalized_gap": "41/100",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-79ba54b05600b7dd",
+      "totals": {
+        "A": "73/25",
+        "B": "18/5"
+      },
+      "winner": "A",
+      "gap": "17/25",
+      "normalized_gap": "17/40",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3c004ed0e1329b46",
+      "totals": {
+        "A": "1481/500",
+        "B": "859/200"
+      },
+      "winner": "A",
+      "gap": "1333/1000",
+      "normalized_gap": "1333/2700",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b083c269696e0c07",
+      "totals": {
+        "A": "3/2",
+        "B": "147/50"
+      },
+      "winner": "A",
+      "gap": "36/25",
+      "normalized_gap": "9/20",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-adf873a9059cd8c4",
+      "totals": {
+        "A": "1837/500",
+        "B": "663/100"
+      },
+      "winner": "A",
+      "gap": "739/250",
+      "normalized_gap": "739/1800",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-04e788c65e93b9c8",
+      "totals": {
+        "A": "161/50",
+        "B": "33/5"
+      },
+      "winner": "A",
+      "gap": "169/50",
+      "normalized_gap": "169/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9da105020639045a",
+      "totals": {
+        "A": "47/10",
+        "B": "161/20"
+      },
+      "winner": "A",
+      "gap": "67/20",
+      "normalized_gap": "67/160",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a29be20dc4ee8929",
+      "totals": {
+        "A": "114/25",
+        "B": "117/20"
+      },
+      "winner": "A",
+      "gap": "129/100",
+      "normalized_gap": "43/120",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fb34449b9b51a92c",
+      "totals": {
+        "A": "89/20",
+        "B": "33/4"
+      },
+      "winner": "A",
+      "gap": "19/5",
+      "normalized_gap": "38/75",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a32fa7135e0342a3",
+      "totals": {
+        "A": "51/25",
+        "B": "369/100"
+      },
+      "winner": "A",
+      "gap": "33/20",
+      "normalized_gap": "11/24",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f08fcb0ee8a78d97",
+      "totals": {
+        "A": "173/50",
+        "B": "79/10"
+      },
+      "winner": "A",
+      "gap": "111/25",
+      "normalized_gap": "111/200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c5be6aacd02e459e",
+      "totals": {
+        "A": "841/250",
+        "B": "67/10"
+      },
+      "winner": "A",
+      "gap": "417/125",
+      "normalized_gap": "139/200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-900a8454454df935",
+      "totals": {
+        "A": "3",
+        "B": "57/10"
+      },
+      "winner": "A",
+      "gap": "27/10",
+      "normalized_gap": "27/50",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fa9862163b30da1f",
+      "totals": {
+        "A": "271/100",
+        "B": "25/4"
+      },
+      "winner": "A",
+      "gap": "177/50",
+      "normalized_gap": "177/400",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-71939e92d60a017f",
+      "totals": {
+        "A": "59/25",
+        "B": "341/100"
+      },
+      "winner": "A",
+      "gap": "21/20",
+      "normalized_gap": "7/16",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fa2cf6df9b01623a",
+      "totals": {
+        "A": "153/100",
+        "B": "47/10"
+      },
+      "winner": "A",
+      "gap": "317/100",
+      "normalized_gap": "317/400",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-24c5a6b24e45cdd3",
+      "totals": {
+        "A": "45/8",
+        "B": "201/40"
+      },
+      "winner": "B",
+      "gap": "3/5",
+      "normalized_gap": "2/25",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c809a448810175db",
+      "totals": {
+        "A": "171/50",
+        "B": "329/100"
+      },
+      "winner": "B",
+      "gap": "13/100",
+      "normalized_gap": "13/360",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6e8cd9669fcfec58",
+      "totals": {
+        "A": "187/50",
+        "B": "349/100"
+      },
+      "winner": "B",
+      "gap": "1/4",
+      "normalized_gap": "1/12",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f172b2d17afee5f4",
+      "totals": {
+        "A": "33/5",
+        "B": "13/2"
+      },
+      "winner": "B",
+      "gap": "1/10",
+      "normalized_gap": "1/60",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8019ab4c0587a17c",
+      "totals": {
+        "A": "109/25",
+        "B": "431/100"
+      },
+      "winner": "B",
+      "gap": "1/20",
+      "normalized_gap": "1/96",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-33e9f1a352ff082f",
+      "totals": {
+        "A": "177/100",
+        "B": "33/20"
+      },
+      "winner": "B",
+      "gap": "3/25",
+      "normalized_gap": "3/50",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-94e39ce7ea3ddd6a",
+      "totals": {
+        "A": "379/100",
+        "B": "88/25"
+      },
+      "winner": "B",
+      "gap": "27/100",
+      "normalized_gap": "9/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d74c001e5cde6351",
+      "totals": {
+        "A": "17/4",
+        "B": "163/40"
+      },
+      "winner": "B",
+      "gap": "7/40",
+      "normalized_gap": "7/180",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-24150523d2550243",
+      "totals": {
+        "A": "119/20",
+        "B": "11/2"
+      },
+      "winner": "B",
+      "gap": "9/20",
+      "normalized_gap": "3/40",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-912e12e0fe3c1996",
+      "totals": {
+        "A": "259/100",
+        "B": "49/20"
+      },
+      "winner": "B",
+      "gap": "7/50",
+      "normalized_gap": "7/80",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8eff8d6235c8df4e",
+      "totals": {
+        "A": "613/200",
+        "B": "14/5"
+      },
+      "winner": "B",
+      "gap": "53/200",
+      "normalized_gap": "53/750",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e6c1a695a034d102",
+      "totals": {
+        "A": "49/10",
+        "B": "93/20"
+      },
+      "winner": "B",
+      "gap": "1/4",
+      "normalized_gap": "1/12",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f16db4f5e3b0e080",
+      "totals": {
+        "A": "19/5",
+        "B": "71/20"
+      },
+      "winner": "B",
+      "gap": "1/4",
+      "normalized_gap": "1/15",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7d491ce07aa3bd66",
+      "totals": {
+        "A": "99/20",
+        "B": "87/20"
+      },
+      "winner": "B",
+      "gap": "3/5",
+      "normalized_gap": "1/10",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-68feaf62c0b97006",
+      "totals": {
+        "A": "9/4",
+        "B": "56/25"
+      },
+      "winner": "B",
+      "gap": "1/100",
+      "normalized_gap": "1/900",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b7a4d171864856a2",
+      "totals": {
+        "A": "157/100",
+        "B": "37/25"
+      },
+      "winner": "B",
+      "gap": "9/100",
+      "normalized_gap": "9/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9e0d5120a1b2f668",
+      "totals": {
+        "A": "169/50",
+        "B": "84/25"
+      },
+      "winner": "B",
+      "gap": "1/50",
+      "normalized_gap": "1/320",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ce13d16b171a42a9",
+      "totals": {
+        "A": "29/4",
+        "B": "7"
+      },
+      "winner": "B",
+      "gap": "1/4",
+      "normalized_gap": "1/30",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-70eea717a068c4e3",
+      "totals": {
+        "A": "311/100",
+        "B": "1491/500"
+      },
+      "winner": "B",
+      "gap": "16/125",
+      "normalized_gap": "8/225",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c3caf0b551161944",
+      "totals": {
+        "A": "128/25",
+        "B": "549/125"
+      },
+      "winner": "B",
+      "gap": "91/125",
+      "normalized_gap": "91/1200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a1b91b3f38426026",
+      "totals": {
+        "A": "37/5",
+        "B": "69/10"
+      },
+      "winner": "B",
+      "gap": "1/2",
+      "normalized_gap": "1/16",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-874c2cf90c2289e2",
+      "totals": {
+        "A": "1107/500",
+        "B": "197/100"
+      },
+      "winner": "B",
+      "gap": "61/250",
+      "normalized_gap": "61/800",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-de94d98f0ed571e3",
+      "totals": {
+        "A": "253/50",
+        "B": "23/5"
+      },
+      "winner": "B",
+      "gap": "23/50",
+      "normalized_gap": "23/240",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-80ffc8465b86630f",
+      "totals": {
+        "A": "293/100",
+        "B": "342/125"
+      },
+      "winner": "B",
+      "gap": "97/500",
+      "normalized_gap": "97/2400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1d10f5a8a96d8255",
+      "totals": {
+        "A": "42/25",
+        "B": "38/25"
+      },
+      "winner": "B",
+      "gap": "4/25",
+      "normalized_gap": "4/45",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e36eb4dee46e46fe",
+      "totals": {
+        "A": "25/4",
+        "B": "31/5"
+      },
+      "winner": "B",
+      "gap": "1/20",
+      "normalized_gap": "1/150",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6e55cf328eeef0aa",
+      "totals": {
+        "A": "179/40",
+        "B": "147/40"
+      },
+      "winner": "B",
+      "gap": "4/5",
+      "normalized_gap": "8/75",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-22e00f8ed76c0146",
+      "totals": {
+        "A": "53/10",
+        "B": "33/8"
+      },
+      "winner": "B",
+      "gap": "47/40",
+      "normalized_gap": "47/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-54637f48d93ab298",
+      "totals": {
+        "A": "111/50",
+        "B": "31/20"
+      },
+      "winner": "B",
+      "gap": "67/100",
+      "normalized_gap": "67/300",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-db33dbd629ee8dd2",
+      "totals": {
+        "A": "79/20",
+        "B": "3"
+      },
+      "winner": "B",
+      "gap": "19/20",
+      "normalized_gap": "19/120",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1cbf6c57934275d3",
+      "totals": {
+        "A": "211/50",
+        "B": "681/200"
+      },
+      "winner": "B",
+      "gap": "163/200",
+      "normalized_gap": "163/540",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-03ac44429fe6f784",
+      "totals": {
+        "A": "493/200",
+        "B": "861/400"
+      },
+      "winner": "B",
+      "gap": "5/16",
+      "normalized_gap": "5/36",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3405539c24efcf6e",
+      "totals": {
+        "A": "63/10",
+        "B": "107/20"
+      },
+      "winner": "B",
+      "gap": "19/20",
+      "normalized_gap": "19/96",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-51388c3b68ec0a1a",
+      "totals": {
+        "A": "1261/400",
+        "B": "573/200"
+      },
+      "winner": "B",
+      "gap": "23/80",
+      "normalized_gap": "23/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a727b95e8009d6c3",
+      "totals": {
+        "A": "583/100",
+        "B": "453/100"
+      },
+      "winner": "B",
+      "gap": "13/10",
+      "normalized_gap": "13/60",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7f4b3d68493b431e",
+      "totals": {
+        "A": "7",
+        "B": "211/40"
+      },
+      "winner": "B",
+      "gap": "69/40",
+      "normalized_gap": "69/200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-229372ec7e7a66ca",
+      "totals": {
+        "A": "421/100",
+        "B": "131/40"
+      },
+      "winner": "B",
+      "gap": "187/200",
+      "normalized_gap": "187/900",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0c8a8363afa49a55",
+      "totals": {
+        "A": "197/50",
+        "B": "73/25"
+      },
+      "winner": "B",
+      "gap": "51/50",
+      "normalized_gap": "17/60",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-15ed3cd4fd7a6010",
+      "totals": {
+        "A": "129/40",
+        "B": "67/40"
+      },
+      "winner": "B",
+      "gap": "31/20",
+      "normalized_gap": "31/120",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-df2c2dbb554775ed",
+      "totals": {
+        "A": "663/100",
+        "B": "21/5"
+      },
+      "winner": "B",
+      "gap": "243/100",
+      "normalized_gap": "27/80",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0a622b94609ffb79",
+      "totals": {
+        "A": "857/500",
+        "B": "117/100"
+      },
+      "winner": "B",
+      "gap": "68/125",
+      "normalized_gap": "17/100",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b6fe96e8ce3de837",
+      "totals": {
+        "A": "7/2",
+        "B": "281/100"
+      },
+      "winner": "B",
+      "gap": "69/100",
+      "normalized_gap": "69/320",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-38f84dda4ca24a2e",
+      "totals": {
+        "A": "1247/250",
+        "B": "1669/500"
+      },
+      "winner": "B",
+      "gap": "33/20",
+      "normalized_gap": "11/80",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0f8c6174e11e0e11",
+      "totals": {
+        "A": "11/2",
+        "B": "41/10"
+      },
+      "winner": "B",
+      "gap": "7/5",
+      "normalized_gap": "7/30",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b5c2ba4315669784",
+      "totals": {
+        "A": "1361/250",
+        "B": "91/20"
+      },
+      "winner": "B",
+      "gap": "447/500",
+      "normalized_gap": "447/3500",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-460342e964561e15",
+      "totals": {
+        "A": "1349/500",
+        "B": "199/100"
+      },
+      "winner": "B",
+      "gap": "177/250",
+      "normalized_gap": "59/200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c8a4c62d3a95cba4",
+      "totals": {
+        "A": "137/25",
+        "B": "413/100"
+      },
+      "winner": "B",
+      "gap": "27/20",
+      "normalized_gap": "9/32",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-13982127e95c5c58",
+      "totals": {
+        "A": "739/100",
+        "B": "233/50"
+      },
+      "winner": "B",
+      "gap": "273/100",
+      "normalized_gap": "91/320",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-70d8fbcddf8f3dae",
+      "totals": {
+        "A": "139/20",
+        "B": "409/100"
+      },
+      "winner": "B",
+      "gap": "143/50",
+      "normalized_gap": "143/480",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a8d8e0c2811f6bea",
+      "totals": {
+        "A": "677/100",
+        "B": "457/100"
+      },
+      "winner": "B",
+      "gap": "11/5",
+      "normalized_gap": "11/32",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-67b923b745199bcc",
+      "totals": {
+        "A": "467/100",
+        "B": "353/100"
+      },
+      "winner": "B",
+      "gap": "57/50",
+      "normalized_gap": "19/80",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ebb5ee3411f65c69",
+      "totals": {
+        "A": "1179/500",
+        "B": "489/500"
+      },
+      "winner": "B",
+      "gap": "69/50",
+      "normalized_gap": "23/120",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-824d330e935ef5e9",
+      "totals": {
+        "A": "551/200",
+        "B": "1153/1000"
+      },
+      "winner": "B",
+      "gap": "801/500",
+      "normalized_gap": "89/50",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-947ea2c64fd13b30",
+      "totals": {
+        "A": "141/50",
+        "B": "189/200"
+      },
+      "winner": "B",
+      "gap": "15/8",
+      "normalized_gap": "5/4",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-41e0297d02eab5a1",
+      "totals": {
+        "A": "13/2",
+        "B": "227/50"
+      },
+      "winner": "B",
+      "gap": "49/25",
+      "normalized_gap": "49/120",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a9e2d58fef884df9",
+      "totals": {
+        "A": "49/10",
+        "B": "127/100"
+      },
+      "winner": "B",
+      "gap": "363/100",
+      "normalized_gap": "121/100",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-88639ac1d8dad46e",
+      "totals": {
+        "A": "27/10",
+        "B": "1027/500"
+      },
+      "winner": "B",
+      "gap": "323/500",
+      "normalized_gap": "323/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8d760483120a2557",
+      "totals": {
+        "A": "51/25",
+        "B": "109/100"
+      },
+      "winner": "B",
+      "gap": "19/20",
+      "normalized_gap": "19/40",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9f3af5dccaebe8ec",
+      "totals": {
+        "A": "83/20",
+        "B": "189/100"
+      },
+      "winner": "B",
+      "gap": "113/50",
+      "normalized_gap": "113/120",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-474f672bd4e4f16f",
+      "totals": {
+        "A": "231/50",
+        "B": "1253/500"
+      },
+      "winner": "B",
+      "gap": "1057/500",
+      "normalized_gap": "1057/2400",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-dc4bb6757909fa88",
+      "totals": {
+        "A": "29/8",
+        "B": "69/40"
+      },
+      "winner": "B",
+      "gap": "19/10",
+      "normalized_gap": "19/50",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c207a555d5b5ce59",
+      "totals": {
+        "A": "22/5",
+        "B": "51/20"
+      },
+      "winner": "B",
+      "gap": "37/20",
+      "normalized_gap": "37/80",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-493fb1ffb8c5e181",
+      "totals": {
+        "A": "73/20",
+        "B": "91/50"
+      },
+      "winner": "B",
+      "gap": "183/100",
+      "normalized_gap": "61/100",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c169ec8d9ff7ebd9",
+      "totals": {
+        "A": "987/400",
+        "B": "133/100"
+      },
+      "winner": "B",
+      "gap": "91/80",
+      "normalized_gap": "91/180",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c7a31297b87a065a",
+      "totals": {
+        "A": "53/8",
+        "B": "317/100"
+      },
+      "winner": "B",
+      "gap": "691/200",
+      "normalized_gap": "691/1200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-892ac830b1145522",
+      "totals": {
+        "A": "191/50",
+        "B": "189/100"
+      },
+      "winner": "B",
+      "gap": "193/100",
+      "normalized_gap": "193/180",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-e43d239d662a1ac5",
+      "totals": {
+        "A": "27/4",
+        "B": "19/10"
+      },
+      "winner": "B",
+      "gap": "97/20",
+      "normalized_gap": "97/160",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-89a9735056e0cd74",
+      "totals": {
+        "A": "41/10",
+        "B": "182/125"
+      },
+      "winner": "B",
+      "gap": "661/250",
+      "normalized_gap": "661/450",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4ca5feb3b1a3e67b",
+      "totals": {
+        "A": "163/25",
+        "B": "47/25"
+      },
+      "winner": "B",
+      "gap": "116/25",
+      "normalized_gap": "29/50",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d4321c06d73de747",
+      "totals": {
+        "A": "17/4",
+        "B": "7/4"
+      },
+      "winner": "B",
+      "gap": "5/2",
+      "normalized_gap": "5/12",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1079427f1f36a6df",
+      "totals": {
+        "A": "136/25",
+        "B": "447/500"
+      },
+      "winner": "B",
+      "gap": "2273/500",
+      "normalized_gap": "2273/3000",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6b6421c4634a7cce",
+      "totals": {
+        "A": "451/250",
+        "B": "237/500"
+      },
+      "winner": "B",
+      "gap": "133/100",
+      "normalized_gap": "133/80",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5f6c824401572721",
+      "totals": {
+        "A": "37/10",
+        "B": "303/100"
+      },
+      "winner": "B",
+      "gap": "67/100",
+      "normalized_gap": "67/160",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8f018eaf58379faa",
+      "totals": {
+        "A": "31/10",
+        "B": "81/100"
+      },
+      "winner": "B",
+      "gap": "229/100",
+      "normalized_gap": "229/240",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-5283f5495c879a29",
+      "totals": {
+        "A": "113/20",
+        "B": "191/50"
+      },
+      "winner": "B",
+      "gap": "183/100",
+      "normalized_gap": "61/160",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-93522a11913cd71f",
+      "totals": {
+        "A": "49/10",
+        "B": "1789/500"
+      },
+      "winner": "B",
+      "gap": "661/500",
+      "normalized_gap": "661/1200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4e60dc64cf37c754",
+      "totals": {
+        "A": "493/100",
+        "B": "1423/500"
+      },
+      "winner": "B",
+      "gap": "521/250",
+      "normalized_gap": "521/1200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3fd68372b9669d1e",
+      "totals": {
+        "A": "241/100",
+        "B": "143/100"
+      },
+      "winner": "B",
+      "gap": "49/50",
+      "normalized_gap": "49/80",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ea0ab085abea71d9",
+      "totals": {
+        "A": "219/50",
+        "B": "397/100"
+      },
+      "winner": "B",
+      "gap": "41/100",
+      "normalized_gap": "41/480",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-bdedb5169db5e188",
+      "totals": {
+        "A": "27/10",
+        "B": "1317/500"
+      },
+      "winner": "B",
+      "gap": "33/500",
+      "normalized_gap": "33/400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-eb490300167e9bfa",
+      "totals": {
+        "A": "11/4",
+        "B": "131/50"
+      },
+      "winner": "B",
+      "gap": "13/100",
+      "normalized_gap": "13/180",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-beea0418f9e9952d",
+      "totals": {
+        "A": "43/10",
+        "B": "199/50"
+      },
+      "winner": "B",
+      "gap": "8/25",
+      "normalized_gap": "1/10",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2618450dc98b6fd7",
+      "totals": {
+        "A": "23/4",
+        "B": "451/80"
+      },
+      "winner": "B",
+      "gap": "9/80",
+      "normalized_gap": "9/400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a59f5ae7e11f3e75",
+      "totals": {
+        "A": "13/4",
+        "B": "321/100"
+      },
+      "winner": "B",
+      "gap": "1/25",
+      "normalized_gap": "1/75",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0eef406451884d8e",
+      "totals": {
+        "A": "499/125",
+        "B": "19/5"
+      },
+      "winner": "B",
+      "gap": "24/125",
+      "normalized_gap": "4/75",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-09c711516cda966a",
+      "totals": {
+        "A": "37/8",
+        "B": "357/80"
+      },
+      "winner": "B",
+      "gap": "13/80",
+      "normalized_gap": "13/300",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7f041c45e4bae71a",
+      "totals": {
+        "A": "249/200",
+        "B": "293/250"
+      },
+      "winner": "B",
+      "gap": "73/1000",
+      "normalized_gap": "73/900",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1d4f0537b4f51a97",
+      "totals": {
+        "A": "81/20",
+        "B": "983/250"
+      },
+      "winner": "B",
+      "gap": "59/500",
+      "normalized_gap": "59/1800",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9b09310c0a6ee250",
+      "totals": {
+        "A": "32/5",
+        "B": "593/100"
+      },
+      "winner": "B",
+      "gap": "47/100",
+      "normalized_gap": "47/480",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-b2fc1b55355233d6",
+      "totals": {
+        "A": "77/25",
+        "B": "61/20"
+      },
+      "winner": "B",
+      "gap": "3/100",
+      "normalized_gap": "3/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a6e624e3f8e26a1a",
+      "totals": {
+        "A": "251/200",
+        "B": "587/500"
+      },
+      "winner": "B",
+      "gap": "81/1000",
+      "normalized_gap": "27/400",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-a50a06189159ba22",
+      "totals": {
+        "A": "87/20",
+        "B": "79/20"
+      },
+      "winner": "B",
+      "gap": "2/5",
+      "normalized_gap": "1/15",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-eb5c9e235da47d68",
+      "totals": {
+        "A": "99/20",
+        "B": "49/10"
+      },
+      "winner": "B",
+      "gap": "1/20",
+      "normalized_gap": "1/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c9c6dc6d241532fb",
+      "totals": {
+        "A": "659/100",
+        "B": "627/100"
+      },
+      "winner": "B",
+      "gap": "8/25",
+      "normalized_gap": "1/25",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3ca3e2388ee28a5b",
+      "totals": {
+        "A": "139/20",
+        "B": "163/25"
+      },
+      "winner": "B",
+      "gap": "43/100",
+      "normalized_gap": "43/600",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-77069098e660c6e6",
+      "totals": {
+        "A": "99/25",
+        "B": "371/100"
+      },
+      "winner": "B",
+      "gap": "1/4",
+      "normalized_gap": "1/12",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-983d6171d5b0a86c",
+      "totals": {
+        "A": "409/100",
+        "B": "397/100"
+      },
+      "winner": "B",
+      "gap": "3/25",
+      "normalized_gap": "1/35",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-991eaad4cc03f936",
+      "totals": {
+        "A": "331/100",
+        "B": "81/25"
+      },
+      "winner": "B",
+      "gap": "7/100",
+      "normalized_gap": "7/240",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-941cf136dc6c9f34",
+      "totals": {
+        "A": "439/100",
+        "B": "219/50"
+      },
+      "winner": "B",
+      "gap": "1/100",
+      "normalized_gap": "1/360",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-27e6836dc5240348",
+      "totals": {
+        "A": "249/50",
+        "B": "459/100"
+      },
+      "winner": "B",
+      "gap": "39/100",
+      "normalized_gap": "13/200",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-073f39e67b4f7870",
+      "totals": {
+        "A": "707/200",
+        "B": "697/200"
+      },
+      "winner": "B",
+      "gap": "1/20",
+      "normalized_gap": "1/84",
+      "gap_band": "low",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8583d1030b209555",
+      "totals": {
+        "A": "33/5",
+        "B": "117/20"
+      },
+      "winner": "B",
+      "gap": "3/4",
+      "normalized_gap": "1/12",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-4e904de328a7bcd4",
+      "totals": {
+        "A": "247/50",
+        "B": "97/20"
+      },
+      "winner": "B",
+      "gap": "9/100",
+      "normalized_gap": "1/40",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-12a566744bdaaa5c",
+      "totals": {
+        "A": "23/10",
+        "B": "221/100"
+      },
+      "winner": "B",
+      "gap": "9/100",
+      "normalized_gap": "9/160",
+      "gap_band": "low",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6d55fa59c55c0102",
+      "totals": {
+        "A": "41/20",
+        "B": "463/250"
+      },
+      "winner": "B",
+      "gap": "99/500",
+      "normalized_gap": "33/250",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7f8cf6057fc0386c",
+      "totals": {
+        "A": "4",
+        "B": "123/40"
+      },
+      "winner": "B",
+      "gap": "37/40",
+      "normalized_gap": "37/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9a19b3adf99b36be",
+      "totals": {
+        "A": "7/2",
+        "B": "53/20"
+      },
+      "winner": "B",
+      "gap": "17/20",
+      "normalized_gap": "17/60",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-55cae2592f6084f3",
+      "totals": {
+        "A": "91/50",
+        "B": "341/250"
+      },
+      "winner": "B",
+      "gap": "57/125",
+      "normalized_gap": "19/125",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d7b183f496361431",
+      "totals": {
+        "A": "61/20",
+        "B": "291/100"
+      },
+      "winner": "B",
+      "gap": "7/50",
+      "normalized_gap": "7/60",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d275ff989890f339",
+      "totals": {
+        "A": "121/25",
+        "B": "773/200"
+      },
+      "winner": "B",
+      "gap": "39/40",
+      "normalized_gap": "13/60",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1caa887c1ce10adf",
+      "totals": {
+        "A": "459/100",
+        "B": "16/5"
+      },
+      "winner": "B",
+      "gap": "139/100",
+      "normalized_gap": "139/480",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-df9b3886018a0cb2",
+      "totals": {
+        "A": "37/20",
+        "B": "27/20"
+      },
+      "winner": "B",
+      "gap": "1/2",
+      "normalized_gap": "1/4",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-375e8ceae8173dd3",
+      "totals": {
+        "A": "44/25",
+        "B": "743/500"
+      },
+      "winner": "B",
+      "gap": "137/500",
+      "normalized_gap": "137/1200",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-dec9a213a23d361f",
+      "totals": {
+        "A": "19/5",
+        "B": "356/125"
+      },
+      "winner": "B",
+      "gap": "119/125",
+      "normalized_gap": "119/400",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c68aeef8841bcb8c",
+      "totals": {
+        "A": "37/10",
+        "B": "221/80"
+      },
+      "winner": "B",
+      "gap": "15/16",
+      "normalized_gap": "1/4",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-93f383d10dda31fc",
+      "totals": {
+        "A": "17/5",
+        "B": "3"
+      },
+      "winner": "B",
+      "gap": "2/5",
+      "normalized_gap": "2/15",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-488062cfdacf726f",
+      "totals": {
+        "A": "83/20",
+        "B": "213/100"
+      },
+      "winner": "B",
+      "gap": "101/50",
+      "normalized_gap": "101/300",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6565ece2aba1e48c",
+      "totals": {
+        "A": "82/25",
+        "B": "59/25"
+      },
+      "winner": "B",
+      "gap": "23/25",
+      "normalized_gap": "23/225",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6340b85c99f80df8",
+      "totals": {
+        "A": "32/5",
+        "B": "28/5"
+      },
+      "winner": "B",
+      "gap": "4/5",
+      "normalized_gap": "2/15",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-897c65b9cf0888fd",
+      "totals": {
+        "A": "959/200",
+        "B": "433/100"
+      },
+      "winner": "B",
+      "gap": "93/200",
+      "normalized_gap": "31/300",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2d723c7e43b361ef",
+      "totals": {
+        "A": "169/100",
+        "B": "99/100"
+      },
+      "winner": "B",
+      "gap": "7/10",
+      "normalized_gap": "7/36",
+      "gap_band": "moderate",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-7296bb08111d19ac",
+      "totals": {
+        "A": "29/5",
+        "B": "471/100"
+      },
+      "winner": "B",
+      "gap": "109/100",
+      "normalized_gap": "109/540",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2cadfb8577f07ae4",
+      "totals": {
+        "A": "1137/500",
+        "B": "53/25"
+      },
+      "winner": "B",
+      "gap": "77/500",
+      "normalized_gap": "77/600",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-bdfd1c91fb365118",
+      "totals": {
+        "A": "353/100",
+        "B": "1581/500"
+      },
+      "winner": "B",
+      "gap": "46/125",
+      "normalized_gap": "23/225",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f101f90abf567170",
+      "totals": {
+        "A": "103/20",
+        "B": "4"
+      },
+      "winner": "B",
+      "gap": "23/20",
+      "normalized_gap": "23/120",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-64a078ba417e48bb",
+      "totals": {
+        "A": "4",
+        "B": "31/10"
+      },
+      "winner": "B",
+      "gap": "9/10",
+      "normalized_gap": "3/20",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-924302ead431db6d",
+      "totals": {
+        "A": "9/2",
+        "B": "88/25"
+      },
+      "winner": "B",
+      "gap": "49/50",
+      "normalized_gap": "49/180",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-3a78981c29dc5494",
+      "totals": {
+        "A": "81/20",
+        "B": "29/10"
+      },
+      "winner": "B",
+      "gap": "23/20",
+      "normalized_gap": "23/80",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-8a31cb00f4ef7cbc",
+      "totals": {
+        "A": "8/5",
+        "B": "127/100"
+      },
+      "winner": "B",
+      "gap": "33/100",
+      "normalized_gap": "11/40",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-74abf714d50dcf79",
+      "totals": {
+        "A": "109/50",
+        "B": "46/25"
+      },
+      "winner": "B",
+      "gap": "17/50",
+      "normalized_gap": "17/80",
+      "gap_band": "moderate",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-39802a749106a30c",
+      "totals": {
+        "A": "1163/400",
+        "B": "409/200"
+      },
+      "winner": "B",
+      "gap": "69/80",
+      "normalized_gap": "23/60",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-518a7d9952f8302c",
+      "totals": {
+        "A": "83/20",
+        "B": "66/25"
+      },
+      "winner": "B",
+      "gap": "151/100",
+      "normalized_gap": "151/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-d220f22173b676b3",
+      "totals": {
+        "A": "141/50",
+        "B": "401/250"
+      },
+      "winner": "B",
+      "gap": "152/125",
+      "normalized_gap": "152/375",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-741762d5b42a2df4",
+      "totals": {
+        "A": "91/20",
+        "B": "117/40"
+      },
+      "winner": "B",
+      "gap": "13/8",
+      "normalized_gap": "13/36",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-ef697bfa5190cca2",
+      "totals": {
+        "A": "21/10",
+        "B": "3/2"
+      },
+      "winner": "B",
+      "gap": "3/5",
+      "normalized_gap": "2/5",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0c662298999bb97e",
+      "totals": {
+        "A": "53/20",
+        "B": "42/25"
+      },
+      "winner": "B",
+      "gap": "97/100",
+      "normalized_gap": "97/200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f7c082901b068646",
+      "totals": {
+        "A": "41/10",
+        "B": "301/100"
+      },
+      "winner": "B",
+      "gap": "109/100",
+      "normalized_gap": "109/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-98801ee9125f6657",
+      "totals": {
+        "A": "5",
+        "B": "391/100"
+      },
+      "winner": "B",
+      "gap": "109/100",
+      "normalized_gap": "109/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-24305db9362d4aff",
+      "totals": {
+        "A": "83/25",
+        "B": "49/25"
+      },
+      "winner": "B",
+      "gap": "34/25",
+      "normalized_gap": "17/40",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-f4fc597ec89e14d7",
+      "totals": {
+        "A": "61/20",
+        "B": "137/80"
+      },
+      "winner": "B",
+      "gap": "107/80",
+      "normalized_gap": "107/180",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2e295326d874af00",
+      "totals": {
+        "A": "89/20",
+        "B": "263/100"
+      },
+      "winner": "B",
+      "gap": "91/50",
+      "normalized_gap": "91/150",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-13ec88a70a33cd2d",
+      "totals": {
+        "A": "5",
+        "B": "273/100"
+      },
+      "winner": "B",
+      "gap": "227/100",
+      "normalized_gap": "227/320",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-6ae1081de98f8aaf",
+      "totals": {
+        "A": "181/40",
+        "B": "27/10"
+      },
+      "winner": "B",
+      "gap": "73/40",
+      "normalized_gap": "73/144",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-0e4edfeec1296df0",
+      "totals": {
+        "A": "137/20",
+        "B": "116/25"
+      },
+      "winner": "B",
+      "gap": "221/100",
+      "normalized_gap": "221/450",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-9255a1aa70e80afb",
+      "totals": {
+        "A": "53/10",
+        "B": "1547/500"
+      },
+      "winner": "B",
+      "gap": "1103/500",
+      "normalized_gap": "1103/1800",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-fdafaaf47373e638",
+      "totals": {
+        "A": "17/4",
+        "B": "1281/500"
+      },
+      "winner": "B",
+      "gap": "211/125",
+      "normalized_gap": "211/450",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-2f0b1fd1cdaff1ae",
+      "totals": {
+        "A": "23/5",
+        "B": "143/100"
+      },
+      "winner": "B",
+      "gap": "317/100",
+      "normalized_gap": "317/900",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-06314cc71378cc87",
+      "totals": {
+        "A": "611/100",
+        "B": "171/50"
+      },
+      "winner": "B",
+      "gap": "269/100",
+      "normalized_gap": "269/720",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-89e7c5c800f4744e",
+      "totals": {
+        "A": "357/100",
+        "B": "239/100"
+      },
+      "winner": "B",
+      "gap": "59/50",
+      "normalized_gap": "59/120",
+      "gap_band": "high",
+      "denominator_group": "same"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-cd8ae65749b73a44",
+      "totals": {
+        "A": "83/20",
+        "B": "1211/500"
+      },
+      "winner": "B",
+      "gap": "216/125",
+      "normalized_gap": "12/25",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1b389198d9feb5bc",
+      "totals": {
+        "A": "53/10",
+        "B": "1723/500"
+      },
+      "winner": "B",
+      "gap": "927/500",
+      "normalized_gap": "309/800",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-02bfa84ed66fbb67",
+      "totals": {
+        "A": "83/10",
+        "B": "23/8"
+      },
+      "winner": "B",
+      "gap": "217/40",
+      "normalized_gap": "217/300",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-cf96405d4b143364",
+      "totals": {
+        "A": "21/5",
+        "B": "297/100"
+      },
+      "winner": "B",
+      "gap": "123/100",
+      "normalized_gap": "41/80",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1abe01da67b9110e",
+      "totals": {
+        "A": "23/4",
+        "B": "29/20"
+      },
+      "winner": "B",
+      "gap": "43/10",
+      "normalized_gap": "43/90",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-1d09c7ffc5b201e9",
+      "totals": {
+        "A": "23/10",
+        "B": "143/100"
+      },
+      "winner": "B",
+      "gap": "87/100",
+      "normalized_gap": "29/60",
+      "gap_band": "high",
+      "denominator_group": "different"
+    },
+    {
+      "case_id": "H01-CONSTRUCT-V11-main-c7f8ac0ae5956b49",
+      "totals": {
+        "A": "117/20",
+        "B": "1483/500"
+      },
+      "winner": "B",
+      "gap": "721/250",
+      "normalized_gap": "721/1200",
+      "gap_band": "high",
+      "denominator_group": "different"
+    }
+  ],
+  "interpretation": "Descriptive associations only. These case attributes are not validated numerical-difficulty measures and do not identify task engagement, attention, reasoning, or cue substitution."
+}

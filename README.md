@@ -14,6 +14,7 @@ are excluded.
 | Separate 96-case popular-model evaluation and Holm5 | `popular-model-extension/expected-analysis.json`, `expected-controls.json`, and projected responses in `outcomes.json` |
 | Shared 312-case construct validation and Holm9 | `construct-validation-312/expected-analysis.json`; cases, full plan, exact request bodies and responses in the same directory |
 | Targeted Luna sponsor-direction comparison and Holm3 | `sponsor-direction/expected.json`; exact cases, prompts, settings, plan and choices in `sponsor-direction/data/` |
+| Neutral errors by displayed denominator format and fixed cost-gap bands | `numerical-format/expected.json`; post hoc descriptive summaries using the existing 312-case data |
 | Paired transitions, display-order diagnostics and regret by numerical gap | `descriptive-diagnostics/`, `figure-diagnostics/`, `gap-band-description/` |
 | Existing-data summaries and editable scientific figures | `existing-data-synthesis/existing-data-synthesis/` |
 
@@ -62,6 +63,8 @@ python3.12 -B figure-diagnostics/order_diagnostics.py \
   --output ../h01-reproduced/order-diagnostics.json
 python3.12 -B construct-validation-312/reproduce.py
 python3.12 -B sponsor-direction/reproduce.py
+python3.12 -B numerical-format/reproduce.py \
+  --package construct-validation-312 --out ../h01-reproduced/numerical-format
 ```
 
 The popular-model and 312-case scripts verify their committed inputs, independently

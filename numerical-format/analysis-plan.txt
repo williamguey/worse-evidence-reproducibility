@@ -1,0 +1,15 @@
+Post hoc descriptive numerical-format diagnostic, set before this computation
+
+Purpose: Answer the reviewer's questions about the main 312-case bank using already completed and independently audited scientific data. This is not a new confirmatory analysis, a validated measure of numerical difficulty, a causal comparison, or a change to any primary family.
+
+Inputs: the terminal audited construct-validation-312 public reproduction package. Verify its manifest and empirical-audit PASS. Read every planned scientific neutral_2 and neutral_1 response, preserving unavailable outcomes. The main presentation uses neutral_2, the same comparison used by the paper's primary contrast. neutral_1 is a separately displayed descriptive repetition, not pooled as new cases.
+
+Format groups: Independently enumerate each report's expected total cost from exact rational inputs; verify against the retained oracle and actual neutral request text. Compare reduced denominators of the two displayed totals (an integer has denominator 1). Report same and different denominator case counts and percentages. Do not compare the denominators of priors or likelihoods.
+
+Existing fixed gap groups: Use the original low/moderate/high normalized-gap strata; independently verify thresholds low <=1/10, moderate >1/10 and <=7/20, high >7/20. Normalize exact cost gap by min((1-prior)*loss_ACT_state0, prior*loss_WAIT_state1), as originally specified. No new cut points.
+
+For each configuration, condition, and group separately report planned cases, planned choices (2 per case), observed valid choices, observed errors, unavailable choices, observed error rate errors/valid, and full-plan missingness bounds [errors/planned,(errors+unavailable)/planned]. Report total margins as crosschecks. No hypothesis tests, confidence intervals, regression, cut-point search, model selection, or new API calls.
+
+Independent arithmetic checks: derive report totals both by four-policy enumeration and by separate signal-wise minima; aggregate every row both as response-level counters and as a per-case table. Verify counts sum to the full neutral-condition counts and against the already audited expected analysis where available.
+
+Interpretation: Numerical format and gap are descriptive case attributes. Their associations do not identify numerical skill, attention, task engagement, reasoning mechanism, or cue substitution. Existing selected-case and reverse-endorsement evidence should be discussed together with weak/unstable neutral performance.
