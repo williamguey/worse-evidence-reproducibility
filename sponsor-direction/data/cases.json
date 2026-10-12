@@ -1,0 +1,6866 @@
+[
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1482f7d029ed4e41",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8475a0856d5c0a6f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "9/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3de870a8522ba8cc",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b54b1097fa77cc47",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "23/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "5/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7313fbc2c0c83838",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "3/4",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6a5f8cb9a7cbf355",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b31d4fa67f6c9c40",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "49/50",
+          "cost": "5/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-98caeddb1805ba82",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "7/10",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "9/10",
+          "cost": "33/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-bbf4093b6659afb2",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0d434d6a272b025a",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9c69945c3fbc5821",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-414902644d87cb48",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "7/10",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f31f562ef7860b34",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "3/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d049d36c830a86e2",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "9/10",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8c0950a15f82960c",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-934c1f2b4c38ed55",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "11/20",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-90380ff35e8c913b",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/5",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ee4e7b15a1647c0f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "5/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fb88ed7022e7594e",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "4/5",
+          "cost": "7/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-080d219888e36c38",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "33/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-46a0f186f2a95766",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "9/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9217605fb4553cfe",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1ddb9dec3697a556",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-405adbea3f917e9f",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "4/5",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-933b9e75fe5242a4",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "11/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1827b5be3eb0783e",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "3/4",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-83d0751a6454abc3",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "7/10",
+          "cost": "13/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "47/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-24b27dcb2dd183cc",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "49/50",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-82863833518caebf",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "19/20",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-57d6a78011a944b0",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "13/20",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1c0abe0949831c19",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8e618a53488e7a2c",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "39/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-efea9acaa6e917bb",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "9/10",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "4/5",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3a3beb7477c8958f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "4/5",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4d5072bd8969b94a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "19/20",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "9/10",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f010d047c61a3407",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "7/10",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "4/5",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-01f47dd31a48a9a4",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/5",
+          "cost": "2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4432d5a064c687e0",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e3ed29becd7689a0",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "11/20",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-813cf03e7d5f383b",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "49/50",
+          "cost": "5/4"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-00f1db1cc50c67b8",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "17/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "3/5",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a8c9f7c341526e4d",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "13/20",
+          "cost": "2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6cf62ad3fd46fd74",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b5f295f18b20f048",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "21/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9280386592b8daec",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "7/10",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-67b72c94bd6ba028",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-40f6079edaca9fcb",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "5/4"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "47/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4b2ce5bf63b6334c",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3cf9e14d1c665dc0",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "13/20",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-420c9aeb463455fb",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5c1466e44519018a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d34dedcf6dc9630a",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-66d21bedf6164e5c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e1aaaa0357663927",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/4",
+          "cost": "2/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4d311ab9b1c429db",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "3/4",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9437a0d5ad0f46c5",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-522f8b28971c4ce6",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "19/20",
+          "cost": "21/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-77db69afa5c35fc2",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d879d828af8cf661",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2de03de9625a2b3d",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/4",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e5533544be47cb7f",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "6/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1a175696b014ec7b",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "17/20",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "21/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e31f3988190c9222",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "4/5",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "17/20",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9dd74bb33677daed",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "31/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "7/10",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2f2bc8ca6ddbd2dc",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fa5e6df9e8f7f8e3",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "4/5",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "49/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3311923d21a1b2b4",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "11/20",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b39cb740ae0aa20f",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-698ae7861cde1a4a",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "9/10",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "5/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ca84474d6106b981",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "7/10",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "49/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d51f1afe7dd6e81b",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/4",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-28a2dbffe7135f0d",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/4",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5ef5022696a2445a",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "11/20",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d0419fd8eb6ad2b3",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "13/20",
+          "cost": "7/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a5f88f6fc0169405",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "4/5",
+          "cost": "9/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-813184eae4c708c2",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "4/5",
+          "cost": "5/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e3a2aa347f2d0cfa",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "11/20",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5e152c6d7aa3a949",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "9/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6a5566a8a0295330",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/4",
+          "cost": "23/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "3/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-505e2fb0d033de4d",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-176dc79945d4918f",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d77912601858ac50",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "4/5",
+          "cost": "27/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "13/20",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-bc0c761e702ba7f0",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "11/20",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-488fe224625f6d44",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "33/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "4/5",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9572c6a5fd465778",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-984f2f6ef5fa0548",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a900e035725a6b1b",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "9/10",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7b8664f5e479d8c6",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "4/5",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-02ea16c2000ebc2c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "3/5",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3fe759bfdc94450c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-930c2ba68c13162c",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ca12bcbd9f606e6d",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "9/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "49/50",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-dcc105d27efc3cd9",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/4",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "17/20",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-399becef06d9588c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "7/10",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ce8e6e628042001f",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "49/50",
+          "cost": "49/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "47/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4079fdb0999b5fb3",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "7/10",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "11/20",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-424536f1349eaab9",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-33e033137b00f66c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "23/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c94b8a7d96991cdc",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "9/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "13/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c73a46ccf762eb54",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "17/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-651a316d8bef0bce",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-055cd85551248aa7",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "9/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "13/20",
+          "cost": "2/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-541dc0a637d8e088",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "17/20",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "7/10",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6a2f6e90a5a8f68e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "23/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "19/20",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-78ee4007edbbcca5",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "7/10",
+          "cost": "33/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f681576bfec02334",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4d0757d30e735a95",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "7/5"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "13/20",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9f9cc2ae1e0b2f34",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "9/10",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "1/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d7d1ee7ea0351979",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-660a1c7bfd93aede",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "11/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d8a7aa05dc832910",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "3/4",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8fc8ea1c50cea5f6",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "7/10",
+          "cost": "3/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9c161ed3820799de",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9bef4ab2ed687a0b",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "17/20",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "11/20",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-df0bb6ffa6bcc8a7",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7a07da023da56c8a",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "11/20",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a7129892d99e9783",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "49/50",
+          "cost": "31/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1174734265991c42",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "19/20",
+          "cost": "31/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-02d68d96615c7886",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "3/4",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6cb5a327912c4ffa",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "4/5",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3ae8ded7fc16ca47",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b56210986959ed4c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "13/20",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f2039da7828913d9",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "11/20",
+          "cost": "23/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "4/5",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c565052c40f93477",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "11/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fd0a4db2b646a244",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "11/20",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b17802617d89cb08",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "4/5",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4bc1fdbcf2334dcb",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "41/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-96f8abe859034ee6",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "13/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5bb4859297114221",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "3/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d9c73a4dee724374",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "41/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "11/20",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1c5f2e95048e7d66",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "7/10",
+          "cost": "1/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-22cd38b12ad7673e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "4/5",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b13ee36054e5fb4b",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "3/4",
+          "cost": "17/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3339b9cd5f0b5f98",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "19/20",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "3/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-91b699cfaf8fac6b",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5e6ed81b0aa62857",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-503e7cbf166fa24c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d8375a3d707ff4a3",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "23/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "11/20",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-68d2175fdf09e710",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "49/50",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f88c462d5f9fc4bc",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "1/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-53ace6bb7e4d535b",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "7/10",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-79ba54b05600b7dd",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3c004ed0e1329b46",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "41/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b083c269696e0c07",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "3/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-adf873a9059cd8c4",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "13/20"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "11/20",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-04e788c65e93b9c8",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "3/4",
+          "cost": "3/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9da105020639045a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a29be20dc4ee8929",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "12/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/5",
+          "cost": "9/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fb34449b9b51a92c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "11/20",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a32fa7135e0342a3",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "4/5",
+          "cost": "13/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f08fcb0ee8a78d97",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c5be6aacd02e459e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-900a8454454df935",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "17/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fa9862163b30da1f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-71939e92d60a017f",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fa2cf6df9b01623a",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "13/20",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-24c5a6b24e45cdd3",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "4/5",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c809a448810175db",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "19/20",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "5/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6e8cd9669fcfec58",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f172b2d17afee5f4",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8019ab4c0587a17c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "11/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/5",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-33e9f1a352ff082f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "9/10",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/4",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-94e39ce7ea3ddd6a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "9/10",
+          "cost": "2/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d74c001e5cde6351",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "3/4",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-24150523d2550243",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "41/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-912e12e0fe3c1996",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8eff8d6235c8df4e",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e6c1a695a034d102",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f16db4f5e3b0e080",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "43/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "9/10",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7d491ce07aa3bd66",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-68feaf62c0b97006",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "6/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "4/5",
+          "cost": "1/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b7a4d171864856a2",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "11/20",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9e0d5120a1b2f668",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "1/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ce13d16b171a42a9",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "4/5",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-70eea717a068c4e3",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "17/20",
+          "cost": "9/4"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c3caf0b551161944",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "23/10"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "3/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a1b91b3f38426026",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "12/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "4/5",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-874c2cf90c2289e2",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "31/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-de94d98f0ed571e3",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "7/10",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-80ffc8465b86630f",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "2/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1d10f5a8a96d8255",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "9/10",
+          "cost": "1/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e36eb4dee46e46fe",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "3/4",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6e55cf328eeef0aa",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "3/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-22e00f8ed76c0146",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-54637f48d93ab298",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "9/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "4/5",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-db33dbd629ee8dd2",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "31/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "3/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1cbf6c57934275d3",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "43/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/5",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-03ac44429fe6f784",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "5/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3405539c24efcf6e",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "3/4",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-51388c3b68ec0a1a",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "9/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a727b95e8009d6c3",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7f4b3d68493b431e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-229372ec7e7a66ca",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "13/20",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0c8a8363afa49a55",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-15ed3cd4fd7a6010",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "3/5",
+          "cost": "9/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-df2c2dbb554775ed",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "39/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "3/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0a622b94609ffb79",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b6fe96e8ce3de837",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "3/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-38f84dda4ca24a2e",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0f8c6174e11e0e11",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "3/4",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b5c2ba4315669784",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "3/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-460342e964561e15",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "41/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "7/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c8a4c62d3a95cba4",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "7/5"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-13982127e95c5c58",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "9/10",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-70d8fbcddf8f3dae",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "43/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a8d8e0c2811f6bea",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "17/20",
+          "cost": "43/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "33/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-67b923b745199bcc",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "11/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "9/10",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ebb5ee3411f65c69",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "4/5",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "19/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-824d330e935ef5e9",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "49/50",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-947ea2c64fd13b30",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "49/20"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-41e0297d02eab5a1",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a9e2d58fef884df9",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "3/5",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "19/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-88639ac1d8dad46e",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "9/10",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8d760483120a2557",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9f3af5dccaebe8ec",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "13/20",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "5/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-474f672bd4e4f16f",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "13/20",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-dc4bb6757909fa88",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "33/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c207a555d5b5ce59",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "33/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-493fb1ffb8c5e181",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "13/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "9/10",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c169ec8d9ff7ebd9",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "33/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "19/20",
+          "cost": "2/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c7a31297b87a065a",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "11/20",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-892ac830b1145522",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "4/5",
+          "cost": "11/5"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "11/20",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-e43d239d662a1ac5",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "11/20",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-89a9735056e0cd74",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "23/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4ca5feb3b1a3e67b",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "1/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d4321c06d73de747",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "4/5",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1079427f1f36a6df",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6b6421c4634a7cce",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "11/20",
+          "cost": "1/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5f6c824401572721",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "7/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8f018eaf58379faa",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "11/20",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-5283f5495c879a29",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "17/20",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-93522a11913cd71f",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "7/10",
+          "cost": "5/2"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "49/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4e60dc64cf37c754",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "7/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3fd68372b9669d1e",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "3/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ea0ab085abea71d9",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-bdedb5169db5e188",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "13/20",
+          "cost": "19/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "49/50",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-eb490300167e9bfa",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "13/20",
+          "cost": "19/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-beea0418f9e9952d",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2618450dc98b6fd7",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "11/20",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "17/20",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a59f5ae7e11f3e75",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "39/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "9/10",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0eef406451884d8e",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "4/5",
+          "cost": "23/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-09c711516cda966a",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "4/5",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "4/5",
+          "cost": "21/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7f041c45e4bae71a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1d4f0537b4f51a97",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "3/5",
+          "cost": "9/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "17/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9b09310c0a6ee250",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "11/20",
+          "cost": "8/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "17/20",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-b2fc1b55355233d6",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "37/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a6e624e3f8e26a1a",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "17/20",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "7/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-a50a06189159ba22",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "3/4",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-eb5c9e235da47d68",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "17/20",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "17/20",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c9c6dc6d241532fb",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "3/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3ca3e2388ee28a5b",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "3/5",
+          "cost": "27/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-77069098e660c6e6",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "49/50",
+          "cost": "3/2"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-983d6171d5b0a86c",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-991eaad4cc03f936",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "11/20",
+          "cost": "23/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "9/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-941cf136dc6c9f34",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "3/5",
+          "cost": "17/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "7/10",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-27e6836dc5240348",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-073f39e67b4f7870",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "11/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/4",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8583d1030b209555",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "4/5",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "33/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-4e904de328a7bcd4",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-12a566744bdaaa5c",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "49/50",
+          "cost": "7/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "17/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6d55fa59c55c0102",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/20",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "11/20",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7f8cf6057fc0386c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "9/10",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "9/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9a19b3adf99b36be",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "29/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-55cae2592f6084f3",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d7b183f496361431",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "37/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "39/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d275ff989890f339",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "3/5",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1caa887c1ce10adf",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "13/20",
+          "cost": "3/4"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "19/20",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-df9b3886018a0cb2",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "13/20",
+          "cost": "1/10"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "1"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-375e8ceae8173dd3",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "1/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-dec9a213a23d361f",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "13/20",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "12/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c68aeef8841bcb8c",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "19/20",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-93f383d10dda31fc",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "1"
+        },
+        "B": {
+          "sensitivity": "13/20",
+          "specificity": "19/20",
+          "cost": "3/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-488062cfdacf726f",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "27/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6565ece2aba1e48c",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "17/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6340b85c99f80df8",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "11/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "49/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-897c65b9cf0888fd",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "13/20",
+          "cost": "21/10"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "9/10",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2d723c7e43b361ef",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "7/10",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "1/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-7296bb08111d19ac",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "11/20",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "17/20",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2cadfb8577f07ae4",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "19/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-bdfd1c91fb365118",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "5/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "33/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f101f90abf567170",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "3/5",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "7/10",
+          "specificity": "19/20",
+          "cost": "7/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-64a078ba417e48bb",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "3/5",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "8/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-924302ead431db6d",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "4/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "11/20",
+          "cost": "9/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "11/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-3a78981c29dc5494",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "7/10",
+          "cost": "1/20"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "3/4",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-8a31cb00f4ef7cbc",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "8",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "9/10",
+          "cost": "2/5"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "9/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-74abf714d50dcf79",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "4",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "19/20",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-39802a749106a30c",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "13/20",
+          "specificity": "7/10",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "3/4",
+          "cost": "23/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-518a7d9952f8302c",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "4",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "7/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "5/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-d220f22173b676b3",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/10",
+      "loss_ACT_state0": "8",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "7/10",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "7/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-741762d5b42a2df4",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "9/10",
+          "specificity": "7/10",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "9/10",
+          "cost": "3/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-ef697bfa5190cca2",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/4",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "7/10",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "3/5",
+          "specificity": "49/50",
+          "cost": "3/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0c662298999bb97e",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "11/20",
+          "cost": "13/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "19/20",
+          "cost": "11/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f7c082901b068646",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "11/20",
+          "cost": "11/10"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-98801ee9125f6657",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "11/20",
+          "cost": "2"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-24305db9362d4aff",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "3/5"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "9/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-f4fc597ec89e14d7",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "17/20",
+          "specificity": "3/5",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "19/20",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2e295326d874af00",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "15",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "13/20",
+          "cost": "29/20"
+        },
+        "B": {
+          "sensitivity": "4/5",
+          "specificity": "49/50",
+          "cost": "31/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-13ec88a70a33cd2d",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "16",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "49/50",
+          "cost": "9/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-6ae1081de98f8aaf",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "3/20",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "13/10"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "4/5",
+          "cost": "3/2"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-0e4edfeec1296df0",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "20",
+      "reports": {
+        "A": {
+          "sensitivity": "3/5",
+          "specificity": "13/20",
+          "cost": "47/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "49/50",
+          "cost": "49/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-9255a1aa70e80afb",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "3/5",
+          "cost": "17/10"
+        },
+        "B": {
+          "sensitivity": "3/4",
+          "specificity": "49/50",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-fdafaaf47373e638",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "12",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "19/20",
+          "cost": "13/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "13/20",
+          "cost": "21/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-2f0b1fd1cdaff1ae",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "18",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "49/50",
+          "specificity": "11/20",
+          "cost": "1/4"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "19/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-06314cc71378cc87",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/4",
+          "cost": "7/20"
+        },
+        "B": {
+          "sensitivity": "17/20",
+          "specificity": "9/10",
+          "cost": "9/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-89e7c5c800f4744e",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "10",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "19/20",
+          "specificity": "13/20",
+          "cost": "27/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "43/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-cd8ae65749b73a44",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "24",
+      "loss_WAIT_state1": "6",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "3/5",
+          "cost": "11/20"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "41/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1b389198d9feb5bc",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "2/5",
+      "loss_ACT_state0": "30",
+      "loss_WAIT_state1": "12",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "17/20",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "17/20",
+          "cost": "13/20"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-02bfa84ed66fbb67",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "15",
+      "loss_WAIT_state1": "24",
+      "reports": {
+        "A": {
+          "sensitivity": "11/20",
+          "specificity": "7/10",
+          "cost": "4/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "13/10"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-cf96405d4b143364",
+    "family": "beacon",
+    "scenario": "fictional beacon alignment simulator",
+    "parameters": {
+      "prior_state1": "3/5",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "7/10",
+          "specificity": "11/20",
+          "cost": "9/5"
+        },
+        "B": {
+          "sensitivity": "9/10",
+          "specificity": "19/20",
+          "cost": "9/4"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1abe01da67b9110e",
+    "family": "navigation",
+    "scenario": "fictional navigation waypoint simulator",
+    "parameters": {
+      "prior_state1": "1/2",
+      "loss_ACT_state0": "20",
+      "loss_WAIT_state1": "18",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "7/10",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "19/20",
+          "specificity": "49/50",
+          "cost": "4/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-1d09c7ffc5b201e9",
+    "family": "computation",
+    "scenario": "fictional computation consistency simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "6",
+      "loss_WAIT_state1": "10",
+      "reports": {
+        "A": {
+          "sensitivity": "3/4",
+          "specificity": "9/10",
+          "cost": "1/2"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "19/20",
+          "cost": "6/5"
+        }
+      }
+    }
+  },
+  {
+    "case_id": "H01-CONSTRUCT-V11-main-c7f8ac0ae5956b49",
+    "family": "simulation",
+    "scenario": "fictional training gate simulator",
+    "parameters": {
+      "prior_state1": "7/10",
+      "loss_ACT_state0": "16",
+      "loss_WAIT_state1": "30",
+      "reports": {
+        "A": {
+          "sensitivity": "4/5",
+          "specificity": "4/5",
+          "cost": "21/20"
+        },
+        "B": {
+          "sensitivity": "49/50",
+          "specificity": "49/50",
+          "cost": "49/20"
+        }
+      }
+    }
+  }
+]

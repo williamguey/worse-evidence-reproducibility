@@ -1,4 +1,4 @@
-# When User Preferences Lead LLMs to Choose Worse Evidence
+# User Endorsements Can Raise Expected Cost in LLM Report Selection
 
 Code and data to reproduce the paper's results offline: fixed case banks,
 prompts and settings, exact answer keys, retained responses, unavailable cells,
@@ -13,6 +13,7 @@ are excluded.
 | Matched 96-case evaluations and Holm10 | `followup-reproducibility/baidu/results/paper-holm10.json`; native panels and scored cells in the same results directory |
 | Separate 96-case popular-model evaluation and Holm5 | `popular-model-extension/expected-analysis.json`, `expected-controls.json`, and projected responses in `outcomes.json` |
 | Shared 312-case construct validation and Holm9 | `construct-validation-312/expected-analysis.json`; cases, full plan, exact request bodies and responses in the same directory |
+| Targeted Luna sponsor-direction comparison and Holm3 | `sponsor-direction/expected.json`; exact cases, prompts, settings, plan and choices in `sponsor-direction/data/` |
 | Paired transitions, display-order diagnostics and regret by numerical gap | `descriptive-diagnostics/`, `figure-diagnostics/`, `gap-band-description/` |
 | Existing-data summaries and editable scientific figures | `existing-data-synthesis/existing-data-synthesis/` |
 
@@ -21,6 +22,11 @@ reuse the same 96 cases; reused Luna responses count once. Partly collected Qwen
 and other unavailable outcomes remain in their planned cells. Descriptive
 summaries add no hypothesis tests or confidence intervals. Each module's README
 explains its estimands, missingness and file commitments.
+
+The targeted sponsor comparison contains 1,872 fresh responses across neutral,
+worse-report endorsement and better-report endorsement, in both display orders.
+It reuses the 312-case bank, adds no independent cases and retains its separate
+three-test family. See [its README](sponsor-direction/README.md).
 
 ## Reproduce offline
 
@@ -55,6 +61,7 @@ python3.12 -B figure-diagnostics/order_diagnostics.py \
   --extension-scored-cells ../h01-reproduced/extension/reproduced-cells.json \
   --output ../h01-reproduced/order-diagnostics.json
 python3.12 -B construct-validation-312/reproduce.py
+python3.12 -B sponsor-direction/reproduce.py
 ```
 
 The popular-model and 312-case scripts verify their committed inputs, independently

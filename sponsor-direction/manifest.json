@@ -1,0 +1,16 @@
+{
+  "format": "H01_V12_OFFLINE_REPRODUCTION",
+  "case_count": 312,
+  "fresh_case_count": 0,
+  "planned_scientific": 1872,
+  "files": {
+    "README.md": "6cf900ed5b7f1391def947d944be3d68c439a755d9906a12505354b3deb5330d",
+    "data/cases.json": "e69c0b4a2dc94feb6809acf4c36dac9b5ec93ce1ab3dec9d30da432e01f66d10",
+    "data/outcomes.json": "c3b439b130793946976789a0f2b9ed9b8338230abd82ca84b84536b2daea8fc0",
+    "data/plan.json": "f7361233f794411af5ea1f6c7907c665838334e59ce9a1440ac94dc12a2851f6",
+    "data/prompts.json": "9a7231b07dbac56e6e7a529cab153310939b80ef15cceaec87f2e280f5d6c153",
+    "expected.json": "5c7d487ab412f1bf8277757aef3f8e5d335bb5bfb9769ed5eef0f3c0481d9567",
+    "reproduce.py": "af47b04c21a72533f379beece5269c6ce530226c463887c7c30485ee546cb584",
+    "science.py": "8c0bdda3ee61ef87f3d80912cd8936a6c1a34590b701a400f7e5720d586ee783"
+  }
+}
